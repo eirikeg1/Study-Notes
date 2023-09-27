@@ -1,4 +1,5 @@
 
+![[Pasted image 20230927103054.png | 700]]
 # Efficient cosine ranking
 ---
 * Find the K docs in the collection “nearest” to the query  -> K largest query-doc cosines. 
@@ -122,7 +123,44 @@ _Stop traversing when result is good enough_
 * Region of doc which can contain text (abstract, main content, intro)
 * Build inverted indexes as well on zones
 * Allows us to differenciate if a word is in the abstract or in references
-* Can either create a separate postings list for each zone, or have multiple postings in one postings list, based on what quereies you want
+* Can either create a separate postings list for each zone, or have multiple postings in one postings list, based on what queries you want
 
+## Query term proximity
+* What is the proximity of word in a certain window size?
+* Let w be the smallest window in a doc containing all query terms, e.g., 
+* For the query strained mercy the smallest window in the doc *The quality* of mercy is not strained is 4 (words
 
+## Query parsers
+* Spawn one or more queries to indexes:
+	* #toExpand 
+
+## Aggregate scores
+* Score functions combining cosine, static quality, proximity, etc.
+* Some applications combine using expert tuning
+* More common with machine learning
+
+## TAAT - _Term At A Time_
+* Scores for all docs computed concurrently, one query term at a time
+
+## DAAT - _Document At A Time_
+* Total score for each doc (incl query terms) computed, before proceeding
+* Does not have intermediate and partial scores lit _TAAT_
+
+# Safe vs non-safe ranking
+---
+_Safe guarantee that K docs returned are the K absolute highest scoring docs_
+
+## Safe ranking
+
+## WAND Scoring
+#toExpand 
+
+## Static quality scores
+
+* **Relevance** is being modeled by cosine scores 
+* Authority is typically a query-independent property of a document
+
+Examples:
+* Wikipedia among websites
+* Articles by trusted sources
 
