@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "314b22d213c9712c",
+            "id": "4f973d70894f1ef2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,91 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f0710ba120f14876",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e72ac99d55cbac43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN5320 - Development in System Ecoplatforms/Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ea60b20fc8666c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4120 - Søketeknologi/Week 7 - Vector space and Efficient scoring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b4a286c313832dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4120 - Søketeknologi/Week 8 - Evaluation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a56003837caa2c9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
+          },
+          {
+            "id": "02fd39a532871367",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Latex cheat sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "314b22d213c9712c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -48,7 +131,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tf-idf",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 4 - Compression.md",
+                "file": "IN4120 - Søketeknologi/Week 8 - Evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 4 - Compression.md",
+                "file": "IN4120 - Søketeknologi/Week 8 - Evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 4 - Compression.md"
+                "file": "IN4120 - Søketeknologi/Week 8 - Evaluation.md"
               }
             }
           },
@@ -167,29 +250,28 @@
       "runjs:RunJS": false
     }
   },
-  "active": "314b22d213c9712c",
+  "active": "1a56003837caa2c9",
   "lastOpenFiles": [
+    "Pasted image 20230927115235.png",
+    "Pasted image 20230927114810.png",
+    "Pasted image 20230927114440.png",
+    "Pasted image 20230927114108.png",
+    "Pasted image 20230927113440.png",
+    "Pasted image 20230927112603.png",
+    "Pasted image 20230927112108.png",
+    "Pasted image 20230927112018.png",
+    "IN4120 - Søketeknologi/Week 7 - Vector space and Efficient scoring.md",
+    "IN4120 - Søketeknologi/Week 8 - Evaluation.md",
+    "Pasted image 20230927103054.png",
     "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
-    "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
-    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
-    "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
-    "Latex cheat sheet.md",
-    "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
-    "Pasted image 20231002184433.png",
-    "Pasted image 20231002182547.png",
-    "Pasted image 20231002180434.png",
-    "Pasted image 20231002180406.png",
-    "Pasted image 20231002174943.png",
-    "IN4080 - Natural Language Processing/Week 6 - Language processing.md",
-    "Pasted image 20231002172428.png",
-    "Pasted image 20231002171837.png",
-    "Pasted image 20231002171036.png",
-    "Pasted image 20231002170144.png",
-    "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
-    "Pasted image 20231002161105.png",
     "IN4120 - Søketeknologi/Week 3 - Information Retrieval.md",
     "IN4120 - Søketeknologi/Week 4 - Compression.md",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20230919141956.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20230919154848.png",
     "IN4120 - Søketeknologi/Week 2 - Data preprocessing and datastructures.md",
+    "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
+    "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
+    "Latex cheat sheet.md",
     "IN4080 - Natural Language Processing/Week 3 (Classification 2).md",
     "IN4080 - Natural Language Processing/Week 2 (Classification).md",
     "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
