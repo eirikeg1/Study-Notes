@@ -14,7 +14,7 @@
 ## Measuring the relevance of search results
 * Three elements: 
 	1. A benchmark document collection 
-	2. A benchmark suite of queries 
+	2. A benchmark suite of queries python
 	3. An assessment of either **Relevant** or **Non-relevant** for each query and each document
 * Binary vs more nuanced relevance
 * When outsourcing to multiple crowd-sourcing platforms, the variance between judgments will be very high
