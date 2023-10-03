@@ -16,7 +16,7 @@
 ## Use heap for selecting top K
 * Binary tree in which each node’s value > the values of children 
 * Takes $2J$ operations to construct, then each of K “winners” read off in $2log(J)$ steps. 
-* For $J=1M, K=100 $, this is about 10% of the cost of sorting
+* For $J=1M, K=100$, this is about 10% of the cost of sorting
 
 
 ## Index elimination
@@ -103,6 +103,8 @@ _Stop traversing when result is good enough_
 *Consider less documents at a time*
 
 * Split documents into clusters based on documents and only search that cluster
+* Pick k random leaders, docs follows their closest leader
+* Best leader and his followers are docs which are considered #Maybe 
 #toExpand 
 
 ### Preprocessing
@@ -118,6 +120,7 @@ _Stop traversing when result is good enough_
 ## Parametric and zone indexes
 * Use metadata like for example author, title, language or format
 * Can be used for filtering down search space
+* Can add metadata to postings
 
 ## Zone
 * Region of doc which can contain text (abstract, main content, intro)
@@ -154,7 +157,10 @@ _Safe guarantee that K docs returned are the K absolute highest scoring docs_
 
 ## WAND Scoring
 #toExpand 
-
+* How often is each term in doc?
+* Give an **upper bound** for each term before comparing
+* Have a **threshold** we compare with the **upper bound**, to decide if we should evaluate doc
+* When comparing documents have a cursor on its own document and term, calculate one term and use the **upper bound** to decide if you should continue to evaluate the doc
 ## Static quality scores
 
 * **Relevance** is being modeled by cosine scores 

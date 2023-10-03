@@ -4,5 +4,8 @@
   "runjs",
   "select-current-line",
   "obsidian-editor-shortcuts",
-  "text-extractor"
+  "text-extractor",
+  "obsidian-git",
+  "quick-latex",
+  "simple-embeds"
 ]
