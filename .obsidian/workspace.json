@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
+                "file": "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "463da62d838666bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4120 - Søketeknologi/Week 8 - Improving results.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1915a487ff279c8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
+                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
+                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md"
+                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md"
               }
             }
           },
@@ -180,24 +204,26 @@
       "runjs:RunJS": false
     }
   },
-  "active": "e9a9949a44dc0e76",
+  "active": "1915a487ff279c8e",
   "lastOpenFiles": [
-    "Pasted image 20231003155222.png",
-    "Pasted image 20231003155045.png",
-    "Pasted image 20231003154947.png",
-    "Pasted image 20231003154842.png",
-    "Pasted image 20231003154556.png",
-    "Pasted image 20231003154444.png",
-    "Pasted image 20231003153825.png",
-    "Pasted image 20231003153328.png",
-    "Pasted image 20231003153251.png",
-    "Pasted image 20231003152954.png",
-    "Pasted image 20231003152809.png",
+    "Pasted image 20231004120655.png",
+    "IN4120 - Søketeknologi/Week 8 - Improving results.md",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004105143.png",
+    "IN4120 - Søketeknologi/Week 8 - Classification.md",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004104453.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004104011.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004103915.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004103858.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004103853.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004103719.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004103605.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004103516.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004103503.png",
+    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
     "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
-    "Week 7 - Neural networks.md",
+    "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
     "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
     "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
-    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
     "IN4120 - Søketeknologi/Week 4 - Compression.md",
     "README.md",
     "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
@@ -219,8 +245,6 @@
     "IN4080 - Natural Language Processing/Todo.md",
     "Images",
     "IN4080 - Natural Language Processing/Vim cheat sheet.md",
-    "IN4080 - Natural Language Processing/Todo 1.md",
-    "IN5020 Distributed systems/System Models.md",
     "IN5020 Distributed systems",
     "IN4080 - Natural Language Processing/Images",
     "IN4120 - Søketeknologi/images",
