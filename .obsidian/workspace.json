@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 8 - Improving results.md",
+                "file": "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
+                "file": "IN4120 - Søketeknologi/Week 8 - Improving results.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5400b8aff3e53512",
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
+                "file": "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
+                "file": "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md"
+                "file": "IN4080 - Natural Language Processing/Week 7 - Neural networks.md"
               }
             }
           },
@@ -204,12 +203,13 @@
       "runjs:RunJS": false
     }
   },
-  "active": "1915a487ff279c8e",
+  "active": "463da62d838666bc",
   "lastOpenFiles": [
-    "Pasted image 20231004120655.png",
-    "IN4120 - Søketeknologi/Week 8 - Improving results.md",
-    "IN4120 - Søketeknologi/images/Pasted image 20231004105143.png",
     "IN4120 - Søketeknologi/Week 8 - Classification.md",
+    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
+    "IN4120 - Søketeknologi/Week 8 - Improving results.md",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004120655.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231004105143.png",
     "IN4120 - Søketeknologi/images/Pasted image 20231004104453.png",
     "IN4120 - Søketeknologi/images/Pasted image 20231004104011.png",
     "IN4120 - Søketeknologi/images/Pasted image 20231004103915.png",
@@ -218,8 +218,6 @@
     "IN4120 - Søketeknologi/images/Pasted image 20231004103719.png",
     "IN4120 - Søketeknologi/images/Pasted image 20231004103605.png",
     "IN4120 - Søketeknologi/images/Pasted image 20231004103516.png",
-    "IN4120 - Søketeknologi/images/Pasted image 20231004103503.png",
-    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
     "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
     "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
     "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
