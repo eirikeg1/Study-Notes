@@ -25,19 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
+                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "463da62d838666bc",
+            "id": "4dcef75392b980d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
+                "file": "IN4120 - Søketeknologi/Week 2 - Data preprocessing and datastructures.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "59ac70dfc7e184af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Master/(AI-based) Video Analysis and Processing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tf-idf",
+                "query": "document at a time",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
+                "file": "Master/(AI-based) Video Analysis and Processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
+                "file": "Master/(AI-based) Video Analysis and Processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 7 - Neural networks.md"
+                "file": "Master/(AI-based) Video Analysis and Processing.md"
               }
             }
           },
@@ -203,10 +215,14 @@
       "runjs:RunJS": false
     }
   },
-  "active": "463da62d838666bc",
+  "active": "59ac70dfc7e184af",
   "lastOpenFiles": [
+    "Master/Studieplan.md",
+    "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
     "IN4120 - Søketeknologi/Week 8 - Classification.md",
     "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
+    "README.md",
+    "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
     "IN4120 - Søketeknologi/Week 8 - Improving results.md",
     "IN4120 - Søketeknologi/images/Pasted image 20231004120655.png",
     "IN4120 - Søketeknologi/images/Pasted image 20231004105143.png",
@@ -219,11 +235,8 @@
     "IN4120 - Søketeknologi/images/Pasted image 20231004103605.png",
     "IN4120 - Søketeknologi/images/Pasted image 20231004103516.png",
     "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
-    "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
-    "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
     "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
     "IN4120 - Søketeknologi/Week 4 - Compression.md",
-    "README.md",
     "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
     "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
     "Latex cheat sheet.md",
@@ -234,8 +247,8 @@
     "IN4080 - Natural Language Processing/Week 3 (Classification 2).md",
     "IN4080 - Natural Language Processing/Week 2 (Classification).md",
     "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
-    "Master topics/(AI-based) Video Analysis and Processing.md",
-    "Master topics",
+    "Master/(AI-based) Video Analysis and Processing.md",
+    "Master",
     "IN5320 - Development in System Ecoplatforms/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
     "IN4120 - Søketeknologi/Week 1 (Inverted indices).md",
     "IN5320 - Development in System Ecoplatforms/Tiawana book notes",
