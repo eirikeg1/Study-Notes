@@ -12,7 +12,7 @@
 ![[Pasted image 20231003142551.png | 500]]
 
 
-# Multi-class linear models for embeddings
+# Multi-class linear models
 
 * each output corresponds to a class
 * Uses probability distribution **activation function** like for example softmax

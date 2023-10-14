@@ -136,7 +136,7 @@ _Use different encoding based on frequency_
 * Variable byte encoding is aligned and therefore potentially more efficient
 ### How
 * Represent a gap _G_ as a pair _length_ and _offset_(offset is G in binary but with leading bit cut off)
-	* 13 -> 1101 -> 101
+	* $G \rightarrow 13 \rightarrow 1101 \rightarrow 101$
 * length is the length of offset
 	* 13 (offset 101) -> 3
 * Encode length with unary code 1110
@@ -146,7 +146,7 @@ _Use different encoding based on frequency_
 ### Properties
 * All gamma codes have odd number of bits
 * _G_ is encoded using 2 ⎣log G⎦ + 1 bits
-* Almost within a foctor of 2 of best possible log_2 _G_
+* Almost within a factor of 2 of best possible log_2 _G_
 
 
 # Gamma and Delta coding
