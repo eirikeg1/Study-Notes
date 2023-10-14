@@ -29,12 +29,12 @@
 	 * Mean Average Precision (MAP) 
 	 * Mean Reciprocal Rank (MRR) 
  * Multiple levels of relevance 
-	 * Normalized Discounted Cumulative Gain (NDCG
+	 * Normalised Discounted Cumulative Gain (NDCG
 
 
 ### Precision@K (P@K)
 * Rank threshold _K_
-* COmpute % relevant in top _K_
+* Compute % relevant in top _K_
 * ignores docs below _K_
 ![[Pasted image 20230927112018.png | 500]]
 
