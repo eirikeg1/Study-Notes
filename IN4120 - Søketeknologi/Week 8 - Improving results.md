@@ -7,8 +7,7 @@
 
 * used to improve recall
 * e.g search for _laptop_, but also get results for Dells' _notebooks_
-
-
+* 
 
 # Local methods
 ---
@@ -71,6 +70,7 @@
 * You can use a manual thesaurus to find similar words/synonyms and more
 	* or each term $t$, expand query with synonyms and relevant words
 	* May make queries less original
+	* Words like _Jaguar_ and _car_ might be classified as differen
 * **Global Analysis**: Global Analysis on collection
 * **Local analysis**, analayse docs in results
 
