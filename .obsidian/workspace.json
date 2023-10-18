@@ -78,9 +78,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f0b9920ea584b7db",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "IN4120 - Søketeknologi/images/Pasted image 20231018104850.png"
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -154,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
+                "file": "IN4120 - Søketeknologi/images/Pasted image 20231018104850.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
+                "file": "IN4120 - Søketeknologi/images/Pasted image 20231018104850.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md"
+                "file": "IN4120 - Søketeknologi/images/Pasted image 20231018104850.png"
               }
             }
           },
@@ -227,23 +237,24 @@
       "runjs:RunJS": false
     }
   },
-  "active": "1156b2ff1ac9c22d",
+  "active": "eb8d78366db6ab19",
   "lastOpenFiles": [
+    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
+    "IN4120 - Søketeknologi/images/Pasted image 20231018113410.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231018113201.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231018112128.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231018111941.png",
+    "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
+    "IN4120 - Søketeknologi/images/Pasted image 20231018110100.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231018105736.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231018105637.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231018105626.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231018105555.png",
+    "IN4120 - Søketeknologi/images/Pasted image 20231018105321.png",
+    "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
     "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
     "README.md",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231017193518.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231017153513.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231017150512.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231010154257.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231010152914.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231010150325.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231010144552 2.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231010144327 2.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231010143139.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231017153847.png",
     "IN4120 - Søketeknologi/Week 8 - Improving results.md",
-    "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
-    "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
     "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
     "IN4080 - Natural Language Processing/Gruppetime spørsmål.md",
     "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
@@ -263,7 +274,6 @@
     "IN4120 - Søketeknologi/Week 2 - Data preprocessing and datastructures.md",
     "IN4080 - Natural Language Processing/Week 3 (Classification 2).md",
     "IN4080 - Natural Language Processing/Week 2 (Classification).md",
-    "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
     "Master",
     "IN5320 - Development in System Ecoplatforms/Tiawana book notes",
     "Images",
