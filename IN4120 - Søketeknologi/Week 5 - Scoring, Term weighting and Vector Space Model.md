@@ -67,7 +67,7 @@ _In contrast to Boolean Retrieval, Ranked Retrieval gives a score instead of eit
 * Popular
 * Increases with number of occurrences within a document
 * Many variants, with or without logs, document lengths, weighing query terms,...
-* $w = log(1+log(tf))*log_10(N/df)$
+* $w = log(1+log(tf))*log_{10}(N/df)$
 * ![[Pasted image 20230913104505.png | 500]]
 * ![[Pasted image 20230913104718.png | 750]]
 #### Example variant of tf-idf

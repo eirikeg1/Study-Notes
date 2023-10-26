@@ -84,3 +84,8 @@
 	* "President of United States" -> changes over time
 	* Simple models like Naive Bayes is favored
 	* Feature selection can be bad in protecting against concept drifts 
+
+
+## Pair wise learning
+* Ai to classify instance pairs as correctly ranked or incorrectly ranked
+* 

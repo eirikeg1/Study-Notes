@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
+                "file": "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d6f39d6aa30d27e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tf-idf",
+                "query": "static",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,11 +98,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
+    "width": 339.5,
     "collapsed": true
   },
   "right": {
@@ -107,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md"
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md"
               }
             }
           },
@@ -180,44 +193,43 @@
       "runjs:RunJS": false
     }
   },
-  "active": "3357e5ab09dc8840",
+  "active": "5d6f39d6aa30d27e",
   "lastOpenFiles": [
-    "Pasted image 20231024160038.png",
-    "Pasted image 20231024154722.png",
-    "Pasted image 20231024154325.png",
-    "Pasted image 20231024153802.png",
-    "Pasted image 20231024152038.png",
-    "Pasted image 20231024151701.png",
-    "Pasted image 20231024144903.png",
-    "Pasted image 20231024144413.png",
-    "Pasted image 20231024143359.png",
-    "Pasted image 20231024143321.png",
-    "Pasted image 20231024143219.png",
-    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
-    "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
-    "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
     "IN4120 - Søketeknologi/Week 8 - Improving results.md",
-    "IN4120 - Søketeknologi/Week 2 - Data preprocessing and datastructures.md",
-    "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
-    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
-    "README.md",
+    "IN4120 - Søketeknologi/Week 8 - Classification.md",
+    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
+    "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
     "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
+    "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
+    "Pasted image 20231025111546.png",
+    "Pasted image 20231025110233.png",
+    "Pasted image 20231025105558.png",
+    "Pasted image 20231025105535.png",
+    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231024143007.png",
+    "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
+    "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231024160038.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231024154722.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231024154325.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231024153802.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231024152038.png",
+    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
+    "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
+    "IN4120 - Søketeknologi/Week 2 - Data preprocessing and datastructures.md",
+    "README.md",
     "IN4080 - Natural Language Processing/Gruppetime spørsmål.md",
     "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
     "Master/(AI-based) Video Analysis and Processing.md",
     "Master/Studieplan.md",
     "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
-    "IN4120 - Søketeknologi/Week 8 - Classification.md",
-    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
     "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
-    "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
     "IN4120 - Søketeknologi/Week 4 - Compression.md",
     "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
     "Latex cheat sheet.md",
     "IN4080 - Natural Language Processing/Week 6 - Language processing.md",
     "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
     "IN4120 - Søketeknologi/Week 3 - Information Retrieval.md",
-    "IN4080 - Natural Language Processing/Week 3 (Classification 2).md",
     "Master",
     "IN5320 - Development in System Ecoplatforms/Tiawana book notes",
     "Images",
