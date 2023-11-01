@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
+                "file": "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "056f4b20f545698e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,13 +110,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 339.5,
-    "collapsed": true
+    "width": 339.5
   },
   "right": {
     "id": "5400b8aff3e53512",
@@ -120,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
+                "file": "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
+                "file": "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md"
+                "file": "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md"
               }
             }
           },
@@ -193,27 +203,28 @@
       "runjs:RunJS": false
     }
   },
-  "active": "5d6f39d6aa30d27e",
+  "active": "056f4b20f545698e",
   "lastOpenFiles": [
-    "IN4120 - Søketeknologi/Week 8 - Improving results.md",
-    "IN4120 - Søketeknologi/Week 8 - Classification.md",
-    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
-    "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
-    "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
-    "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
-    "Pasted image 20231025111546.png",
-    "Pasted image 20231025110233.png",
-    "Pasted image 20231025105558.png",
-    "Pasted image 20231025105535.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231031155807.png",
+    "IN4080 - Natural Language Processing/Dialogue management and system design.md",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231031155656.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231031154431.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231031153631.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231031153010.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231031152937.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231031152824.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231031151747.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231031151630.png",
+    "IN4080 - Natural Language Processing/Images/Pasted image 20231031150245.png",
     "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231024143007.png",
+    "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
+    "IN4120 - Søketeknologi/Week 8 - Classification.md",
+    "IN4120 - Søketeknologi/Week 8 - Improving results.md",
     "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
+    "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
+    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
+    "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
     "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231024160038.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231024154722.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231024154325.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231024153802.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231024152038.png",
     "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
     "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
     "IN4120 - Søketeknologi/Week 2 - Data preprocessing and datastructures.md",
@@ -229,7 +240,6 @@
     "Latex cheat sheet.md",
     "IN4080 - Natural Language Processing/Week 6 - Language processing.md",
     "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
-    "IN4120 - Søketeknologi/Week 3 - Information Retrieval.md",
     "Master",
     "IN5320 - Development in System Ecoplatforms/Tiawana book notes",
     "Images",
