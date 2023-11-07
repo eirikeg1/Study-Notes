@@ -35,11 +35,9 @@
             "id": "5d6f39d6aa30d27e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
-                "mode": "source",
-                "source": false
+                "file": "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106155106.png"
               }
             }
           }
@@ -73,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "static",
+                "query": "tag:#Representing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
+                "file": "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106155106.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
+                "file": "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106155106.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md"
+                "file": "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106155106.png"
               }
             }
           },
@@ -191,30 +189,38 @@
       "runjs:RunJS": false
     }
   },
-  "active": "5d6f39d6aa30d27e",
+  "active": "eb8d78366db6ab19",
   "lastOpenFiles": [
-    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
-    "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
-    "IN4120 - Søketeknologi/Week 12 - Bloom filters.md",
+    "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106155033.png",
+    "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106154344.png",
+    "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106154217.png",
+    "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106153959.png",
+    "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106153246.png",
+    "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106144602.png",
+    "Markdown cheat sheet.md",
+    "IN5320 - Development in System Ecoplatforms/Images",
+    "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106144405.png",
+    "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106143432.png",
+    "IN4080 - Natural Language Processing/Week 12 - Machine Translation.md",
+    "IN4080 - Natural Language Processing/Week 2 (Classification).md",
+    "IN4120 - Søketeknologi/Week 8 - Improving results.md",
+    "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
     "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
+    "IN4120 - Søketeknologi/Week 12 - Bloom filters.md",
+    "IN4080 - Natural Language Processing/Week 3 (Classification 2).md",
+    "IN5320 - Development in System Ecoplatforms/Platforms Governance.md",
+    "IN5320 - Development in System Ecoplatforms/Images/Pasted image 20231106155106.png",
+    "Master/(AI-based) Video Analysis and Processing.md",
+    "Master/Studieplan.md",
+    "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
+    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
     "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
     "Untitled.canvas",
     "2023-11-01.md",
     "IN4120 - Søketeknologi/Week 1 (Inverted indices).md",
     "IN4080 - Natural Language Processing/Images/Pasted image 20231031155807.png",
     "IN4080 - Natural Language Processing/Dialogue management and system design.md",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231031155656.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231031154431.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231031153631.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231031153010.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231031152937.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231031152824.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231031151747.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231031151630.png",
-    "IN4080 - Natural Language Processing/Images/Pasted image 20231031150245.png",
-    "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
     "IN4120 - Søketeknologi/Week 8 - Classification.md",
-    "IN4120 - Søketeknologi/Week 8 - Improving results.md",
     "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
     "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
     "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
@@ -222,13 +228,6 @@
     "IN4120 - Søketeknologi/Week 2 - Data preprocessing and datastructures.md",
     "README.md",
     "IN4080 - Natural Language Processing/Gruppetime spørsmål.md",
-    "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
-    "Master/(AI-based) Video Analysis and Processing.md",
-    "Master/Studieplan.md",
-    "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
-    "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
-    "IN4120 - Søketeknologi/Week 4 - Compression.md",
-    "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
     "Master",
     "IN5320 - Development in System Ecoplatforms/Tiawana book notes",
     "Images",

@@ -22,15 +22,14 @@
 * Citation indexing
 	* Who is this author cited by? (Garfield 1972)
 
-
 # Pagerank scoring
+_Algorithm made by Larry Page which ranks pages based on how many links going into it and quality of linkers_
 * Technique:
 	1. Start at a random page
 	2. At each step, go out of the current page along one of the links on that page, equiprobably
 * In the long run, each page has a long-term visit rate, this is the score
 * Often used in web search engines, but is rarly the full story of ranking
 * Visit rate can be computed with Markov chains
-
 
 ## Summary
 * Preprocessing: 
