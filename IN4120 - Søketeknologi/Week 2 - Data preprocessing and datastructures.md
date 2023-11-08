@@ -55,9 +55,9 @@
 	* Phases applied sequentially  
 	* Each phase consists of a set of commands  
 	* Sample convention: Of the rules in a compound command, select the one that applies to the longest suffix
-* sses → ss 
-* ies → i 
-* ational → ate
+* sses $\rightarrow$ ss
+* ies $\rightarrow$ i 
+* ational $\rightarrow$ ate
 
 **Other stemmers**
 * Lovin's stemmer
@@ -143,8 +143,8 @@ Transform wildcard queries into prefix searches over the permuterm vocabulary
 ![[Pasted image 20230830120530.png | 500]]
 
 # Burrows-Wheeler Transform
-_Make strings more compressible by making them easier to run-length encode
-_
+_Make strings more compressible by making them easier to run-length encode_
+
 * Transforms one string to another one and then back
 * The new string has a lot of duplicates which makes it simpler to compress
 * ![[Pasted image 20230830115927.png | 500]]
