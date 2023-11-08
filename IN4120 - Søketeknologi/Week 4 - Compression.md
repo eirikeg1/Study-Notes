@@ -12,7 +12,7 @@
 ## Vocabulary vs collection size
 
 * In practice, vocabulary grows with collection
-* **Heap's law**: *M = kT^b*
+* **Heaps' law**: *M = kT^b*
 * _M_ is the size of the vocabulary, _T_ is the number of tokens in the collection
 * Typical values: 30 ≤ k ≤ 100 and b ≈ 0.5
 * In a log-log plot of vocabulary size M vs. T, Heaps’ law predicts a line with slope (stigningstall) about ½
