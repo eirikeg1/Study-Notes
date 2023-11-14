@@ -44,7 +44,7 @@
 # Non-linear SVMs
 
 * uses kernel functions to map low dimensity data to higher dimensional plane, to make a decision boundary easier #Maybe 
-* ![[Pasted image 20231018113201.png | 500]]
+* ![[Pasted image 20231018113201.png | 700]]
 
 ### Common Kernels
 * Linear Kernels
