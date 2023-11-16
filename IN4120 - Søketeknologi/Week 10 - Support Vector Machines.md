@@ -2,7 +2,6 @@
 # Embeddings
 * Dimensions could be the words/tokens,  or encoded by neural network (words are points)
 
-
 # Support Vector Machines
 ---
 * For tasks when finding a separating hyperplane, a **Support Vector machine** finds an optimal solution
