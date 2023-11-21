@@ -34,7 +34,7 @@
 * 
 
 ### Indexer steps:
-* **Sort** by terms, and then docID
+* **Sort** by terms, and docID
 * **Dictionary & Postings** is the step where we create the dictionary and linked list of all the common entries.
 * Add document frequency in dictionary
 
