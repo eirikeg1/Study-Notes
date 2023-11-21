@@ -4,7 +4,7 @@ _The optimal governance structure is the simplest one that achieves the goals of
 
 * Governance determines whether the innovation potential of a modular platform architecture is realized through value co-creation
 * Platform owner orchestrates to ensure overall coherence
-* governance is the machanisms through which a platform owner exerts influence over app developers
+* governance is the mechanisms through which a platform owner exerts influence over app developers
 
 # Governance varies by type of Software Platform
 
