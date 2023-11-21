@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN5320 - Development in System Ecoplatforms/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
+                "file": "IN4120 - Søketeknologi/Week 1 (Inverted indices).md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN5320 - Development in System Ecoplatforms/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
+                "file": "IN4120 - Søketeknologi/Week 1 (Inverted indices).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN5320 - Development in System Ecoplatforms/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
+                "file": "IN4120 - Søketeknologi/Week 1 (Inverted indices).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN5320 - Development in System Ecoplatforms/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md"
+                "file": "IN4120 - Søketeknologi/Week 1 (Inverted indices).md"
               }
             }
           },
@@ -180,6 +180,7 @@
   },
   "active": "f0b9920ea584b7db",
   "lastOpenFiles": [
+    "IN5320 - Development in System Ecoplatforms/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
     "IN5320 - Development in System Ecoplatforms/Platforms Governance.md",
     "IN5320 - Development in System Ecoplatforms/Platforms.md",
     "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
