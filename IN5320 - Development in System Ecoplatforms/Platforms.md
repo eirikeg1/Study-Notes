@@ -37,7 +37,7 @@ _Middleman/broker_
 	* For each new user, value can increase
 	* **Direction** can also be negative, every additional user of system can make it less valuble to others (congestion, misbehavior, poor quality content)
 	* **Sidedness**: network effects can be **same-sided** or **cross-sided**
-		* **Same-side**: value added to other en-user with every new end user
+		* **Same-side**: value added to other end-user with every new end user
 		* **cross-side**: value increase for app devs (not system devs but usually third party) when user is added
 * tipping point
 * **lock in**
