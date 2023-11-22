@@ -11,5 +11,7 @@
 * Simple9
 * PFOR delta encoding
 
+## Ranking
 
+* tf_idf
 
