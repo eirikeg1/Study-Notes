@@ -9,4 +9,7 @@
 
 * Gamma and Delta coding
 * Simple9
+* PFOR delta encoding
+
+
 
