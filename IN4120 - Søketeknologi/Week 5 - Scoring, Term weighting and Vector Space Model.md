@@ -38,7 +38,7 @@ _In contrast to Boolean Retrieval, Ranked Retrieval gives a score instead of eit
 * Each document is a count vector for each term
 * ![[Pasted image 20230913103229.png | 750]]
 ### Term frequency *
-* tf_t,d* of term _t_ in document _d_ is the number of times _t_ is in _d_
+* $tf_{t,d}$* of term _t_ in document _d_ is the number of times _t_ is in _d_
 * If a word appears 10 times more than another it does not mean it is 10 times less relevant, therefore we use log
 
 ### Log frequency weighting
