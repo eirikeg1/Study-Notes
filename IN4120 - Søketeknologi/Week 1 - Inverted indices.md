@@ -53,7 +53,7 @@ _The **Boolean retrieval model** is being able to ask a query that is a Boolean 
 * Many search systems uses Boolean, for example email, library catalogue and Mac OS spotlight search
 #### Query processing: AND
 * For example if we are processing the query **Brutus** and **Caesar**:
-	1.  Locate **Brutus** in the dictionary and retrieve it's postings
+	1. Locate **Brutus** in the dictionary and retrieve it's postings
 	2. Locate **Caesar** in the dictionary and retrieve it's postings
 	3. Find the intersect between the two postings (The common postings entries)
 

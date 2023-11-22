@@ -1,6 +1,4 @@
 
-
-
 # Jaccard coefficient
 *A way to measure overlap between two n-grams*
 
@@ -21,7 +19,6 @@ _Class of heuristics to expand a query into phonetic equivalents_
 1. Turn every token to be indexed into a 4-character reduced form 
 2. Do the same with query terms 
 3. Build and search an index on the reduced form
-
 
 # Example
 1. Retain the first letter of the word. 
@@ -59,7 +56,6 @@ _Class of heuristics to expand a query into phonetic equivalents_
 
 ### Problems
 * Memory management
-* 
 
 ## Blocked sort-based Indexing
 _Parse into multiple blocks, more memory friendly_
@@ -108,12 +104,10 @@ _Parse into multiple blocks, more memory friendly_
 ![[Pasted image 20230906115417.png | 500]]
 
 
-
 # Dynamic indexing
 ---
 * Up to now we have assumed collections are static, not realistic
 * This means postings and dictionaries have to be dynamic
-
 
 ## Simple approach
 * Maintain big main index
@@ -124,7 +118,6 @@ _Parse into multiple blocks, more memory friendly_
 
 ### Problems
 * 
-
 
 ## Uptime
 * If a non-fault-tolerant system with 1000 nodes, each node has 99.9% uptime, what is the uptime of the system? 

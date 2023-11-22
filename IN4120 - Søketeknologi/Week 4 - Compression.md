@@ -141,7 +141,8 @@ _Use different encoding based on frequency_
 	* 13 (offset 101) -> 3
 * Encode length with unary code 1110
 * Gamma code of 13 is the concatenation of length and offset 1110101
-* Gamma code examples:![[Pasted image 20230913094223.png | 500]] 
+* Gamma code examples:
+	![[Pasted image 20230913094223.png | 500]] 
 
 ### Properties
 * All gamma codes have odd number of bits
