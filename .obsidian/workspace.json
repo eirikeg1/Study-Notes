@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
+                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
+                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
+                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md"
+                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md"
               }
             }
           },
@@ -192,9 +192,10 @@
   },
   "active": "f0b9920ea584b7db",
   "lastOpenFiles": [
-    "IN4120 - Søketeknologi/Week 4 - Compression.md",
+    "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
     "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
     "IN4120 - Søketeknologi/Exam preparations.md",
+    "IN4120 - Søketeknologi/Week 4 - Compression.md",
     "IN4120 - Søketeknologi/Week 3 - Index construction.md",
     "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
     "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
@@ -221,7 +222,6 @@
     "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
     "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
     "IN4080 - Natural Language Processing/Week 3 (Classification 2).md",
-    "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
     "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106155033.png",
     "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106154344.png",
     "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106154217.png",

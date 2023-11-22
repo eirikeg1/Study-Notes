@@ -89,7 +89,8 @@ _In contrast to Boolean Retrieval, Ranked Retrieval gives a score instead of eit
 * proximity ≈ inverse of distance
 
 ### Length normalization
-* Vector can be normalized by dividing each component by length ($L_2$ norm): ![[Pasted image 20230913105705.png | 350]]
+* Vector can be normalized by dividing each component by the square root of the sum of all vector lengths squared ($L_2$ norm):
+	![[Pasted image 20230913105705.png | 350]]
 
 ## Formalizing vector space ranking/proximity
 * Represent the query as a weighted tf-idf vector 
@@ -110,7 +111,7 @@ _In contrast to Boolean Retrieval, Ranked Retrieval gives a score instead of eit
 
 * $q_i$ is the tf-idf weight of term i in the query 
 * $d_i$ is the tf-idf weight of term i in the document
-* is the cosine similarity of $q_i$ and $d_i$
+* $C(q,d)$ is the cosine similarity of $q_i$ and $d_i$
 * Formula for non-normalized vectors: ![[Pasted image 20230913110105.png | 500]]
 * For length-normalized vectors, cosine similarity is the dot product: ![[Pasted image 20230913105946.png | 500]]
 
