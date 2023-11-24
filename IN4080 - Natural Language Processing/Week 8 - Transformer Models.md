@@ -106,11 +106,11 @@ _Percentages can change_ #Maybe
 # Multi-head attention
 
 * Might be useful to have multiple _attention matrices_ as multiple words might be useful to find the meaning of the word
-	* One for syntactic rlatedness
+	* One for syntactic relatedness
 	* One for semantic relatedness
-	* One for corefrerence
+	* One for coreference
 	* etc...
-* For each vector add an extra indeg $h$ (**head**)
+* For each vector add an extra index $h$ (**head**)
 	* ![[Pasted image 20231010152214.png | 500]]
 * Compute the vector for one head (image has no sigmoid from top of division)
 	* ![[Pasted image 20231010152300.png | 500]]
@@ -121,6 +121,7 @@ _Percentages can change_ #Maybe
  * ![[Pasted image 20231010152356.png | 700]]
 
 # Position embeddings
+
 ![[Pasted image 20231010153100.png | 500]]
 * Self-attention does not have any notion of word ordering
 * Can be solved by adding position as position embeddings
