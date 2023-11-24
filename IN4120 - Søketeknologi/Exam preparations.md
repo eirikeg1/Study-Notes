@@ -27,4 +27,10 @@
 
 
 ## Improving results
-* Rocchi
+* -Rocchio-
+
+
+## Vector spaces
+* Quantization
+* Graph-Based Methods
+
