@@ -62,7 +62,7 @@
 	* kNN has high variance and low bias.
 	* NB has low variance and high bias. 
 		* Linear decision surface (hyperplane – see later)
-* ![[Pasted image 20231011115413.png | 350]]
+* ![[Pasted image 20231124165131.png | 350]]
 
 
 # Voronoi diagrams

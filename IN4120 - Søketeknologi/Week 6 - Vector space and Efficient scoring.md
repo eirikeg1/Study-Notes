@@ -167,6 +167,7 @@ _Safe guarantee that K docs returned are the K absolute highest scoring docs_
 * Give an **upper bound** for each term before comparing
 * Have a **threshold** we compare with the **upper bound**, to decide if we should evaluate doc
 * When comparing documents have a cursor on its own document and term, calculate one term and use the **upper bound** to decide if you should continue to evaluate the doc
+* **DAAT** approach
 ## Static quality scores
 
 * **Relevance** is being modeled by cosine scores 
