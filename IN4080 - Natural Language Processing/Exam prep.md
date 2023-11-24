@@ -58,8 +58,21 @@ _Speaker and context dependant_
 _Unstated rules everyone know for good communication_
 * When one is broken, we asume something is going on which is not said
 * **Quality** (One say that which is true)
-* **Quantity** (Provide right amount of infomation)
+* **Quantity** (Provide right amount of information)
 * **Relation** (Only say which is relevant)
 * **Manner** (avoid ambiguity)
 
 
+# Reinforcement learning
+---
+
+## Bellmans equation (Q-learning)
+
+
+
+# Ethics
+---
+
+## Fairness
+* Sometimes precision/recall might be more fair, based on the metric
+*   

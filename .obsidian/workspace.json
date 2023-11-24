@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
+                "file": "IN4080 - Natural Language Processing/Week 11 - Dialogue management and system design.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep.md",
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 285.5
   },
   "right": {
     "id": "5400b8aff3e53512",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep.md",
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep.md",
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep.md"
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md"
               }
             }
           },
@@ -193,12 +193,16 @@
   },
   "active": "90e06afdaa9ad589",
   "lastOpenFiles": [
-    "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
     "IN4080 - Natural Language Processing/Exam prep.md",
+    "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
+    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
+    "IN4080 - Natural Language Processing/Week 11 - Dialogue management and system design.md",
+    "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
+    "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
+    "IN4080 - Natural Language Processing/Week 3 (Classification 2).md",
+    "IN4080 - Natural Language Processing/Week 2 (Classification).md",
     "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
     "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
-    "IN4080 - Natural Language Processing/Week 2 (Classification).md",
-    "IN4080 - Natural Language Processing/Week 3 (Classification 2).md",
     "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
     "IN4120 - Søketeknologi/Week 12 - Bloom filters.md",
     "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
@@ -211,16 +215,12 @@
     "IN4120 - Søketeknologi/Exam preparations.md",
     "IN4120 - Søketeknologi/Week 4 - Compression.md",
     "IN4120 - Søketeknologi/Week 3 - Index construction.md",
-    "IN4080 - Natural Language Processing/Week 11 - Dialogue management and system design.md",
-    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
     "IN4080 - Natural Language Processing/attachments/Pasted image 20231121151820.png",
     "IN4080 - Natural Language Processing/attachments/Pasted image 20231121150942.png",
     "IN4080 - Natural Language Processing/Week 14 - Ethics.md",
     "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
     "IN5020 Distributed systems/System Models.md",
     "IN5320 - Development in System Ecoplatforms/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
-    "IN5320 - Development in System Ecoplatforms/Platforms Governance.md",
-    "IN5320 - Development in System Ecoplatforms/Platforms.md",
     "Pasted image 20231113221808.png",
     "Pasted image 20231116194233.png",
     "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106155033.png",
