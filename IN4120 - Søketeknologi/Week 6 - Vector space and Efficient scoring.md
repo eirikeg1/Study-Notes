@@ -35,6 +35,8 @@
 * For multi-term queries, only compute scores for docs containing several of the query terms 
 	* Say, at least 3 out of 4
 * Easy to implement in postings traversal
+* Is usually better for complicated queries, compared to **TAAT**, but is usually more expensive, especially for large corpora
+
 
 ## Champion lists
 *Precompute for each dictionary term t, the r docs of highest weight in t’s postings*
@@ -42,6 +44,9 @@
 * Call this the **champion list** for $t$
 * Note that _r_ has to be chosen at index build time, so it's possible that $r>k$
 * At query time, only compute scores for docs in the champion list of some query term
+* Improves efficiency of query processing
+* Gives bigger benefits in large-scale search systems
+* Usually used with **TAAT**
 
 
 ## Static quality score
@@ -87,6 +92,7 @@ _A means for segmenting indexes into two tiers_
 *compute score for docs which wf_t,d is high enough*
 
 * Sort postings list by wf
+	* *wf* is the weighted frequency of you choice (for example tf_idf)
 * All postings are not in a common order
 
 #### Document at a time:
