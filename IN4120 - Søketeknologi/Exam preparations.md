@@ -1,7 +1,7 @@
 
 ## Strings
 
-* Edit distance (Damerau-Levenshtein update rule)
+* Edit distance matrices (Damerau-Levenshtein update rule)
 * Burrows wheeler transform
 
 
@@ -15,3 +15,16 @@
 
 * tf_idf
 
+
+## Vector space and Efficient scoring
+
+* WAND scoring
+
+
+## Evaluation
+
+* Discounted Cumulative Gain
+
+
+## Improving results
+* Rocchi

@@ -56,7 +56,6 @@
 * 
 
 
-
 # Pseudo relevance feedback
 
 * Can often work very well
