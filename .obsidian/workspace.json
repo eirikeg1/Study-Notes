@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f0b9920ea584b7db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e03ce2d365038486",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Exam preparations.md",
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 355.5
   },
   "right": {
     "id": "5400b8aff3e53512",
@@ -117,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md",
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md",
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md"
+                "file": "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md"
               }
             }
           },
@@ -190,11 +178,13 @@
       "runjs:RunJS": false
     }
   },
-  "active": "f0b9920ea584b7db",
+  "active": "e03ce2d365038486",
   "lastOpenFiles": [
-    "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
     "IN4120 - Søketeknologi/Week 5 - Scoring, Term weighting and Vector Space Model.md",
+    "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
     "IN4120 - Søketeknologi/Exam preparations.md",
+    "IN4080 - Natural Language Processing/Week 2 (Classification).md",
+    "IN4120 - Søketeknologi/Week 6 - Vector space and Efficient scoring.md",
     "IN4120 - Søketeknologi/Week 4 - Compression.md",
     "IN4120 - Søketeknologi/Week 3 - Index construction.md",
     "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
@@ -205,8 +195,6 @@
     "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
     "IN4080 - Natural Language Processing/attachments/Pasted image 20231121151820.png",
     "IN4080 - Natural Language Processing/attachments/Pasted image 20231121150942.png",
-    "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
-    "IN4080 - Natural Language Processing/Week 2 (Classification).md",
     "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
     "IN4080 - Natural Language Processing/Week 14 - Ethics.md",
     "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",

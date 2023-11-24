@@ -88,11 +88,13 @@ _In contrast to Boolean Retrieval, Ranked Retrieval gives a score instead of eit
 * proximity = similarity of vectors 
 * proximity ≈ inverse of distance
 
-### Length normalization
-* Vector can be normalized by dividing each component by the square root of the sum of all vector lengths squared ($L_2$ norm):
+### Length normalisation (L2 norm)
+* Used to measure the magnitude or length of vector in Euclidean space
+* Often used to normalise vectors
+* Vector can be normalised by dividing each component by the square root of the sum of all vector lengths squared ($L_2$ norm):
 	![[Pasted image 20230913105705.png | 350]]
 
-## Formalizing vector space ranking/proximity
+## Formalising vector space ranking/proximity
 * Represent the query as a weighted tf-idf vector 
 * Represent each document as a weighted tf-idf vector 
 * Compute the cosine similarity score for the query vector and each document vector 
