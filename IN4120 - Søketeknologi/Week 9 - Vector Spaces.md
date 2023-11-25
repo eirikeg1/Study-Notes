@@ -62,13 +62,12 @@
 	* kNN has high variance and low bias.
 	* NB has low variance and high bias. 
 		* Linear decision surface (hyperplane – see later)
-* ![[Pasted image 20231124165131.png | 350]]
-
 
 # Voronoi diagrams
 
 * Highlights regions and finds out what is the nearest neighbor based on regions on search
-![[Pasted image 20231011112130.png | 500]]
+* ![[Pasted image 20231124165131.png | 350]]
+
 
 
 # Algorithms
