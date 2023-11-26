@@ -36,7 +36,7 @@
 * In theory up to infinite dimensions
 * Weights points similarly to nearest neighbour algorithm, useful for clustered datasets
 * $K(x,y)=exp(−γ∥x−y∥^2)$
-* K(x,y) = e^(-γ∥x-y∥^2)
+* $K(x,y) = e^{-γ∥x-y∥^2}$
 
 
 ### Radial or Polynomial kernel?
