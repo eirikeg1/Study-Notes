@@ -1,3 +1,5 @@
+# #TODO FIX IMAGES!!!!
+
 ![[Pasted image 20231011105359.png | 500]]
 
 * In vector space classification, training set corresponds to a labeled set of points (equivalently, vectors) 
@@ -70,11 +72,11 @@
 
 
 
-# Algorithms
+# (Approximate) kNN Algorithms
 ---
 ## Brute Force
 
-* Do full scan and get exact resultss
+* Do full scan and get exact results
 * Optimized implementations make heavy use of SIMD and GPUs
 * Can be feasible but expensive
 * ![[Pasted image 20231011112314.png | 800]]
