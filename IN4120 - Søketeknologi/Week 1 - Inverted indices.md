@@ -94,9 +94,10 @@ _Store the positions of the term in the document, in the postings (with the docI
 **Precision** 
 * How many of the accurate predictions did we find?
 * true positives / (true positives + false positives)
+* $\dfrac{TP}{TP+FP}$
 
 **Recall**
 * How accurate predictions
-* true positives / (true positives + false negatives)
+* $\dfrac{TP}{TP + FN}$
 
 ![[Pasted image 20230829151827.png | 500]]

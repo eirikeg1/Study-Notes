@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
+                "file": "IN4120 - Søketeknologi/Week 3 - Index construction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52ea9fb0d3c61b5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4120 - Søketeknologi/Exam preparations.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
+                "file": "IN4120 - Søketeknologi/Week 3 - Index construction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
+                "file": "IN4120 - Søketeknologi/Week 3 - Index construction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 10 - Link analysis.md"
+                "file": "IN4120 - Søketeknologi/Week 3 - Index construction.md"
               }
             }
           }
@@ -165,15 +177,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0bc813da8b22872",
+  "active": "a3e1bb9ae9b33554",
   "lastOpenFiles": [
-    "IN4120 - Søketeknologi/external_files",
-    "untitled folder",
-    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
-    "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
-    "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
-    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
+    "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
+    "IN4120 - Søketeknologi/Exam preparations.md",
+    "IN4120 - Søketeknologi/Science fair notes.md",
+    "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
+    "IN4120 - Søketeknologi/external_files/Untitled.canvas",
+    "IN4120 - Søketeknologi/Week 1 - Inverted indices.md",
     "IN4120 - Søketeknologi/Week 12 - Bloom filters.md",
+    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
+    "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
+    "IN4120 - Søketeknologi/external_files/exam_previous_topics.xlsx",
+    "IN4120 - Søketeknologi/external_files",
+    "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
+    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
     "IN4120 - Søketeknologi/attachments/Pasted image 20231124165131.png",
     "IN4120 - Søketeknologi/attachments/Pasted image 20231124165121.png",
     "IN4120 - Søketeknologi/attachments/Pasted image 20231011115413.png.md",
@@ -191,11 +209,6 @@
     "IN5320 - Development in System Ecoplatforms/Platforms Governance.md",
     "IN4120 - Søketeknologi/attachments",
     "IN4120 - Søketeknologi/Week 3 - Index construction.md",
-    "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
-    "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
-    "IN4120 - Søketeknologi/Week 1 - Inverted indices.md",
-    "IN4120 - Søketeknologi/Science fair notes.md",
-    "IN4120 - Søketeknologi/Exam preparations.md",
     "IN4080 - Natural Language Processing/attachments/Pasted image 20230824161630.png.md",
     "IN4080 - Natural Language Processing/attachments",
     "IN4080 - Natural Language Processing/Week 14 - Ethics.md",

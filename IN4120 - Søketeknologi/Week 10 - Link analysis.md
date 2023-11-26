@@ -63,7 +63,7 @@ _Algorithm made by Larry Page which ranks pages based on how many links going in
 	* From these, identify a small sets of top hub and authority pages
 	* Given text query, use a text index that get all pages containing browser (call this the *Root set*)
 	* Add any pages which either:
-		* Points tot a page in root set
+		* Points to a page in root set
 		* is pointed to by  a page in the root set
 	* This is the *base set*
 * 
