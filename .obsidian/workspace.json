@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
+                "file": "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
+                "file": "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
+                "file": "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md"
+                "file": "IN4120 - Søketeknologi/Week 10 - Link analysis.md"
               }
             }
           }
@@ -167,10 +167,10 @@
   },
   "active": "a3e1bb9ae9b33554",
   "lastOpenFiles": [
-    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
+    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
     "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
     "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
-    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
+    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
     "IN4120 - Søketeknologi/Week 12 - Bloom filters.md",
     "IN4120 - Søketeknologi/attachments/Pasted image 20231124165131.png",
     "IN4120 - Søketeknologi/attachments/Pasted image 20231124165121.png",
