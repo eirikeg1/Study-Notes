@@ -29,7 +29,7 @@
 - ![[Pasted image 20231011110023.png | 500]]
 - ![[Pasted image 20231011110343.png | 500]]
 
-# Approximate nearest neighbor
+# Approximate nearest neighbour
 
 ---
 
@@ -60,7 +60,6 @@
   - kNN has high variance and low bias.
   - NB has low variance and high bias.
     - Linear decision surface (hyperplane – see later)
--
 
 # Voronoi diagrams
 
