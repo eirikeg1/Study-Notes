@@ -46,6 +46,7 @@ _Make strings more compressible by making them easier to run-length encode_
 * Transforms one string to another one and then back
 * The new string has a lot of duplicates which makes it simpler to compress
 * ![[Pasted image 20230830115927.png | 500]]
+![[Pasted image 20230830115927.png]]
 
 
 # Edit Tables
