@@ -72,6 +72,7 @@ _Parse into multiple blocks, more memory friendly_
 
 * Usually used when you can fit everything in main memory #Maybe
 * Key idea 1: Generate separate dictionaries for each block – no need to maintain term-termID mapping across blocks. 
+* 
 * Key idea 2: Don’t sort. Accumulate postings in postings lists as they occur. 
 * With these two ideas we can generate a complete inverted index for each block. 
 * These separate indexes can then be merged into one big index.
