@@ -99,7 +99,7 @@ _Calculate the accuracy and recall for each class/label, then calculate the aver
 
 **Binary Naive Bayes** or **Bernoulli Naïve Bayes**
 * Uses binary counts (1 if feature if present or 0 i absent)
-* **Bernoulli** tracks if the word is bot present but also not present. It checks if it is in the _vocabulary_ (all word types) #toExpand
+* **Bernoulli** tracks if the word is both present but also not present. It checks if it is in the _vocabulary_ (all word types) #toExpand
 ![[Pasted image 20230829160052.png | 500]]
 
 # Bayesian inference
