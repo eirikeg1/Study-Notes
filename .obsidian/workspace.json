@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep from group session.md",
+                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep from group session.md",
+                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep from group session.md",
+                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep from group session.md"
+                "file": "IN4080 - Natural Language Processing/Week 2 (Classification).md"
               }
             }
           }
@@ -179,6 +179,9 @@
   },
   "active": "a3e1bb9ae9b33554",
   "lastOpenFiles": [
+    "IN4080 - Natural Language Processing/Week 12 - Machine Translation.md",
+    "IN4080 - Natural Language Processing/Exam prep from group session.md",
+    "IN4120 - Søketeknologi/Week 1 - Inverted indices.md",
     "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
     "IN4120 - Søketeknologi/Week 3 - Index construction.md",
     "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
@@ -186,7 +189,6 @@
     "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
     "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
     "IN4120 - Søketeknologi/Week 3 - Index construction.md",
-    "IN4120 - Søketeknologi/Week 1 - Inverted indices.md",
     "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
     "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
     "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
@@ -214,10 +216,8 @@
     "IN4080 - Natural Language Processing/attachments/Pasted image 20230824161630.png.md",
     "IN4080 - Natural Language Processing/attachments",
     "IN4080 - Natural Language Processing/Week 14 - Ethics.md",
-    "IN4080 - Natural Language Processing/Week 12 - Machine Translation.md",
     "IN4080 - Natural Language Processing/Week 11 - Dialogue management and system design.md",
     "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
-    "IN4080 - Natural Language Processing/Exam prep from group session.md",
     "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md"
   ]
 }
