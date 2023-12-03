@@ -49,7 +49,7 @@
 * I = Inside an existing named entity 
 * O = Outside of any named entity
 
-![[Pasted image 20230912145804.png | 750]]
+![[Pasted image 20230912145804.png | 700]]
 
 
 # Generative Sequence Models
@@ -69,7 +69,7 @@
 
 # Naive Bayes for sequence labeling
 
-* Unigram model (can only give the same answer to a word all the time regardless of contex)
+* Unigram model (can only give the same answer to a word all the time regardless of context)
 * 
 
 ## A first and (probably bad) way:
