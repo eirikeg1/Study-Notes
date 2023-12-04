@@ -1,4 +1,5 @@
 
+
 # Language models
 ---
 
@@ -48,8 +49,8 @@
 ## Estimating probabilities
 
 * Maximum likely estimates for a bigram LM:
-	* $\hat{P}(w_i|w_{i-1}=\dfrac{Count(w_{i-1}, w_i)}{Count(w_i|w_{i-1}))}$
-* We can add some smoothing: $\hat{P}(w_i|w_{i-1}=\dfrac{Count(w_{i-1},w_i)+\alpha}{Count(w_{i-1})+\alpha\cdot{|V|}}$
+	* $\hat{P}(w_i|w_{i-1})=\dfrac{Count(w_{i-1}, w_i)}{Count(w_i|w_{i-1}))}$
+* We can add some smoothing: $\hat{P}(w_i|w_{i-1})=\dfrac{Count(w_{i-1},w_i)+\alpha}{Count(w_{i-1})+\alpha\cdot{|V|}}$
 
 ## Other smoothing techniques
 
