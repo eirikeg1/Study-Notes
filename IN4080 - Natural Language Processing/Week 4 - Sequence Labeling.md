@@ -107,7 +107,7 @@ _Can be used to deal with unknown words_
 
 #toExpand 
 * Similar to Naive Bayes prediction function: ![[Pasted image 20230912152944.png | 500]]
-* Replace the prior probabilitiy by conditional probability: ![[Pasted image 20230912153024.png | 500]]
+* Replace the prior probability by conditional probability: ![[Pasted image 20230912153024.png | 500]]
 * Is a transition probability which is the probability of going from previous class to current (fex noun to verb)
 * #toExpand 
 
