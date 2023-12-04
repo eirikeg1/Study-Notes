@@ -8,6 +8,6 @@
 * [[Week 4 - Sequence Labeling#A simple Hidden Markov model |Hidden Markov Model]]
 	* States and probabilities of actions (next state)
 	* HOW TO CALCULATE PROBABILITIES?
-* [[Week 4 - Sequence Labeling#Viterby algorithm|Viterby Algorithm]]
+* [[Week 4 - Sequence Labeling#Viterby algorithm|Viterbi Algorithm]]
 	* Used for predicting labels for a new sequence in a HMM tagger
-* 
+* HMM vs Naive Bayes vs Structured Perceptron
