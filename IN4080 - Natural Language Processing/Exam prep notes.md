@@ -5,7 +5,7 @@
 * **BIO-encoding**
 	* Beginning, inside or outside an entity
 	* One tag per word
-* **Viterby**
+* **Viterbi**
 * 
 
 ### Naive Bayes
