@@ -5,7 +5,7 @@
 ---
 ## Sequence encoders with self-attention
 * **BERT** model
-* Contextualized word embeddings
+* Contextualised word embeddings
 
 ## Sequence decoders with self-attention
 * GPT
@@ -43,17 +43,15 @@ _Percentages can change_
 * ![[Pasted image 20231010144327.png | 500]]
 
 * Adding context words, for example with sliding window is better:
-* If we sum all all words into the next node all words contribute equally, maybe not optimal
+* If we sum all words into the next node all words contribute equally, maybe not optimal
 * ![[Pasted image 20231010144347.png | 500]]
 
 * Ideally we want one hot encoding for all words
-* 
 * ![[Pasted image 20231010144552.png | 500]]
 
 
 # Self-attention
 ---
-
 ## Methods for computing the h layer
 
 * **Simple average:**
@@ -94,7 +92,7 @@ _Percentages can change_
 * Weight values $\alpha$ can be calculated with softmax
 * ![[Pasted image 20231010150325.png | 500]]
 
-* Dot product needs to be scaled before pasisng to softmax, because it is better:
+* Dot product needs to be scaled before passing to softmax, because it is better:
 	* ![[Pasted image 20231010150442.png | 500]]
 * Whole formula:
 	* $\alpha$ matrix, key is column and value is row #Maybe 
@@ -116,7 +114,7 @@ _Percentages can change_
 	* ![[Pasted image 20231010152337.png | 500]]
 
  * One head for  each meaning:
- * ![[Pasted image 20231010152356.png | 700]]
+ * ![[Pasted image 20231010152356.png | 650]]
 
 # Position embeddings
 
@@ -152,7 +150,7 @@ _Percentages can change_
 * Throw away the output layer, create a new one
 * **Fine-Tune** the model to predict the label at the [CLS] position
 * ![[Pasted image 20231010153533.png | 500]]
-### Sequence lableing:
+### Sequence labeling:
 #toExpand 
 * Sequence labeling (e.g. POS tagging) 
 * Train a model on the MLM task 
@@ -173,14 +171,13 @@ _Percentages can change_
 ![[Pasted image 20231010153800.png | 500]]
 
 
-## Comparing with probabalistic language model
+## Comparing with probabilistic language model
 
 * PLM formula:
 	* ![[Pasted image 20231010154108.png | 500]]
 * For n-gram models, we could not condition on all preceding tokens
 	* Attention can
 * Typically, far-away tokens get less attention
-
 ![[Pasted image 20231010154257.png | 500]]
 
 
