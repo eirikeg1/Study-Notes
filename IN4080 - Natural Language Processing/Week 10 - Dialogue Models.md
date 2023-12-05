@@ -111,7 +111,7 @@ Overview of types:
 * ![[Pasted image 20231024154325.png | 500]] #updateImage
 
 #### Top-K sampling
-* Select the $k$ tokens with the highest probability ,redistribute the probability mass among them, and sample from that distribution
+* Select the $k$ tokens with the highest probability, redistribute the probability mass among them, and sample from that distribution
 
 
 # Fine tuning methods
@@ -131,7 +131,9 @@ Overview of types:
 * Ok for prototype, but limited domain adaptation
 
 #### Parameter efficient fine tuning (PERT)
+* Don't change all parameters/weights
 * Change or add new parameters
+* Add adapter layers (small neural network layers which are trained individually)
 * **LoRa**: small number of learned parameters (millions) on top of the original frozen ones
 * Can be difficult and expensive to update all parameters, but this is not always needed
 

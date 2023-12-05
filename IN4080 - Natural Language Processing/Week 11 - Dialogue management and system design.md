@@ -36,10 +36,11 @@
 ## Preprocessing
 
 * Most sounds cannot be distinguished from raw waveform
-* Better: convert the signal to a representation of the signal's component frequencies ▪ Based on Fourier's transform
+* Better: convert the signal to a representation of the signal's component frequencies
+	* Based on Fourier's transform
 * ![[Pasted image 20231031143442.png | 500]]
 
-## Neural ASR
+## Neural Automatic Speech Recognition (ASR)
 
 * Best performing ASR are deep, end to end neural networks
 * For example a relatively simple model is Googles on device ASR
@@ -74,7 +75,7 @@
 ## Decision making
 
 * What and when should the system decide to say or do something
-* Decision making under uncertainty, since the comunication channel is noisy
+* Decision making under uncertainty, since the communication channel is noisy
 * Actions can be both linguistic and non-linguistic
 * The same holds for observations (visual input, external events, etc.)
 ## Typical pipeline
@@ -106,7 +107,7 @@
 
 ## Frame-based managers
 
-* Interaction flow can be made slightly more felxible in the frame based systems
+* Interaction flow can be made slightly more flexible in the frame based systems
 * State is represented as a frame with slots to be filled out by users answer
 * If user provides additional information (user says time as well):
 	* System: What is your departure? 
@@ -129,9 +130,8 @@
 	* Often by reinforcement learning
 	* Sometimes starts with supervised learning, but adapted by reinforcement learning
 * Dialogue manager starts with 'dumb' dialogue poicy but iteracts with and receives feedback from users
-* Usually encoded with a reward functino (is it good or bad?)
+* Usually encoded with a reward function (is it good or bad?)
 * ![[Pasted image 20231031152824.png | 500]]
-
 
 ## Markov Decision Processes
 
@@ -139,7 +139,7 @@
 * **MDP** is as a tuple $<S,A,T,R>$ where: #toExpand 
 	* $S$ is the state space (possible states in domain)
 	* $A$ is the action space (possible actions for the agent)
-	* $T$ is transition funcion
+	* $T$ is transition function
 	* $R$ is the reward function
 * Agent seeks to maximise its *expected cumulative reward* $Q(s,a)$
 	* Must try to predict future inputs/rewards
