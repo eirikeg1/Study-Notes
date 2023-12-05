@@ -1,9 +1,8 @@
 
 * Can be used for encoding and decoding, or both
-* 
+
 # Types of transformers
 ---
-
 ## Sequence encoders with self-attention
 * **BERT** model
 * Contextualized word embeddings
@@ -20,7 +19,7 @@
 # Encoders
 ---
 
-* For SGNS, we used one target word and one context word to predict their similarity
+* For Skip-Grams With Negative Sampling, we used one target word and one context word to predict their similarity
 	* Model does not see more than two words, does not know context 
 		* bad for homographs/ homonyms)
 		* Can't distinguish between left and right contexts, and between close and far contexts
@@ -29,7 +28,7 @@
 
 # Masked language modeling
 ---
-_Percentages can change_ #Maybe
+_Percentages can change_
 * Replace 12% of tokens by blank
 * In addition, replace 1.5% of tokens by another randomly chosen one
 	* In order to make the _easy cases_ harder
@@ -37,7 +36,6 @@ _Percentages can change_ #Maybe
 * 1 sentence = 1 training instance
 * Self-supervised
 * ![[Pasted image 20231010144202.png | 500]]
-*
 
 # With a simple feed forward network
 
