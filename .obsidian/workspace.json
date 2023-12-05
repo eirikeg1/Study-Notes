@@ -6,6 +6,7 @@
       {
         "id": "05fa1315295c805a",
         "type": "tabs",
+        "dimension": 56.88775510204081,
         "children": [
           {
             "id": "a3e1bb9ae9b33554",
@@ -25,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
+                "file": "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +38,15 @@
       {
         "id": "d533a62ad35d5cf7",
         "type": "tabs",
+        "dimension": 43.11224489795919,
         "children": [
           {
-            "id": "a4bb9a5190ebe479",
+            "id": "c603a6b0f4cc2623",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Exam preparations.md",
+                "file": "IN4080 - Natural Language Processing/Exam prep from group session.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,9 +63,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e2abca716576cfe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4080 - Natural Language Processing/Exam stuff to prep.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "naive bay",
+                "query": "tag:#Maybe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +130,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep notes.md",
+                "file": "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep notes.md",
+                "file": "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep notes.md"
+                "file": "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md"
               }
             }
           }
@@ -209,18 +223,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb586144961be734",
+  "active": "f6248bf035286897",
   "lastOpenFiles": [
-    "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
+    "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
+    "IN4080 - Natural Language Processing/Exam prep from group session.md",
+    "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
     "IN4080 - Natural Language Processing/Exam stuff to prep.md",
-    "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
     "IN4080 - Natural Language Processing/Exam prep notes.md",
+    "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
+    "IN4080 - Natural Language Processing/Week 6 - Language processing.md",
     "IN4120 - Søketeknologi/Exam preparations.md",
+    "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
+    "IN5320 - Development in System Ecoplatforms/Platforms Governance.md",
+    "IN5320 - Development in System Ecoplatforms/Platforms.md",
+    "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
+    "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
     "IN4080 - Natural Language Processing/Week 3 (Classification 2).md",
     "IN4080 - Natural Language Processing/Gruppetime spørsmål.md",
     "IN4080 - Natural Language Processing/Week 2 (Classification).md",
     "IN4080 - Natural Language Processing/Week 12 - Machine Translation.md",
-    "IN4080 - Natural Language Processing/Exam prep from group session.md",
     "IN4120 - Søketeknologi/Week 1 - Inverted indices.md",
     "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
     "IN4120 - Søketeknologi/Week 3 - Index construction.md",
@@ -232,13 +253,8 @@
     "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
     "IN4120 - Søketeknologi/external_files",
     "untitled folder",
-    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
-    "IN4120 - Søketeknologi/Week 12 - Bloom filters.md",
     "IN4120 - Søketeknologi/attachments/Pasted image 20231124165131.png",
     "IN4120 - Søketeknologi/attachments/Pasted image 20231124165121.png",
-    "IN4120 - Søketeknologi/attachments/Pasted image 20231011115413.png.md",
-    "IN4120 - Søketeknologi/attachments/Pasted image 20231011112130.png.md",
-    "IN4120 - Søketeknologi/attachments/Pasted image 20231011110023.png.md",
     "Images/suffix_array_implementation.png",
     "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106155106.png",
     "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106155033.png",
@@ -248,9 +264,7 @@
     "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106153246.png",
     "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106144602.png",
     "IN5320 - Development in System Ecoplatforms/attachments",
-    "IN5320 - Development in System Ecoplatforms/Platforms Governance.md",
     "IN4120 - Søketeknologi/attachments",
-    "IN4080 - Natural Language Processing/attachments/Pasted image 20230824161630.png.md",
     "IN4080 - Natural Language Processing/attachments"
   ]
 }
