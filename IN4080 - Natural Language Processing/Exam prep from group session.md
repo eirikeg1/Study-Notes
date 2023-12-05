@@ -5,7 +5,7 @@
 
 * Dialogue systems/speech detection
 * signals (waveforms/specgrams)
-* different tokens have different length
+* Different tokens have different length (not same tokens in soundwaves as in text)
 * Usually use overlapping vectors/frames to analyse
 
 ## Morphology
