@@ -51,12 +51,12 @@
 	* Run forward computation to find our estimate y-hat
 	* Run backward computation to update weights: 
 		* For every output node: 
-			* Compute loss � between true � and the estimated �, 
+			* Compute loss � between true $t$ and the estimated $o$, 
 		* For every weight � from hidden layer to the output layer: 
 		* Update the weight 
 	* For every hidden node: 
 		* Assess “how much blame it deserves for the current answer” 
-		* For every weight � from input layer to the hidden layer: 
+		* For every weight $w$ from input layer to the hidden layer: 
 			* Update the weight
 
 ![[Pasted image 20231003145734.png | 500]]
@@ -70,7 +70,6 @@
 
 * For binary logistic regression, we typically use the cross-entropy loss:
 * ![[Pasted image 20231003145916.png | 500]]
-* 
 
 # Feed forward neural networds
 ---
@@ -158,7 +157,6 @@ _Similar to linear gradient descent_
 
 # Neural language models using vectors
 ---
-
 
 ## Prediction using sliding window
 

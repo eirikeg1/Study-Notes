@@ -1,7 +1,7 @@
 
 # Why?
 
-*  Creates short and dense vectors
+* Creates short and dense vectors
 * Easier and more efficient
 * Generalize better than explicit counts
 * Captures semantic relation (synonomy,...) better
@@ -11,16 +11,15 @@
 
 * **Self-supervision**:
 	* We don't manually choose distances of words which are related
-	* No need for human annotatino
+	* No need for human annotation
 
 
 # Neural bigram LM
 
-* Only predicts output word based on the immidietly preciding word
+* Only predicts output word based on the immediately preceding word
 ![[Pasted image 20231003152619.png | 500]]
 
-
-## Continuous bad og words
+## Continuous bag of words
 
 * Concatenate and hope words are predicted properly
 * works well but not often used
@@ -29,14 +28,14 @@
 
 ## Skip-gram
 
-* Learns two sets of embeddings (for taget words w and context word c)
+* Learns two sets of embeddings (for target words w and context word c)
 * Common to  just add them together so word i is represented by the vector $w_i + c_i$
 
 ![[Pasted image 20231003152954.png | 500]]
 
 ### Skip-gram with negative sampling
 #lecture #toExpand 
-* Reformulate  with a binary classification
+* Reformulate with a binary classification
 	* Output is probability 
 * 
 
@@ -65,7 +64,7 @@
 
 ### Effect of window size
 
-* Small winodes (+-2 context words) gies syntactically similar fords of same taxonomy (part of speech)
+* Small winodes (+-2 context words) gives syntactically similar words of same taxonomy (part of speech)
 * Large windoes (+- 5 cws) gives related words in same semantic fields
 
 #### Analogical relations
@@ -90,9 +89,9 @@ Can also be used to see how word meanings have changed through the years
 #### Debiasing
 
 * Identify pairs of words that does not have any particular bias
-* Can be done by e.g removing the _differeatial word_ to each respective value
+* Can be done by e.g removing the _differential word_ to each respective value
 * Can reduce bias but might be a very surface level fix
-* 
+*
 * ![[Pasted image 20231003155222.png | 500]]
 
 
