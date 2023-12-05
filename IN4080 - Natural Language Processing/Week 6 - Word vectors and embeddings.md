@@ -36,7 +36,6 @@ _The meaning of a word can be captured by the contexts in which it occurs_
 ## Calculating similarity (cosine similarity)
 * Represents the angle between two vectors
 * Length of vector does not matter
-* 
 	![[Pasted image 20231002174943.png | 700]]
 
 ## Core  idea
@@ -87,7 +86,7 @@ _Not all words are equally important_
 
 
 ## Word-context matrices
-_Based on co-occurrence counts, is more used than TermFrequency method _
+_Based on co-occurrence counts, is more used than TermFrequency method_
 
 * Dimensionality reduction (SVD, LSA)
 * One row per term/word
