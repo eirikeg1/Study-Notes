@@ -11,6 +11,7 @@
 * [[Week 4 - Sequence Labeling#Viterby algorithm|Viterbi Algorithm]]
 	* Used for predicting labels for a new sequence in a HMM tagger
 * HMM vs Naive Bayes vs Structured Perceptron
+* Transformers: Train transformer, throw away output layer, fine tune on POS-data
 
 ## Embedding relation terms
 
@@ -29,3 +30,11 @@
 
 * Debiasing technique, subtract differential bias word vectors (gender, race, ...)
 	* Very surface level  fix
+
+## Transformers
+
+* Self attention formula:
+	* ![[Pasted image 20231205173911.png | 250]]
+	* Query, key and value vectors
+		* What is the Value vector???
+* 
