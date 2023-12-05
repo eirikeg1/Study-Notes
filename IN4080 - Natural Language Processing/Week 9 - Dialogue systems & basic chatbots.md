@@ -113,18 +113,15 @@
 * Participants in a dialogue continuously align their mental representations
 * Also unconsciously imitating each other at a deeper level (body language, way of speaking, speech rate, gestures, ...)
 
-
 # Basic chatbot models
 ---
 ![[Pasted image 20231017153010.png | 500]]
-
 
 # Rule-based models
 * Maps conditions (surface patterns on user utterance) to responses
 * Pattern-action rules
 	* ![[Pasted image 20231017153101.png | 350]]
 	* ![[Pasted image 20231017153115.png | 350]]
-
 
 # Information Retrieval (IR) models
 * $t$ is the utterence (words spoken/written)
