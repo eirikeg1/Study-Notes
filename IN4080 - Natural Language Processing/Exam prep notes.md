@@ -90,4 +90,16 @@ Dealing with rare words:
 
 ### Markov Decision Process
 
+* Bellman equation:
+	* ![[Pasted image 20231031153631.png | 500]]
+* MDP policy tells us which action to execute in each state (for example argMax())
+
+### End-to-end architectures
+
+**Evaluation metrics:**
+* ASR (Word Error Rate)
+* NLU (precision, recall, F-score) for intent recognition and slot filling
+
+
+### BLEU metric
 * 

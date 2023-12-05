@@ -163,7 +163,7 @@
 #### Bellman equation
 
 * Expected cumulative reward $Q$ in a recursive fashion
-* Estimates the Q values based on out estimation of the Q-values, can be uesed to iteratively refine estimates until conversion
+* Estimates the Q values based on out estimation of the Q-values, can be uI sed to iteratively refine estimates until conversion
 * ![[Pasted image 20231031153631.png | 500]]
 * 
 
@@ -174,6 +174,7 @@
 * An optimal dialogue policy $\pi^*$ is a policy which always outputs the action yielding the maximum expected cumulative reward
 * ![[Pasted image 20231031154431.png | 500]]
 
+## Pipeline architectures #toExpand 
 
 ## How to collect data?
 
@@ -188,7 +189,7 @@
 
 * **ASR: Word Error Rate**
 * **NLU: precision, recall, F-score**
-* **TTS: Evaluation by human listeners on sound intelligibility and **
+* **TTS: Evaluation by human listeners on sound intelligibility and quality**
 * What about end-to-end?
 	* User satisfaction? Can be expensive and time consuming
 		* ![[Pasted image 20231031155656.png | 500]]
