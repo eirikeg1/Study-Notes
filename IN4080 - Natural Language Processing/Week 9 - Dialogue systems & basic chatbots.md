@@ -53,7 +53,7 @@
 	* Speaker has specific goal
 	* Speaking triggers effects
 
-### Searle's taxonomy
+### Searle's taxonomy of speech acts
 #toExpand 
 * Assertives
 	* Commiting the speaker to the truth of a preposition
@@ -64,7 +64,7 @@
 * Commissives
 	* Committing the speaker to some future course of action
 	* "I promise I'll clean up my room"
-* Expessives
+* Expressives
 	* Expressing the psychological state of the speaker
 	* "Thanks for cleaning up your room"
 * Declaratives
@@ -111,7 +111,7 @@
 
 # Alignment
 * Participants in a dialogue continuously align their mental representations
-* Also unconsciously imitating each other at a depper level (body language, way of speaking, speech rate, gestures, ...)
+* Also unconsciously imitating each other at a deeper level (body language, way of speaking, speech rate, gestures, ...)
 
 
 # Basic chatbot models

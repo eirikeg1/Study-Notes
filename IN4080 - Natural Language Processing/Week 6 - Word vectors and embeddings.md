@@ -91,7 +91,7 @@ _Based on co-occurrence counts, is more used than TermFrequency method_
 * Dimensionality reduction (SVD, LSA)
 * One row per term/word
 * One column per context term/word (rows and columns can be the same but not necessarily)
-* Vales represent counts of words *within the context* of another word
+* Valeus represent counts of words *within the context* of another word
 
 #### What is the context?
 _Multiple definitions_
