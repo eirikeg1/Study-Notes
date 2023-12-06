@@ -50,7 +50,7 @@ N and V below says what is predicted on the meeting column
 	* $\Pi[0,*] = 1$
 * Recursive definition:
 	* Fill $\Pi$ for all positions $k\in{\set{1 ... n}}$ and all labels:
-	* $\Pi[k,y_k]=max/{y_{k-1}\inY}$ 
+	* $\Pi[k,y_k]=max/{y_{k-1}\in Y}$ 
 
 ![[Pasted image 20230919144759.png| 700]]
 
