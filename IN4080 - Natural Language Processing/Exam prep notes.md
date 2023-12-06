@@ -102,4 +102,11 @@ Dealing with rare words:
 
 
 ### BLEU metric
-* 
+* do ngram searches over translated output compared to target values
+* Add a penalty based on length (for too short translations)
+* Multiply (?) the scores (fex 3/5) for each ngram size (fex 1...5)
+
+### Other methods
+* BERTScore (use similarity of sentence embeddings of target/output)
+* Trained metrics (e.g. COMET)
+	* Large dataset of human evaluations, use dataset to train a classifier to predict scores
