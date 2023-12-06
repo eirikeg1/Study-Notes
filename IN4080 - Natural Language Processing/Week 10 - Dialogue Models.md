@@ -37,7 +37,7 @@
 ## Response selection
 
 * In commercial systems, system responses are typically written by hand
-	* Maybe in templated form: *{Place} is open from {start-time} to {end-time}*
+	* Maybe in templated form: *{place} is open from {start-time} to {end-time}*
 	* Data-driven generation methods also exists
 
 

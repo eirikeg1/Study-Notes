@@ -110,3 +110,18 @@ Dealing with rare words:
 * BERTScore (use similarity of sentence embeddings of target/output)
 * Trained metrics (e.g. COMET)
 	* Large dataset of human evaluations, use dataset to train a classifier to predict scores
+
+### Fairness
+_And their formulas..._
+* Unawareness
+* Demographic parity
+* Predictive parity
+* Equality of odds
+* Debiasing:
+	* Data augmentation (add gender swapped examples)
+
+#### Explainability
+* **LIME** method
+	* Convert neural net to simpler model
+	* Looks at 'weights' of each feature in the decision
+	* 
