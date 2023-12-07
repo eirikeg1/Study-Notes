@@ -117,6 +117,7 @@ _And their formulas..._
 * Demographic parity
 * Predictive parity
 * Equality of odds
+	* FP/FN should be equal for all classes
 * Debiasing:
 	* Data augmentation (add gender swapped examples)
 
