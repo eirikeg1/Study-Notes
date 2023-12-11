@@ -193,7 +193,8 @@
 * Can technically add more references, but is usually not done
 * Main idea: compute n-gram overlap (n=1..4) between system output and reference
 	* Add a brevity penalty (for too short translations)
-* $BLEU = min(1\dfrac{x}{x})$ #toExpand 
+* $BLEU = min\left(1,\dfrac{Len_{Sys}}{Len_{Ref}}\right)\cdot Prec_q\cdot Prec_{2\cdot}Prec_{3\cdot}Prec_4$ #toExpand 
+* ![[Pasted image 20231206004922.png | 500]]
 * Problems:
 	* Assumes that by having one single reference, you have the only translation
 	* Ignores relevance of words
@@ -202,6 +203,7 @@
 	* Scores are meaningless
 		* Can be very test specific, absolute 
 	* Human translators score low on BLEU scores
+* ![[Pasted image 20231206005121.png | 500]]
 
 #### chrF: character-level score
 * Break down words into character instead of ngrams

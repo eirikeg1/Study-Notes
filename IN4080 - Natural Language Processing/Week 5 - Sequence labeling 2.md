@@ -50,7 +50,7 @@ N and V below says what is predicted on the meeting column
 	* $\Pi[0,*] = 1$
 * Recursive definition:
 	* Fill $\Pi$ for all positions $k\in{\set{1 ... n}}$ and all labels:
-	* $\Pi[k,y_k]=max/{y_{k-1}\inY}$ 
+	* $\Pi[k,y_k]=max/{y_{k-1}\in Y}$ 
 
 ![[Pasted image 20230919144759.png| 700]]
 
@@ -65,7 +65,7 @@ N and V below says what is predicted on the meeting column
 **Combining the two**
 ![[Pasted image 20230919145504.png | 500]]
 
-## Context word features for finding probabilities of neighboring words
+## Context word features for finding probabilities of neighbouring words
 
 * $f_x$ represents a one-hot vector:
 	![[Pasted image 20230919145928.png | 350]]
@@ -86,12 +86,13 @@ N and V below says what is predicted on the meeting column
 
 # Structured Perceptron
 ---
-_Combines neighboring and previous tag_
+_Combines neighbouring and previous tag_
 
 ![[Pasted image 20230919153041.png | 700]]
-## Transision features
+## Transition features
 	![[Pasted image 20230919152704.png | 500]]
-* We don’t actually need to build an explicit transition feature vector • The transition weights can be thought of as a Y×Y matrix (as in HMMs): ![[Pasted image 20230919153017.png | 250]]
+* We don’t actually need to build an explicit transition feature vector • The transition weights can be thought of as a Y×Y matrix (as in HMMs):
+	* ![[Pasted image 20230919153017.png | 250]]
 * The transition feature just selects one column of this matrix
 * 
 
@@ -131,6 +132,18 @@ _Conditional Random Fields_
 * we can get rid of the exponentiation 
 * the prediction function becomes identical to the structured perceptron one. 
 * ![[Pasted image 20230919154259.png | 500]]
+
+### Formula explanation
+* $\max \sum_{i=1}^{N} \left( w_t(y_i, y_{i-1}) + w_E(y_i) \cdot f_E(x_i) \right)$
+
+- $\max$ denotes the maximization over all possible label sequences.
+- The summation$\sum_{i=1}^{N}$ iterates over each element $i$ in the sequence, from 1 to $N$, where $N$ is the length of the sequence.
+- $w_t(y_i, y_{i-1})$ represents the transition weights from the previous label $y_{i-1}$ to the current label $y_i$.
+- $w_E(y_i)$ are the weights for the emission features corresponding to label $y_i$.
+- $f_E(x_i)$ is the emission feature vector for the $i$-th element of the input sequence $x_i$.
+- The term $w_E(y_i) \cdot f_E(x_i)$ calculates the dot product between the emission feature vector and the corresponding weights for label $y_i$, providing a score based on how well the input features at position $i$ match the label $y_i$.
+
+This formula is used in structured prediction models for sequence labeling, combining both the emission and transition aspects to capture the sequential dependencies in tasks such as part-of-speech tagging or named entity recognition.
 
 **But sometimes we are interested in the probabilities:** 
 * for training (update) 

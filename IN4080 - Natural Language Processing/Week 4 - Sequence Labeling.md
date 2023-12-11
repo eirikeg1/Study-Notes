@@ -49,7 +49,7 @@
 * I = Inside an existing named entity 
 * O = Outside of any named entity
 
-![[Pasted image 20230912145804.png | 750]]
+![[Pasted image 20230912145804.png | 700]]
 
 
 # Generative Sequence Models
@@ -69,7 +69,7 @@
 
 # Naive Bayes for sequence labeling
 
-* Unigram model (can only give the same answer to a word all the time regardless of contex)
+* Unigram model (can only give the same answer to a word all the time regardless of context)
 * 
 
 ## A first and (probably bad) way:
@@ -107,7 +107,7 @@ _Can be used to deal with unknown words_
 
 #toExpand 
 * Similar to Naive Bayes prediction function: ![[Pasted image 20230912152944.png | 500]]
-* Replace the prior probabilitiy by conditional probability: ![[Pasted image 20230912153024.png | 500]]
+* Replace the prior probability by conditional probability: ![[Pasted image 20230912153024.png | 500]]
 * Is a transition probability which is the probability of going from previous class to current (fex noun to verb)
 * #toExpand 
 

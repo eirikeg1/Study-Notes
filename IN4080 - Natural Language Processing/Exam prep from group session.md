@@ -5,7 +5,7 @@
 
 * Dialogue systems/speech detection
 * signals (waveforms/specgrams)
-* different tokens have different length
+* Different tokens have different length (not same tokens in soundwaves as in text)
 * Usually use overlapping vectors/frames to analyse
 
 ## Morphology
@@ -48,7 +48,7 @@ _Speaker and context dependant_
 * Assertives (stating something to be true)
 * Directives (statement to influence someones behaviour, *go away*, *isn't it cold without a jacket?*)
 * Expressive (statement to express a sentiment, *I think it is cold outside*)
-* Comnisives 
+* Commisives (promise to do something)
 * Declaratives 
 	* Changes the world by their utterance, 
 	* Feks*I declare you husband and wife* is part of the legally binding ritual of marriage, so without those words its not a marriage

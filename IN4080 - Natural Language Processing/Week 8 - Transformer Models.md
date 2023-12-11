@@ -1,12 +1,11 @@
 
 * Can be used for encoding and decoding, or both
-* 
+
 # Types of transformers
 ---
-
 ## Sequence encoders with self-attention
 * **BERT** model
-* Contextualized word embeddings
+* Contextualised word embeddings
 
 ## Sequence decoders with self-attention
 * GPT
@@ -20,7 +19,7 @@
 # Encoders
 ---
 
-* For SGNS, we used one target word and one context word to predict their similarity
+* For Skip-Grams With Negative Sampling, we used one target word and one context word to predict their similarity
 	* Model does not see more than two words, does not know context 
 		* bad for homographs/ homonyms)
 		* Can't distinguish between left and right contexts, and between close and far contexts
@@ -29,7 +28,7 @@
 
 # Masked language modeling
 ---
-_Percentages can change_ #Maybe
+_Percentages can change_
 * Replace 12% of tokens by blank
 * In addition, replace 1.5% of tokens by another randomly chosen one
 	* In order to make the _easy cases_ harder
@@ -37,7 +36,6 @@ _Percentages can change_ #Maybe
 * 1 sentence = 1 training instance
 * Self-supervised
 * ![[Pasted image 20231010144202.png | 500]]
-*
 
 # With a simple feed forward network
 
@@ -45,17 +43,15 @@ _Percentages can change_ #Maybe
 * ![[Pasted image 20231010144327.png | 500]]
 
 * Adding context words, for example with sliding window is better:
-* If we sum all all words into the next node all words contribute equally, maybe not optimal
+* If we sum all words into the next node all words contribute equally, maybe not optimal
 * ![[Pasted image 20231010144347.png | 500]]
 
 * Ideally we want one hot encoding for all words
-* 
 * ![[Pasted image 20231010144552.png | 500]]
 
 
 # Self-attention
 ---
-
 ## Methods for computing the h layer
 
 * **Simple average:**
@@ -96,7 +92,7 @@ _Percentages can change_ #Maybe
 * Weight values $\alpha$ can be calculated with softmax
 * ![[Pasted image 20231010150325.png | 500]]
 
-* Dot product needs to be scaled before pasisng to softmax, because it is better:
+* Dot product needs to be scaled before passing to softmax, because it is better:
 	* ![[Pasted image 20231010150442.png | 500]]
 * Whole formula:
 	* $\alpha$ matrix, key is column and value is row #Maybe 
@@ -118,7 +114,7 @@ _Percentages can change_ #Maybe
 	* ![[Pasted image 20231010152337.png | 500]]
 
  * One head for  each meaning:
- * ![[Pasted image 20231010152356.png | 700]]
+ * ![[Pasted image 20231010152356.png | 650]]
 
 # Position embeddings
 
@@ -154,7 +150,7 @@ _Percentages can change_ #Maybe
 * Throw away the output layer, create a new one
 * **Fine-Tune** the model to predict the label at the [CLS] position
 * ![[Pasted image 20231010153533.png | 500]]
-### Sequence lableing:
+### Sequence labeling:
 #toExpand 
 * Sequence labeling (e.g. POS tagging) 
 * Train a model on the MLM task 
@@ -175,14 +171,13 @@ _Percentages can change_ #Maybe
 ![[Pasted image 20231010153800.png | 500]]
 
 
-## Comparing with probabalistic language model
+## Comparing with probabilistic language model
 
 * PLM formula:
 	* ![[Pasted image 20231010154108.png | 500]]
 * For n-gram models, we could not condition on all preceding tokens
 	* Attention can
 * Typically, far-away tokens get less attention
-
 ![[Pasted image 20231010154257.png | 500]]
 
 
