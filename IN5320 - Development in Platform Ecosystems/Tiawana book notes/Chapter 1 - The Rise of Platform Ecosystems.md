@@ -46,7 +46,7 @@ _An app refers to an add-on software subsystem or software service that connects
 
 ![[Pasted image 20230904133625.png | 500]]
 
-# The five drivers of migration to PE
+# The five drivers of migration to Platform Ecosystems
 ---
 _Recent advances in technology are increasingly making it possible to reconfigure traditional industries, there are five main factors which accelerate these changes_
 

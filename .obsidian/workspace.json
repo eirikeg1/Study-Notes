@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
+                "file": "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b612f18032140e26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 2 - Core Concepts and Principles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51d6b004e9d91d9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 387.5110321044922
   },
   "right": {
     "id": "6526dc832cea2955",
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
+                "file": "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
+                "file": "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md"
+                "file": "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md"
               }
             }
           }
@@ -167,9 +192,17 @@
   },
   "active": "a0bc813da8b22872",
   "lastOpenFiles": [
+    "IN5320 - Development in Platform Ecosystems/Platforms.md",
+    "IN5320 - Development in Platform Ecosystems/Platforms Governance.md",
+    "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
+    "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 2 - Core Concepts and Principles.md",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212124530.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212133847.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212132236.png",
+    "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
+    "IN5320 - Development in Platform Ecosystems/Intro and perspectives.md",
+    "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
     "IN4120 - Søketeknologi/Science fair notes.md",
-    "IN5320 - Development in System Ecoplatforms/Intro and perspectives.md",
-    "IN5320 - Development in System Ecoplatforms/Platforms.md",
     "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
     "IN4080 - Natural Language Processing/attachments/Pasted image 20231206005121.png",
     "IN4080 - Natural Language Processing/attachments/Pasted image 20231206004922.png",
@@ -180,7 +213,6 @@
     "IN4120 - Søketeknologi/Week 3 - Index construction.md",
     "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
     "IN4120 - Søketeknologi/Exam preparations.md",
-    "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
     "IN4120 - Søketeknologi/external_files/Untitled.canvas",
     "IN4120 - Søketeknologi/Week 1 - Inverted indices.md",
     "IN4120 - Søketeknologi/Week 12 - Bloom filters.md",
@@ -196,18 +228,11 @@
     "IN4120 - Søketeknologi/attachments/Pasted image 20231011112130.png.md",
     "IN4120 - Søketeknologi/attachments/Pasted image 20231011110023.png.md",
     "Images/suffix_array_implementation.png",
-    "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106155106.png",
-    "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106155033.png",
-    "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106154344.png",
-    "IN5320 - Development in System Ecoplatforms/attachments/Pasted image 20231106154217.png",
-    "IN5320 - Development in System Ecoplatforms/attachments",
-    "IN5320 - Development in System Ecoplatforms/Platforms Governance.md",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231106155106.png",
+    "IN5320 - Development in Platform Ecosystems/attachments",
     "IN4120 - Søketeknologi/attachments",
     "IN4080 - Natural Language Processing/attachments/Pasted image 20230824161630.png.md",
     "IN4080 - Natural Language Processing/attachments",
-    "IN4080 - Natural Language Processing/Week 14 - Ethics.md",
-    "IN4080 - Natural Language Processing/Week 12 - Machine Translation.md",
-    "IN4080 - Natural Language Processing/Week 11 - Dialogue management and system design.md",
-    "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md"
+    "IN4080 - Natural Language Processing/Week 14 - Ethics.md"
   ]
 }
