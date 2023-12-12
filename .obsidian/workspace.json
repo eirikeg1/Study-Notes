@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
+                "file": "IN5320 - Development in Platform Ecosystems/Platforms Governance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51ff95ac1b2dbef7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN5320 - Development in Platform Ecosystems/Gnist notater.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
+                "file": "IN5320 - Development in Platform Ecosystems/Gnist notater.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
+                "file": "IN5320 - Development in Platform Ecosystems/Gnist notater.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md"
+                "file": "IN5320 - Development in Platform Ecosystems/Gnist notater.md"
               }
             }
           }
@@ -189,11 +202,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0bc813da8b22872",
+  "active": "51ff95ac1b2dbef7",
   "lastOpenFiles": [
-    "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
     "IN5320 - Development in Platform Ecosystems/Platforms Governance.md",
+    "IN5320 - Development in Platform Ecosystems/Gnist notater.md",
     "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
+    "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
     "IN5320 - Development in Platform Ecosystems/Platforms.md",
     "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212185344.png",
     "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212163507.png",
