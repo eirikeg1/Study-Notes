@@ -15,10 +15,14 @@ _The optimal governance structure is the simplest one that achieves the goals of
 
 # Three dimensions of governance
 ---
+
+1. Division of authorities and responsibility between owner and developers
+2. The collection of mechanisms through which the platform owner exercises control over developers
+3. Decisions about how proceeds will be divided up between platform owner and app developers
 # Decision rights
 
 #### Mirroring principle
-* Partitioning of decision rights between owner and app devs should mirror platforms architecture
+* Partitioning of decision rights between owner and app developers should mirror platforms architecture
 * Rights must be aligned with who has knowledge  to make decisions
 
 #### Partitioning
@@ -26,16 +30,14 @@ _The optimal governance structure is the simplest one that achieves the goals of
 * **strategic**: what is the platform or app to accomplish
 * **implementation**: how will the platform or app accomplish it?
 * ![[Pasted image 20231106143432.png | 500]]
-* 
 
 # Control portfolio
-*How platform owner creates goal convergence and facilitates coordination with devs*
+*How platform owner creates goal convergence and facilitates coordination with developers*
 
 * ![[Pasted image 20231106144405.png | 500]]
 
 #### Control mechanisms
 * Tools that owners use to implemetn/enforce rules that reward desireble behavior and punush bad behaviour![[Pasted image 20231106144602.png | 700]]
-
 
 # Pricing policies
 
