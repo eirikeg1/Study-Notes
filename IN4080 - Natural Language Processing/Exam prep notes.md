@@ -13,8 +13,6 @@
 Dealing with rare words:
 * Smoothing
 * Rare words class
-
-
 ## Dialogue systems
 
 ### Dialoge systems
