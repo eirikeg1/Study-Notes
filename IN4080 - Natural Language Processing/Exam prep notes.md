@@ -6,7 +6,7 @@
 	* Beginning, inside or outside an entity
 	* One tag per word
 * **Viterbi**
-* 
+
 
 ### Naive Bayes
 
