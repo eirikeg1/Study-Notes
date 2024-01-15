@@ -9,7 +9,7 @@ _The optimal governance structure is the simplest one that achieves the goals of
 # Governance varies by type of Software Platform
 
 * Governance must be considered based on industry and public/private sector
-	* Does it have to give benefits in the start or can the profits be subsidised?
+	* Does it have to give benefits in the start or can the profits be subsidized?
 	* Does it benefit tax payers?
 * ![[Pasted image 20231106153246.png | 600]]
 
