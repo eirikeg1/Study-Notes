@@ -6,82 +6,26 @@
       {
         "id": "05fa1315295c805a",
         "type": "tabs",
-        "dimension": 49.28017718715393,
         "children": [
           {
-            "id": "a3e1bb9ae9b33554",
+            "id": "51d6b004e9d91d9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
+                "file": "IN5320 - Development in Platform Ecosystems/Platforms Governance.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cb586144961be734",
+            "id": "2c80bae7ec4f411a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6248bf035286897",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep from group session.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "d533a62ad35d5cf7",
-        "type": "tabs",
-        "dimension": 50.71982281284607,
-        "children": [
-          {
-            "id": "c603a6b0f4cc2623",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep from group session.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa923ffa9e648f6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2abca716576cfe4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN4080 - Natural Language Processing/Exam stuff to prep.md",
+                "file": "IN5320 - Development in Platform Ecosystems/Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "open",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,12 +86,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 387.5110321044922
   },
   "right": {
     "id": "6526dc832cea2955",
@@ -163,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep notes.md",
+                "file": "IN5320 - Development in Platform Ecosystems/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep notes.md",
+                "file": "IN5320 - Development in Platform Ecosystems/Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +146,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -213,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4080 - Natural Language Processing/Exam prep notes.md"
+                "file": "IN5320 - Development in Platform Ecosystems/Intro.md"
               }
             }
           }
@@ -235,49 +180,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa923ffa9e648f6f",
+  "active": "a0bc813da8b22872",
   "lastOpenFiles": [
-    "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
-    "IN4080 - Natural Language Processing/Exam prep notes.md",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212185344.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212175527.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212173228.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212171420.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212164419.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212165706.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212163507.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212133847.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212132236.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212124530.png",
+    "IN4060 - Semantic Technologies",
+    "IN4310 - Deep Learning for Image Analysis",
+    "IN5320 - Development in Platform Ecosystems/Platforms Governance.md",
+    "IN5320 - Development in Platform Ecosystems/Intro.md",
+    "IN5550 - Neural Methods for Natural Language Processing",
     "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
     "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 2 - Core Concepts and Principles.md",
     "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
-    "IN5320 - Development in Platform Ecosystems/attachments",
-    "IN5320 - Development in Platform Ecosystems/Tiawana book notes",
-    "IN5320 - Development in Platform Ecosystems/Platforms.md",
-    "IN5320 - Development in Platform Ecosystems/Platforms Governance.md",
     "IN5320 - Development in Platform Ecosystems/Intro and perspectives.md",
+    "IN5320 - Development in Platform Ecosystems/Platforms.md",
     "IN5320 - Development in Platform Ecosystems/Gnist notater.md",
-    "IN5320 - Development in Platform Ecosystems",
-    "IN4080 - Natural Language Processing/Week 3 (Classification 2).md",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212185344.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212163507.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212175527.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212173228.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212171420.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212165706.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212164419.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212124530.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212133847.png",
+    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212132236.png",
+    "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
+    "IN4120 - Søketeknologi/Science fair notes.md",
+    "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
     "IN4080 - Natural Language Processing/Exam stuff to prep.md",
+    "IN4080 - Natural Language Processing/Exam prep notes.md",
     "IN4080 - Natural Language Processing/Exam prep from group session.md",
-    "IN4080 - Natural Language Processing/Week 11 - Dialogue management and system design.md",
-    "IN4080 - Natural Language Processing/Week 10 - Dialogue Models.md",
-    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
-    "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
-    "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
-    "IN4080 - Natural Language Processing/Week 2 (Classification).md",
-    "IN4080 - Natural Language Processing/Week 8 - Transformer Models.md",
-    "IN4080 - Natural Language Processing/Week 14 - Ethics.md",
-    "IN4080 - Natural Language Processing/Week 12 - Machine Translation.md",
-    "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
-    "IN5320 - Development in System Ecoplatforms/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
-    "IN5320 - Development in System Ecoplatforms/Platforms Governance.md",
-    "IN5320 - Development in System Ecoplatforms/Platforms.md",
+    "IN4120 - Søketeknologi/Week 3 - Index construction.md",
+    "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
+    "IN4120 - Søketeknologi/Exam preparations.md",
+    "IN4120 - Søketeknologi/external_files/Untitled.canvas",
+    "IN4120 - Søketeknologi/Week 1 - Inverted indices.md",
+    "IN4120 - Søketeknologi/Week 12 - Bloom filters.md",
+    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
+    "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
+    "IN4120 - Søketeknologi/external_files/exam_previous_topics.xlsx",
     "IN4120 - Søketeknologi/external_files",
-    "untitled folder",
-    "IN5320 - Development in System Ecoplatforms/attachments",
+    "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
+    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
+    "IN4120 - Søketeknologi/attachments/Pasted image 20231011115413.png.md",
+    "IN4120 - Søketeknologi/attachments/Pasted image 20231011112130.png.md",
+    "IN5320 - Development in Platform Ecosystems/attachments",
     "IN4120 - Søketeknologi/attachments",
     "IN4080 - Natural Language Processing/attachments"
   ]
