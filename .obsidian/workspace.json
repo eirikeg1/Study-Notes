@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4060 - Semantic Technologies/Intro Lecture.md",
+                "file": "IN4060 - Semantic Technologies/Subject Page.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5110321044922
+    "width": 387.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "6526dc832cea2955",
@@ -130,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4060 - Semantic Technologies/Intro Lecture.md",
+                "file": "IN4060 - Semantic Technologies/Subject Page.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4060 - Semantic Technologies/Intro Lecture.md",
+                "file": "IN4060 - Semantic Technologies/Subject Page.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4060 - Semantic Technologies/Intro Lecture.md"
+                "file": "IN4060 - Semantic Technologies/Subject Page.md"
               }
             }
           }
@@ -206,10 +207,13 @@
   },
   "active": "fd229cd6fe962a9d",
   "lastOpenFiles": [
+    "IN4060 - Semantic Technologies/Pasted image 20240117132448.png",
+    "IN4060 - Semantic Technologies/attachments/Pasted image 20240117124810.png",
+    "IN4060 - Semantic Technologies/attachments/Pasted image 20240117124746.png",
+    "IN4060 - Semantic Technologies/Subject Page.md",
+    "IN4060 - Semantic Technologies/attachments",
     "IN5550 - Neural Methods for Natural Language Processing/Goldberg Notes.md",
-    "IN4060 - Semantic Technologies/Intro Lecture.md",
     "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
-    "Untitled",
     "IN4080 - Natural Language Processing/Exam stuff to prep.md",
     "IN5320 - Development in Platform Ecosystems/Course info.md",
     "IN4060 - Semantic Technologies",
@@ -230,8 +234,6 @@
     "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212165706.png",
     "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212164419.png",
     "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212124530.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212133847.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212132236.png",
     "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
     "IN4120 - Søketeknologi/Science fair notes.md",
     "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
@@ -248,7 +250,6 @@
     "IN4120 - Søketeknologi/external_files/exam_previous_topics.xlsx",
     "IN4120 - Søketeknologi/external_files",
     "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
-    "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
     "IN5320 - Development in Platform Ecosystems/attachments",
     "IN4120 - Søketeknologi/attachments",
     "IN4080 - Natural Language Processing/attachments"
