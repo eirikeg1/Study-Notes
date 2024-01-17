@@ -1,6 +1,5 @@
 # #TODO FIX IMAGES!!!!
 
-![[Pasted image 20231011105359.png | 500]]
 
 - In vector space classification, training set corresponds to a labeled set of points (equivalently, vectors)
 - **Premise 1:** Documents in the same class form a contiguous region of space
@@ -8,8 +7,6 @@
 - Learning a classifier: build surfaces to delineate classes in the space
 
 # Centroids
-
-![[Pasted image 20231011105639.png | 500]]
 
 # Rocchio classification
 
@@ -25,10 +22,6 @@
 - **contiguity hypothesis**: it assumes that dataset fits well
 - Finds non linear decision boundaries
 - Scales well with bigger datasets
--
-- ![[Pasted image 20231011110023.png | 500]]
-- ![[Pasted image 20231011110343.png | 500]]
-
 # Approximate nearest neighbour
 
 ---
@@ -46,13 +39,10 @@
 - A lot of different factors to consider
   - Dataset noise, size, clusters etc.
 - Often a combination of multiple classifiers
-
-![[Pasted image 20231011113746.png | 700]]
-![[Pasted image 20231011113811.png | 700]]
-
+- 
 # Bias vs. capacity - notions/terms
 
-- Too much **capacity**, low **bias**: memorises, always says no to unseen data
+- Too much **capacity**, low **bias**: memorizes, always says no to unseen data
 - Not enough **capacity**, high **bias**: generalizes too much, classifies object as tree as long as it has something green in it
 - **Capacity** (Variance): Ability to adapt to noise
 - Important to have a good **Bias/Variance tradeoff**: usually almost the same of both
@@ -75,7 +65,8 @@
 - Do full scan and get exact results
 - Optimized implementations make heavy use of SIMD and GPUs
 - Can be feasible but expensive
-- ![[Pasted image 20231011112314.png | 800]]
+
+-[%%](<![[Pasted image 20231011112314.png | 800>)
 
 ## Tree-Based Algorithms
 
@@ -86,7 +77,8 @@
   - Start at query point
   - Select one or more trees, follow branches
   - Consider the points located in the regions you end up
-- ![[Pasted image 20231011112602.png | 700]]
+- 
+-[%%](<Pasted image 20231011112602.png | 700]]>)
 
 ## Locality-Sensitive Hashing
 
@@ -96,15 +88,12 @@
 - Querying:
   - Apply hashes to query point
   - Consider points in the buckets we hash to
-- ![[Pasted image 20231011113058.png | 500]]
 
 ## Quantization
 
 - Recode the vectors to reduce the size of the dataset
 - Replace each vector with a leaner, approximate and quantized representation
 - Can be combined with an inverted index
-- ![[Pasted image 20231011113344.png | 500]]
-
 ## Graph-Based Methods
 
 _Example: **Hierarchical Navigable Small World Graphs**_
@@ -112,4 +101,4 @@ _Example: **Hierarchical Navigable Small World Graphs**_
 - Similar concept to 6 handshake rule, there is usually very few steps from any node $a$ to any other node $b$
 - Construct graph hierarchically
 - Works pretty well for real-world data
-- ![[Pasted image 20231011113531.png | 500]]
+
