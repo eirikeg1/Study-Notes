@@ -25,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN5320 - Development in Platform Ecosystems/Intro.md",
+                "file": "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec70609651a4599c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN5550 - Neural Methods for Natural Language Processing/Goldberg Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd229cd6fe962a9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4060 - Semantic Technologies/Intro Lecture.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "open",
+                "query": "skip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN5320 - Development in Platform Ecosystems/Intro.md",
+                "file": "IN4060 - Semantic Technologies/Intro Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN5320 - Development in Platform Ecosystems/Intro.md",
+                "file": "IN4060 - Semantic Technologies/Intro Lecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN5320 - Development in Platform Ecosystems/Intro.md"
+                "file": "IN4060 - Semantic Technologies/Intro Lecture.md"
               }
             }
           }
@@ -180,12 +204,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0bc813da8b22872",
+  "active": "fd229cd6fe962a9d",
   "lastOpenFiles": [
+    "IN5550 - Neural Methods for Natural Language Processing/Goldberg Notes.md",
+    "IN4060 - Semantic Technologies/Intro Lecture.md",
+    "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
+    "Untitled",
+    "IN4080 - Natural Language Processing/Exam stuff to prep.md",
+    "IN5320 - Development in Platform Ecosystems/Course info.md",
     "IN4060 - Semantic Technologies",
     "IN4310 - Deep Learning for Image Analysis",
     "IN5320 - Development in Platform Ecosystems/Platforms Governance.md",
-    "IN5320 - Development in Platform Ecosystems/Intro.md",
     "IN5550 - Neural Methods for Natural Language Processing",
     "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
     "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 2 - Core Concepts and Principles.md",
@@ -206,7 +235,6 @@
     "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
     "IN4120 - Søketeknologi/Science fair notes.md",
     "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
-    "IN4080 - Natural Language Processing/Exam stuff to prep.md",
     "IN4080 - Natural Language Processing/Exam prep notes.md",
     "IN4080 - Natural Language Processing/Exam prep from group session.md",
     "IN4120 - Søketeknologi/Week 3 - Index construction.md",
@@ -221,8 +249,6 @@
     "IN4120 - Søketeknologi/external_files",
     "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
     "IN4080 - Natural Language Processing/Week 9 - Dialogue systems & basic chatbots.md",
-    "IN4120 - Søketeknologi/attachments/Pasted image 20231011115413.png.md",
-    "IN4120 - Søketeknologi/attachments/Pasted image 20231011112130.png.md",
     "IN5320 - Development in Platform Ecosystems/attachments",
     "IN4120 - Søketeknologi/attachments",
     "IN4080 - Natural Language Processing/attachments"
