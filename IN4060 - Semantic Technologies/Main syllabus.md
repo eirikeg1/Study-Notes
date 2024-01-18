@@ -1,14 +1,4 @@
 
-# Links
----
-* [Discourse](https://astro-discourse.uio.no/c/in3060-24v/297)
-* [Recorded Videos (2020)](https://www.uio.no/studier/emner/matnat/ifi/IN3060/v20/timeplan/index.html#FOR)
-* [Gitlab](https://github.uio.no/dusando/IN3060/)
-* [Mandatory exercises](https://www.uio.no/studier/emner/matnat/ifi/IN3060/v24/obliger/)
-* [Mr. Oblig](https://sws.ifi.uio.no/mroblig/)
-
-# Syllabus
----
 ## Models
 * understanding
 * structuring
@@ -24,6 +14,7 @@
 * Represent words with variables
 * Transitive properties
 * Can be looked at like an abstraction (The meaning of the words are not needed)
+* 
 
 
 # Knowledge bases
@@ -52,7 +43,6 @@
 # Ontologies
 ---
 * Agreeing on precise definitions for words and concepts in a certain context
-
 
 
 # Data Integration

@@ -7,5 +7,7 @@
   "text-extractor",
   "obsidian-git",
   "quick-latex",
-  "simple-embeds"
+  "simple-embeds",
+  "obsidian-image-toolkit",
+  "table-editor-obsidian"
 ]

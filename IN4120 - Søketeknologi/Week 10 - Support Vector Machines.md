@@ -81,7 +81,7 @@
 * Concept Drift
 	* Categories change over time
 	* "President of United States" -> changes over time
-	* Simple models like Naive Bayes is favored
+	* Simple models like [[Week 4 - Sequence Labeling#Naive Bayes for sequence labeling|Naive Bayes]] is favored
 	* Feature selection can be bad in protecting against concept drifts 
 
 

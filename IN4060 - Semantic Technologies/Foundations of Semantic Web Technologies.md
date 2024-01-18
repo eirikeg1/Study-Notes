@@ -1,4 +1,6 @@
+_Pascal Hitlzler, Markus Krotzch_
 
+* Main book in IN4060
 
 
 # Chapter Notes

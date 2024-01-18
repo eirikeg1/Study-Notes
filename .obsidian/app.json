@@ -3,5 +3,6 @@
   "autoPairMarkdown": false,
   "newFileLocation": "current",
   "newFileFolderPath": "/",
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "useMarkdownLinks": false
 }
