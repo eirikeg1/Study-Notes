@@ -1,4 +1,10 @@
 .obsidian
+.obsidian/*
 .obsidian/appearance.json
 .obsidian/workspace.json
 .obsidian/workspace.json
+.obsidian/app.json
+.obsidian/community-plugins.json
+.obsidian/graph.json
+.obsidian/app.json
+.obsidian/community-plugins.json
