@@ -51,7 +51,7 @@ _The meaning of a word can be captured by the contexts in which it occurs_
 _matrices based on co-occurrence counts, count weighting of tf-idf_
  
 * One row per term/word, values represents counts of terms in document
-* This table is similar to the bag of words approach, used in Naive Bayes
+* This table is similar to the bag of words approach, used in [[Exam prep notes#Naive Bayes|Naive Bayes]]
 	* ![[Pasted image 20231002172428.png | 500]]
 #### Uses:
 * Compute similarity between words:

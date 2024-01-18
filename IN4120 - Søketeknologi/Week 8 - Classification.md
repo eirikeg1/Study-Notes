@@ -25,6 +25,7 @@
 
 
 # Supervised learning
+---
 
 * Machine learning with target labels
 * We will look at a **Bag of Words** approach

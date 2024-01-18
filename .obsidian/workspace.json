@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "51d6b004e9d91d9e",
+            "id": "82f3af59c5a6b159",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN5320 - Development in Platform Ecosystems/Platforms Governance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c80bae7ec4f411a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
+                "file": "IN4060 - Semantic Technologies/Course Page.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,26 +25,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN5550 - Neural Methods for Natural Language Processing/Goldberg Notes.md",
+                "file": "IN4120 - Søketeknologi/Week 4 - Compression.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fd229cd6fe962a9d",
+            "id": "5527877b9c93401c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4060 - Semantic Technologies/Subject Page.md",
+                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b8e5bbaff69f78d1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "skip",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5110321044922,
-    "collapsed": true
+    "width": 387.5110321044922
   },
   "right": {
     "id": "6526dc832cea2955",
@@ -131,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4060 - Semantic Technologies/Subject Page.md",
+                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4060 - Semantic Technologies/Subject Page.md",
+                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4060 - Semantic Technologies/Subject Page.md"
+                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md"
               }
             }
           }
@@ -202,56 +197,59 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fd229cd6fe962a9d",
+  "active": "5527877b9c93401c",
   "lastOpenFiles": [
-    "IN4060 - Semantic Technologies/Pasted image 20240117132448.png",
+    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
+    "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
+    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
+    "IN4120 - Søketeknologi/Week 4 - Compression.md",
+    "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
+    "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
+    "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
+    "IN4120 - Søketeknologi/Week 1 - Inverted indices.md",
+    "IN5550 - Neural Methods for Natural Language Processing/Goldberg Notes.md",
+    "IN4060 - Semantic Technologies/Course Page.md",
+    "IN4080 - Natural Language Processing/Course Page.md",
+    "IN4120 - Søketeknologi/Course Page.md",
+    "IN5320 - Development in Platform Ecosystems/Course Page.md",
+    "IN5550 - Neural Methods for Natural Language Processing/Course Page.md",
+    "IN5320 - Development in Platform Ecosystems/Tiawana Book Notes.md",
+    "IN4060 - Semantic Technologies/Main syllabus.md",
+    "IN4060 - Semantic Technologies/Foundations of Semantic Web Technologies.md",
+    "IN4060 - Semantic Technologies/Book Notes/Hitzler (2009) - Chapter 1 - The Quest for Semantics.md",
+    "IN4120 - Søketeknologi/Exam preparations.md",
+    "IN4080 - Natural Language Processing/Exam prep/Exam prep from group session.md",
+    "Markdown cheat sheet.md",
+    "IN4080 - Natural Language Processing/Exam prep",
+    "Vim cheat sheet.md",
+    "IN4080 - Natural Language Processing/Math cheat sheet.md",
+    "Todo 1.md",
+    "IN4080 - Natural Language Processing/Todo.md",
+    "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
+    "IN4060 - Semantic Technologies/Untitled.canvas",
+    "IN4060 - Semantic Technologies/Book Notes/attachments/Pasted image 20240118124432.png",
+    "IN4060 - Semantic Technologies/Book Notes/attachments/Pasted image 20240118124447.png",
+    "IN4060 - Semantic Technologies/Book Notes/attachments/Pasted image 20240117172208.png",
+    "IN4060 - Semantic Technologies/Book Notes/attachments",
+    "IN4060 - Semantic Technologies/Book Notes",
+    "IN4060 - Semantic Technologies/attachments/Pasted image 20240117132448.png",
     "IN4060 - Semantic Technologies/attachments/Pasted image 20240117124810.png",
     "IN4060 - Semantic Technologies/attachments/Pasted image 20240117124746.png",
-    "IN4060 - Semantic Technologies/Subject Page.md",
     "IN4060 - Semantic Technologies/attachments",
-    "IN5550 - Neural Methods for Natural Language Processing/Goldberg Notes.md",
-    "IN4080 - Natural Language Processing/Week 6 - word2vec embeddings.md",
-    "IN4080 - Natural Language Processing/Exam stuff to prep.md",
-    "IN5320 - Development in Platform Ecosystems/Course info.md",
     "IN4060 - Semantic Technologies",
     "IN4310 - Deep Learning for Image Analysis",
-    "IN5320 - Development in Platform Ecosystems/Platforms Governance.md",
     "IN5550 - Neural Methods for Natural Language Processing",
-    "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 5 - Platform architecture.md",
-    "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 2 - Core Concepts and Principles.md",
-    "IN5320 - Development in Platform Ecosystems/Tiawana book notes/Chapter 1 - The Rise of Platform Ecosystems.md",
-    "IN5320 - Development in Platform Ecosystems/Intro and perspectives.md",
-    "IN5320 - Development in Platform Ecosystems/Platforms.md",
-    "IN5320 - Development in Platform Ecosystems/Gnist notater.md",
     "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212185344.png",
     "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212163507.png",
     "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212175527.png",
     "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212173228.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212171420.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212165706.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212164419.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212124530.png",
-    "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
-    "IN4120 - Søketeknologi/Science fair notes.md",
-    "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
-    "IN4080 - Natural Language Processing/Exam prep notes.md",
-    "IN4080 - Natural Language Processing/Exam prep from group session.md",
-    "IN4120 - Søketeknologi/Week 3 - Index construction.md",
-    "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
-    "IN4120 - Søketeknologi/Exam preparations.md",
     "IN4120 - Søketeknologi/external_files/Untitled.canvas",
-    "IN4120 - Søketeknologi/Week 1 - Inverted indices.md",
-    "IN4120 - Søketeknologi/Week 12 - Bloom filters.md",
-    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
-    "IN4120 - Søketeknologi/Week 10 - Link analysis.md",
     "IN4120 - Søketeknologi/external_files/exam_previous_topics.xlsx",
     "IN4120 - Søketeknologi/external_files",
-    "IN4120 - Søketeknologi/Week 9 - Vector Spaces.md",
-    "IN5320 - Development in Platform Ecosystems/attachments",
-    "IN4120 - Søketeknologi/attachments",
-    "IN4080 - Natural Language Processing/attachments"
+    "IN5320 - Development in Platform Ecosystems/attachments"
   ]
 }
