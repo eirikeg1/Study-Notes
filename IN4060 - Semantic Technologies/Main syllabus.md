@@ -55,3 +55,5 @@
 * Use ontology to define common vocabulary
 * Access data using queries expressed by ontologies #Maybe
 * ![[Pasted image 20240117132448.png|500]]
+
+

@@ -61,9 +61,13 @@ _Trend of adding more structure to web resources_
 * **The Semantic Web** is an extension of the **World Wide Web**, but not a concrete extension but an ideal to strive towards
 * **TSW** allows computers to intelligently search, combine and process web content based on the meaning that this content has to humans
 * In order to allow this, with the absence of human-level intelligence, resources has to be explicitly specified in a format that is processable in a machine-processable syntax
+* Progress in this field can also be useful for applications which are not closely related to this field
 
+## Standards and formats
 
-## Semantic Modeling
+* **Web Ontology Language (OWL 2)** and **Resource Description Framework (RDF)** are modern **SWL** languages
+* **SPARQL** and **RDF Query Language** are used for queries
+* There is a general, simplistic, format for all of the web. However to directly address small specific application domains you can use **microformats**
+	* **Microformats** use attribute values in HTML documents for embedding small chunks of semantic data into Web pages
+* **lowercase semantic web** is a term often used to contrast the simple approaches with the full Semantic Web
 
-* **OWL 2** is a modern **SWL** language
-* 

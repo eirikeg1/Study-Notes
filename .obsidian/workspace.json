@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4060 - Semantic Technologies/Course Page.md",
+                "file": "Markdown cheat sheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc17471d2f97790d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4310 - Deep Learning for Image Analysis/Course Page - IN4310.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90fef42d2a2cd334",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IN4310 - Deep Learning for Image Analysis/Week 1 - Linear Algebra, Probability and Random Variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,19 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 4 - Compression.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5527877b9c93401c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
+                "file": "Latex cheat sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,8 +59,12 @@
             "id": "b8e5bbaff69f78d1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "IN5550 - Neural Methods for Natural Language Processing/Course Page - IN5550.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -81,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "markov assumption",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5110321044922
+    "width": 361.5110321044922
   },
   "right": {
     "id": "6526dc832cea2955",
@@ -126,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
+                "file": "IN4310 - Deep Learning for Image Analysis/Week 1 - Linear Algebra, Probability and Random Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md",
+                "file": "IN4310 - Deep Learning for Image Analysis/Week 1 - Linear Algebra, Probability and Random Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IN4120 - Søketeknologi/Week 8 - Classification.md"
+                "file": "IN4310 - Deep Learning for Image Analysis/Week 1 - Linear Algebra, Probability and Random Variables.md"
               }
             }
           }
@@ -186,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -201,55 +217,55 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5527877b9c93401c",
+  "active": "90fef42d2a2cd334",
   "lastOpenFiles": [
-    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
-    "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
-    "IN4120 - Søketeknologi/Week 10 - Support Vector Machines.md",
-    "IN4120 - Søketeknologi/Week 4 - Compression.md",
-    "IN4080 - Natural Language Processing/Week 1 (Introduction and data preparation).md",
-    "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
-    "IN4120 - Søketeknologi/Week 2 - String datastructures and algorithms.md",
-    "IN4120 - Søketeknologi/Week 1 - Inverted indices.md",
-    "IN5550 - Neural Methods for Natural Language Processing/Goldberg Notes.md",
-    "IN4060 - Semantic Technologies/Course Page.md",
-    "IN4080 - Natural Language Processing/Course Page.md",
-    "IN4120 - Søketeknologi/Course Page.md",
-    "IN5320 - Development in Platform Ecosystems/Course Page.md",
-    "IN5550 - Neural Methods for Natural Language Processing/Course Page.md",
-    "IN5320 - Development in Platform Ecosystems/Tiawana Book Notes.md",
+    "Markdown cheat sheet.md",
+    "IN4060 - Semantic Technologies/Course Page - IN4060.md",
+    "IN4080 - Natural Language Processing/Exam prep/Exam prep notes.md",
     "IN4060 - Semantic Technologies/Main syllabus.md",
     "IN4060 - Semantic Technologies/Foundations of Semantic Web Technologies.md",
-    "IN4060 - Semantic Technologies/Book Notes/Hitzler (2009) - Chapter 1 - The Quest for Semantics.md",
-    "IN4120 - Søketeknologi/Exam preparations.md",
-    "IN4080 - Natural Language Processing/Exam prep/Exam prep from group session.md",
-    "Markdown cheat sheet.md",
-    "IN4080 - Natural Language Processing/Exam prep",
-    "Vim cheat sheet.md",
-    "IN4080 - Natural Language Processing/Math cheat sheet.md",
-    "Todo 1.md",
-    "IN4080 - Natural Language Processing/Todo.md",
+    "IN4080 - Natural Language Processing/Course Page - IN4080.md",
+    "IN4310 - Deep Learning for Image Analysis/Course Page - IN4310.md",
+    "IN4310 - Deep Learning for Image Analysis/Week 1 - Linear Algebra, Probability and Random Variables.md",
+    "IN5550 - Neural Methods for Natural Language Processing/Book Notes/Chapter 1 - Introduction.md",
+    "Images/Pasted image 20230829145243.png",
+    "Images/Pasted image 20230829152726.png",
+    "Images/Pasted image 20230829154512.png",
+    "Images/Pasted image 20230830115716.png",
+    "IN4080 - Natural Language Processing/Week 5 - Sequence labeling 2.md",
     "IN4080 - Natural Language Processing/Week 4 - Sequence Labeling.md",
+    "Latex cheat sheet.md",
+    "IN4060 - Semantic Technologies/Book Notes/Hitzler (2009) - Chapter 1 - The Quest for Semantics.md",
+    "IN5550 - Neural Methods for Natural Language Processing/Course Page - IN5550.md",
+    "IN4080 - Natural Language Processing/Week 7 - Neural networks.md",
+    "IN5550 - Neural Methods for Natural Language Processing/Goldberg Notes.md",
+    "IN5550 - Neural Methods for Natural Language Processing/Book Notes",
+    "www.web.p.ebscohost.com/ehost/ebookviewer/ebook/bmxlYmtfXzE1MDY1MTJfX0FO0.md",
+    "www.web.p.ebscohost.com/ehost/ebookviewer/ebook",
+    "www.web.p.ebscohost.com/ehost/ebookviewer",
+    "www.web.p.ebscohost.com/ehost",
+    "www.web.p.ebscohost.com",
+    "web.p.ebscohost.com/ehost/ebookviewer/ebook/bmxlYmtfXzE1MDY1MTJfX0FO0.md",
+    "web.p.ebscohost.com/ehost/ebookviewer/ebook",
+    "web.p.ebscohost.com/ehost/ebookviewer",
+    "web.p.ebscohost.com/ehost",
+    "web.p.ebscohost.com",
+    "IN4120 - Søketeknologi/Week 4 - Compression.md",
+    "IN5320 - Development in Platform Ecosystems/Course Page - IN5320.md",
+    "IN5020 - Distributed systems/System Models.md",
+    "IN4120 - Søketeknologi/Course Page - IN4120.md",
+    "IN4120 - Søketeknologi/Week 2 - Data preprocessing.md",
+    "IN4120 - Søketeknologi/Week 8 - Classification.md",
+    "IN4120 - Søketeknologi/Week 7 - Evaluation.md",
+    "IN4080 - Natural Language Processing/Week 6 - Word vectors and embeddings.md",
+    "IN4080 - Natural Language Processing/Exam prep",
     "IN4060 - Semantic Technologies/Untitled.canvas",
     "IN4060 - Semantic Technologies/Book Notes/attachments/Pasted image 20240118124432.png",
     "IN4060 - Semantic Technologies/Book Notes/attachments/Pasted image 20240118124447.png",
     "IN4060 - Semantic Technologies/Book Notes/attachments/Pasted image 20240117172208.png",
-    "IN4060 - Semantic Technologies/Book Notes/attachments",
-    "IN4060 - Semantic Technologies/Book Notes",
     "IN4060 - Semantic Technologies/attachments/Pasted image 20240117132448.png",
     "IN4060 - Semantic Technologies/attachments/Pasted image 20240117124810.png",
     "IN4060 - Semantic Technologies/attachments/Pasted image 20240117124746.png",
-    "IN4060 - Semantic Technologies/attachments",
-    "IN4060 - Semantic Technologies",
-    "IN4310 - Deep Learning for Image Analysis",
-    "IN5550 - Neural Methods for Natural Language Processing",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212185344.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212163507.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212175527.png",
-    "IN5320 - Development in Platform Ecosystems/attachments/Pasted image 20231212173228.png",
-    "IN4120 - Søketeknologi/external_files/Untitled.canvas",
-    "IN4120 - Søketeknologi/external_files/exam_previous_topics.xlsx",
-    "IN4120 - Søketeknologi/external_files",
-    "IN5320 - Development in Platform Ecosystems/attachments"
+    "IN4120 - Søketeknologi/external_files/Untitled.canvas"
   ]
 }
