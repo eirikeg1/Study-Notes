@@ -15,7 +15,7 @@
 * **Events** are subsets of the sample space, $A^c$ complement of an event. $A$ is the set of points in $\Omega$ but not $A$
 ## Axioms for events
 * $\Omega$ is an event
-* For every sequence of events $A_{1}A_{2},...,A_n$ is an event
+* For every sequence of events $A_{1}A_{2},\dots ,A_n$ is an event
 * 
 
 ## The 2 axioms of probability
