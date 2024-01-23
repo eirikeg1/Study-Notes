@@ -71,7 +71,7 @@
 * For binary logistic regression, we typically use the cross-entropy loss:
 * ![[Pasted image 20231003145916.png | 500]]
 
-# Feed forward neural networds
+# Feed forward neural networks
 ---
 ![[Pasted image 20231003145343.png | 350]]
 ![[Pasted image 20231003145402.png | 350]]
