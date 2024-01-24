@@ -15,4 +15,8 @@
 # Slide Notes
 ---
 
-* 
+## Week 1
+_RDF standard_
+* [[RDF Overview]]
+* [[RDF Serializations]]
+* [[RDF Vocabularies]]
