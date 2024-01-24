@@ -1,0 +1,119 @@
+
+* **The Resource Description Framework (RDF)** is a standard model for data  interchange
+* Initially intended for annotation of web-accessible resources (1999)
+* Later developed into a general purpose language for describing structured information, on the web or elsewhere
+* Point of tis is to have self-descrining and self-documenting data
+	* Decouples data from applications
+	* Lightens the programming burden
+	* Semantic Web applications should be/are generic and general purpose, exploiting rich and knwoledge intesive data s
+* ![[Pasted image 20240124122206.png|500]]
+
+# Technicalities
+---
+
+## Triples
+
+* All information is expressed using a **triple** pattern
+* Triples can also be called a **statement**, or **fact**
+* Triples consists of **subject**, **predicate** and an **object**
+* The elements of and RDF triple are either URI references, literals, or blank nodes
+![[Pasted image 20240124122447.png|500]]
+* Literals and blank nodes may not appear everywhere in triples
+* Because literals are just values, no relationships from literals allowed
+* Blank nodes in predicate position deemed meaningless
+![[Pasted image 20240124125209.png|500]]
+* Triples are nice because they are flexible #toExpand
+### URIs
+_Similar to URL, but more general_
+
+* **Uniform Resource Identifiers**, are used to identify resources
+* Usually strings in a special format, not necessarily referenceable (not a webpage or something, just a string)
+* **IRI**s (Internationalized Resource Identifier) are just URIs but encoded in Unicode.
+* Naturally have a _global_ scope, unique throughout the web
+	* 
+* Examples of URIs:![[Pasted image 20240124122901.png|500]]
+* Examples which are not URLs: ![[Pasted image 20240124123246.png|500]]
+* 
+
+### QNames
+
+* URIs are often long and hard to read and write.
+* Are strings, but should be unique (but is not checked across systems)
+* Most serializations use an abbreviation mechanism. like **prefixes**, **namespaces**
+![[Pasted image 20240124123513.png|500]]
+* This: 
+	![[Pasted image 20240124123544.png|750]]
+	turns to this:
+	![[Pasted image 20240124123639.png|750]]
+### Literals
+_Used to represent data values_
+
+* Have a datatype
+* Datatypes are also resources, referenced via URIs, and written as:
+	![[Pasted image 20240124123812.png|750]]
+* Default value is string
+* Can specify the language of string with a language tag
+	![[Pasted image 20240124124037.png|500]]
+## RDF Graphs
+
+* RDF graphs is a set of tripes
+![[Pasted image 20240124124218.png|500]]
+![[Pasted image 20240124124258.png|500]]
+	
+* Not all knowledge can be nicley represented with only triples with URIs and literals
+* Fex if we don't know the capital name, but the capital population:
+![[Pasted image 20240124124706.png|500]]
+* Some values are not good to structue in one string
+![[Pasted image 20240124124808.png|500]]
+* Can split up into multiple literals, but removes the convenience of an addresses
+
+### Combining graphs
+
+* Can be combined with union, but be beware of collisions
+![[Pasted image 20240124140101.png|700]]
+![[Pasted image 20240124140114.png|700]]
+* You should usually rename locally named blank nodes
+![[Pasted image 20240124140303.png|700]]
+### Blank nodes
+* Resources without an URI
+* Can still map to other literals
+* Blank nodes can not be references:
+	  ![[Pasted image 20240124125344.png|500]]
+* ![[Pasted image 20240124124931.png|500]]
+
+# Storage
+---
+
+* Can be stored in files
+	* Small RDF graphs
+* From **SPARQL** endpoints
+	* Data kept in a triple store (database)
+	* served from endpoint as results of **SPARQL** queries
+* **RDFizers** convert data to **RDF**
+	* Tabular files (CSV, Excel): XLWrap
+	* Relations DB: D2RQ or R2RML
+	* W3C keeps a list
+
+
+# Creating RDF data and vocabularies
+---
+
+* Designing an easy to use and robust namespace is non-triial
+	* Naming is difficult
+* Reuse existing vocabularies if possible, don't reinvent
+* URIs are also addresses, consider publishing issues when naming
+* Adhere to the policies described in best practice documents:
+	* [Best Practice Recipes for Publishing RDF Vocabularies](http://www.w3.org/TR/2008/NOTE-swbp-vocab-pub-20080828/) 
+	* [Cool URIs for the Semantic Web](http://www.w3.org/TR/cooluris)
+* Use http://www.example.[com|net|org] for prototyping and documentation.
+
+# Linked Open Data
+---
+
+## Tim berner-Lees recipe for 5 star web data
+
+* Make data available on the Web (any format) under an open license. 
+* Make it available as structured data (e.g., Excel, not image scans). 
+* Use non-proprietary formats (e.g., CSV instead of Excel). 
+* Use URIs to identify data items; make them referable on the Web. 
+* Link your data to other’s data to provide context.
