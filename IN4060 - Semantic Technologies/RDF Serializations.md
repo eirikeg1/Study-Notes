@@ -1,5 +1,5 @@
 
-# Different types of serialisations
+# Different types of serializations
 ---
 
 * **DRF/XML** is the original W3C standard, complicated:
@@ -30,7 +30,7 @@
 
 ## Statements sharing elements
 
-* Use semicolons instead of period to use same [[Week 1 - RDF#Triples|subject]]
+* Use semicolons instead of period to use same [[RDF Overview#Triples|subject]]
 ![[Pasted image 20240124132742.png|750]]
 ![[Pasted image 20240124132759.png|700]]
 ![[Pasted image 20240124132949.png|700]]

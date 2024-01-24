@@ -7,7 +7,6 @@
 *  Usually, a description is published at the namespace base URI
 
 
-
 # Example vocabularies
 
 ## RDF
