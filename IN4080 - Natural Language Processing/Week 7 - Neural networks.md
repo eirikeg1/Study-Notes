@@ -31,8 +31,12 @@
 ## Activation functions
 
 ### Softmax
-* Gives probaility distribution
+* Gives probability distribution
 * Costly
+*  Often it is more convenient to transform scores into a probability distribution, when dealing with multi-class classification
+* $\hat{y}=softmax(xW+b)$
+	* $\hat{y}_{[i]} = \frac{e^{z_{[i]}}}{\sum_{j=1}^{K} e^{z_{[j]}}}$
+
 
 ### Sigmoid
 * Binary

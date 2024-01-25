@@ -10,11 +10,16 @@
 
 ## Week 1
 * [[Week 1 - Linear Classifiers NLP]]
-* [[Week 1 - Neural Networks]]
+* [[Week 1 - Neural Models]]
 
 # Book Notes
 ---
 
 * [[Chapter 1 - Introduction]]
-* 
+
+
+# Tags
+---
+* #CoursePage
+
 
