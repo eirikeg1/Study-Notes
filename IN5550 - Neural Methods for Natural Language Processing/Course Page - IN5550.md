@@ -9,8 +9,8 @@
 ---
 
 ## Week 1
-* [[Week 1 - Linear Classifiers]]
-* 
+* [[Week 1 - Linear Classifiers NLP]]
+* [[Week 1 - Neural Networks]]
 
 # Book Notes
 ---
