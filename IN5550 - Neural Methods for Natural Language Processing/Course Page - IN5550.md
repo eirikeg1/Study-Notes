@@ -1,8 +1,16 @@
 
-# Links
+# Overview
 ---
-* [[Fox data cluster cheat sheet]]
+* This is a course where we use the PyTorch library, an [[PyTorch basics|overview]] of PyTorch
+* We use the Fox data cluster, here is the [[Fox data cluster cheat sheet]]
 
+
+# Lecture Notes
+---
+
+## Week 1
+* [[Week 1 - Linear Classifiers]]
+* 
 
 # Book Notes
 ---
