@@ -1,4 +1,4 @@
-* More data preprocessing at [[Week 1 (Introduction and data preparation)]]
+* More data preprocessing at [[Week 1 - Introduction and data preparation]]
 # Parsing
 ---
 * What format/language?

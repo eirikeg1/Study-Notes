@@ -30,7 +30,7 @@ _The product of the frequency of a word f and its position in the frequency list
 * Words tend to clump together in a text
 * cfi ∝ 1/i = K/i where K is a normalizing constant 
 * cfi is **collection frequency**: the number of occurrences of the term ti in the collection
-* More details in [[Week 1 (Introduction and data preparation)#Zipf's law |IN4080 Notes]]
+* More details in [[Week 1 - Introduction and data preparation#Zipf's law|IN4080 Notes]]
 
 **The law only holds approximately**:
 * Unstable behavior for most frequent words
