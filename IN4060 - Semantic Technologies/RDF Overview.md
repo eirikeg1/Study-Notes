@@ -32,7 +32,7 @@ _Similar to URL, but more general_
 * Should be unique, but is not strictly enforced
 * **IRI**s (Internationalized Resource Identifier) are just URIs but encoded in Unicode.
 * Naturally have a _global_ scope, unique throughout the web
-	* 
+	* Not checked for, but should be unique
 * Examples of URIs:![[Pasted image 20240124122901.png|500]]
 * Examples which are not URLs: ![[Pasted image 20240124123246.png|500]]
 

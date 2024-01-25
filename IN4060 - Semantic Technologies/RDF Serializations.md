@@ -16,12 +16,14 @@
 
 * Allows any non-zero amount of space in between elements in triples
 ## URI references and triples
+
 ![[Pasted image 20240124132243.png| 750]]
 
 
 ## Namespaces
 
-* QNames (namespaces) are written without special characters ![[Pasted image 20240124132442.png|750]]
+* QNames (namespaces) are written without special characters 
+![[Pasted image 20240124132442.png|750]]
 
 ## Literals
 
@@ -31,6 +33,7 @@
 ## Statements sharing elements
 
 * Use semicolons instead of period to use same [[RDF Overview#Triples|subject]]
+
 ![[Pasted image 20240124132742.png|750]]
 ![[Pasted image 20240124132759.png|700]]
 ![[Pasted image 20240124132949.png|700]]
@@ -49,4 +52,5 @@
 ## Other things
 
 * [Turtle specifications](http://www.w3.org/TR/turtle/)
+
 ![[Pasted image 20240124133832.png|700]]
