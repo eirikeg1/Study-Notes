@@ -11,3 +11,8 @@
 ---
 
 * [[Week 1 - Linear Algebra, Probability and Random Variables]]
+
+
+# Tags
+---
+* #CoursePage
