@@ -54,18 +54,19 @@
 # Training
 ---
 
-### Loss function
+## Loss function
 _Function which takes in predicted $\hat{y}$ and gold label $y$, which returns a scalar based on how close $\hat{y}$ is to $y$_
 
 * It can be useful to pose restrictions on the possible $\theta$, in order to not overfit
 * As $\theta$ should not be to complex, it should be lean and avoid large weights
 * We use learning rate $\lambda$ and regularization term $R(\theta)$ in order to regularize (make a more generalized prediction)
+* [[Week 7 - Neural networks#Loss|Loss from 4080]]
 
-#### Regression
+### Regression
 * Mean Absolute Error
 * Mean Squared Error
 
-#### Classification
+### Classification
 * **Hinge-loss** (max-margin)
 	* Binary: $L(\hat{y}, y) = max(0,1-y\cdot \hat{y})$
 	* Multi-class $L(\hat{y},y)=max(0,1-(\hat{y}_{[t]}-\hat{y}_{[k]}))$
@@ -77,7 +78,7 @@ _Function which takes in predicted $\hat{y}$ and gold label $y$, which returns a
 	* Categorical (negative log-likelihood): $-\Sigma y_{[i]} log(\hat{y}_[i])$
 	* [[Week 3 - Classification 2#Cross entrophy loss|Notes from IN4080]]
 
-#### Ranking
+### Ranking
 * Ranking loss
 * Triplet loss
 

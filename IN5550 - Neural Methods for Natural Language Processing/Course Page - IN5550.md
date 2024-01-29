@@ -3,6 +3,9 @@
 ---
 * This is a course where we use the PyTorch library, an [[PyTorch basics|overview]] of PyTorch
 * We use the Fox data cluster, here is the [[Fox data cluster cheat sheet]]
+* [Zoom link](https://uio.zoom.us/j/62776647554?pwd=dnZ4WUMwMnExZVh2bFNIdkN3N2ZNdz09)
+* [TensorFlow playground](playground.tensorflow.org)
+
 
 
 # Lecture Notes

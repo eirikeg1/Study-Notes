@@ -37,3 +37,15 @@
 * Activation function on each node
 * Each connection has a weight
 ![[Pasted image 20240125155108.png|400]]
+
+
+# Training as optimization
+---
+
+* [[Week 3 - Classification 2#Different learning strategies|Different training strategies from IN4080]]
+* 
+
+## Stochastic gradient descent
+
+* Update after every training sample
+* 
