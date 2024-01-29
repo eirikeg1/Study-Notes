@@ -29,6 +29,7 @@
 * ![[Pasted image 20231003143012.png | 300]]
 
 ## Activation functions
+_Used to introduce non-linearity in prediction_
 
 ### Softmax
 * Gives probability distribution
@@ -41,11 +42,12 @@
 ### Sigmoid
 * Binary
 * ![[Pasted image 20231003143320.png | 400]]
-### Tanh
+* ![[Pasted image 20240129153054.png|400]]
+### Tanh (Hyperbolic tangent)
 * Similar to sigmoid but often better
 * ![[Pasted image 20231003143411.png | 300]]
 
-### Relu
+### ReLU (Rectified Linear Unit)
 * Very simple and often used
 * ![[Pasted image 20231003143450.png | 300]]
 
