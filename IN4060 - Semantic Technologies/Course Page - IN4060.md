@@ -20,3 +20,4 @@ _RDF standard_
 * [[RDF Overview]]
 * [[RDF Serializations]]
 * [[RDF Vocabularies]]
+* [[Jena - Java library for RDF]]

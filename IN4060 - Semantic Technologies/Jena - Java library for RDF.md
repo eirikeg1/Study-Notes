@@ -1,0 +1,108 @@
+
+* [Youtube tutorial](https://www.youtube.com/watch?v=nUdHneViLp4)
+
+# Representations
+---
+
+*  Most basic [[RDF Overview|RDF]] representations covered by classes in `org.apache.jena.rdf.model`
+* **IRI**s: Are represented with the standard `String` class in java
+	* Some methods interpret `QNames` (geo:germany) but most don't
+	* Can be useful to out namespaces in separate strings
+
+
+## Models
+_Represents a set of triples_
+
+* Is an interface as well
+* [[RDF Overview#Triples|Triples]] are stored in memory, for larger sets use some kind of _model database_ #toLink
+* Object can be created by using `org.apache.jena.rdf.model.ModelFactory`
+	```Java
+	Model model = ModelFactory.createDefaultModel();
+	```
+
+* Models has the functions `createResource(uri)`, `createLiteral(uri)`, `createStatement(subject, predicate, object)` and the method `add(statement)`
+
+## Resources 
+
+* Resources are represented by the `Resource` interface
+	* Has method `String getURI()`
+* `org.apache.jena.rdf.model.Model` represents a set of RDF triples
+* In Jena, Resources and Statements are linked to the Models they are part of
+* `Model` objects also have the responsibility for creating `Resource`
+* A resource can return its model with the method `getModel()` with `createResource(uri)`
+* We can use the `.addProperty(property, object)` to add statements directly to the model
+
+## Properties
+_Subclass of Resource_
+
+* Does not add anything to `Resource`, but can not be a blank node or a literal
+* Can be created with the `Model` classes `createProperty(uri)` method
+
+## Literals
+
+* To create a literal with default type:
+  ```Java
+  Literal b = model.createLiteral("Berlin");
+  ```
+
+ * To create a literal with language tag:
+   ```Java
+   Literal d = model.createLiteral("Germany", "en")
+   ```
+
+* Alternative for Literals is from `org.apache.jena.datatypes.xsd.XSSDDatatype`
+	```Java
+	RDFDatatype type = XSDDatatype.XSDbyte;
+	Literal n = model.createTypedLiteral("42", type);
+	```
+
+
+## Statements
+_Also known as triples_
+
+* To create a `Statement` you need:
+	* A subject, which is a `Resource`
+	* A predicate, which is a `Property`
+	* An object, which is a `Resource` or `Literal`
+* To create a statement use:
+```Java
+Resource berlin = model.createResource(geoNS + "berlin");
+Property name = model.createProperty(geoNS + "name");
+Literal b = createLiteral("Berlin");
+
+Statement statement = model.createStatement(berlin, name, b);
+```
+* To add statement to model use the `add(statement)` method in `Statement`
+
+
+## Other classes
+_As Jena is a framework, there are differing implementations of data storage and processing_
+
+* There are the classes `Triple` and `Graph`, which should not be mixed with `Statement` and `Model`
+	* They are used for the Low level interface (for the Service Provider interface)
+	* They are more simple and meant to be used for tasks such as creating your own database
+
+
+# Using models
+---
+
+## Retrieving information
+
+* Can either be done via:
+	* The Resources:
+	```Java
+	// Printing all with iterator
+	Iterator<Statement> it = berlin.listProperties();
+	
+	while (it.hasNext()) {
+		System.out.println(it.next()),
+	}
+
+	// Retrieve all with specific predicate with a `Property` object
+	Iterator<Statement> it = berlin.listProperties(property);
+
+	// can also be done through a object, without iteration
+	berlin.getProperty(property);
+	```
+	* The Model:
+* 

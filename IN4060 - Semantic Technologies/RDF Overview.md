@@ -22,7 +22,7 @@
 * Because literals are just values, no relationships from literals allowed
 * Blank nodes in predicate position deemed meaningless
 ![[Pasted image 20240124125209.png|500]]
-* Triples are nice because they are flexible #toExpand
+* Triples are nice because they are flexible
 
 ## URIs
 _Similar to URL, but more general_
@@ -30,6 +30,7 @@ _Similar to URL, but more general_
 * **Uniform Resource Identifiers**, are used to identify resources
 * Usually strings in a special format, not necessarily referenceable (not a webpage or something, just a string)
 * Should be unique, but is not strictly enforced
+	* Two **URI**s are equal if and only if they are equivalent under Simple String Comparison, this includes ports
 * **IRI**s (Internationalized Resource Identifier) are just URIs but encoded in Unicode.
 * Naturally have a _global_ scope, unique throughout the web
 	* Not checked for, but should be unique

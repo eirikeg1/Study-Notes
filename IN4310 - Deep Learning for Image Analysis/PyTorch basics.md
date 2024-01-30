@@ -74,6 +74,7 @@ torch.randn(3, 5, 6)
 ```Python
 t.reshape(3, 4)
 t.reshape(3, -1)   # -1 is a wildcard, automatically fitted to data
+t.view(3, 4)       # Create copy of tensor to (3, 4)
 t.T                # Transpose tensor
 
 torch.transpose(t) # Transpose tensor
