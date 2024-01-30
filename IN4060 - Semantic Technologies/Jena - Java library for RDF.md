@@ -20,7 +20,12 @@ _Represents a set of triples_
 	Model model = ModelFactory.createDefaultModel();
 	```
 
-* Models has the functions `createResource(uri)`, `createLiteral(uri)`, `createStatement(subject, predicate, object)` and the method `add(statement)`
+* Models has the functions: 
+	* `createResource(uri)` 
+	* `createLiteral(uri)`
+	* `createStatement(subject, predicate, object)` 
+* Has the methods: 
+	* `add(statement)`
 
 ## Resources 
 
@@ -88,21 +93,42 @@ _As Jena is a framework, there are differing implementations of data storage and
 
 ## Retrieving information
 
-* Can either be done via:
-	* The Resources:
-	```Java
-	// Printing all with iterator
-	Iterator<Statement> it = berlin.listProperties();
-	
-	while (it.hasNext()) {
-		System.out.println(it.next()),
-	}
+```Java
+// Printing all with iterator
+Iterator<Statement> it = berlin.listProperties();
 
-	// Retrieve all with specific predicate with a `Property` object
-	Iterator<Statement> it = berlin.listProperties(property);
+while (it.hasNext()) {
+	System.out.println(it.next()),
+}
 
-	// can also be done through a object, without iteration
-	berlin.getProperty(property);
-	```
-	* The Model:
-* 
+// Retrieve all with specific predicate with a `Property` object
+Iterator<Statement> it = berlin.listProperties(property);
+
+// can also be done through a object, without iteration
+berlin.getProperty(property);
+
+
+// Statements can be retrieved with
+Iterator<Statement> sit = model.listStatements();
+
+
+// To get all resources with a statement for a given predicate
+Iterator<Statement> rit = model.listResourcesWithProperty(name);
+```
+
+
+## Pattern Matching
+
+* To get all statements that have:
+	* A given subject and object,
+	* A given object,
+	* A given predicate and subject,
+	* Or any other combination
+```Java
+Iterator<Statement> sit = model.listStatements(subj, pred, obj);
+```
+* Where `subj`, `pred`, `obj` can be `null`to match any value ("wildcard")
+
+## SPARQL
+
+* The most powerful way of retrieving data from a Model is through [[SPARQL Protocol And RDF Query Language|SPARQL]]

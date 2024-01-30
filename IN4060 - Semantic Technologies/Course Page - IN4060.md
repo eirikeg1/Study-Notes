@@ -20,4 +20,9 @@ _RDF standard_
 * [[RDF Overview]]
 * [[RDF Serializations]]
 * [[RDF Vocabularies]]
+
+
+## Week 2
+
 * [[Jena - Java library for RDF]]
+* [[SPARQL Protocol And RDF Query Language]]
