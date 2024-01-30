@@ -1,4 +1,4 @@
-nai
+
 # Ranked Retrieval
 ---
 _In contrast to Boolean Retrieval, Ranked Retrieval gives a score instead of either matching or not_

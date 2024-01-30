@@ -15,6 +15,10 @@
 * [[Week 1 - Linear Classifiers NLP]]
 * [[Week 1 - Neural Models]]
 
+## Week 2
+* [[Week 2 - Multi-layered Networks and Deep Learning]]
+* [[Week 2 - Practicalities and hyper-parameters]]
+
 # Book Notes
 ---
 
