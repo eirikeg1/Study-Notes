@@ -132,4 +132,4 @@ Iterator<Statement> sit = model.listStatements(subj, pred, obj);
 ## SPARQL
 
 * The most powerful way of retrieving data from a Model is through [[SPARQL Protocol And RDF Query Language|SPARQL]]
-* 
+*        
