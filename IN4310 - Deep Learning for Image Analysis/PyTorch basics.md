@@ -92,3 +92,5 @@ torch.bmm(a,b) # Batch matrix multiply
 torch.einsum('bij,bjk->bik', A, B)
 ```
 
+
+$\phi(x_i,t_j)=e^{-\dfrac{||X[i,:]-T[j,:]||^2}{\sigma}}$
