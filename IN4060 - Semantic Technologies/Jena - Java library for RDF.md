@@ -138,6 +138,19 @@ m.read(new FileInputStream("Filename.ttl"), "", TTL);
 m.write(new FileWriter("output.ttl"), "TTL);
 ```
 
+
+### Writing to different formats
+
+* The `FileManager`class allows you to write out the file in different formats
+
+```Java
+import org.apache.jena.util.FileManager
+
+Model m = FileManager.get().loadModel(inputFile);
+m.write(new FileWriter(("inputFile.ttl"), "", "TTL")) // Write to .ttl
+m.write(new FileWriter(("inputFile.xml"), "", "RDF/XML")) // Write to XML
+```
+
 ## SPARQL
 
 * The most powerful way of retrieving data from a Model is through [[SPARQL Protocol And RDF Query Language|SPARQL]]
