@@ -61,7 +61,6 @@ _Subclass of Resource_
 	Literal n = model.createTypedLiteral("42", type);
 	```
 
-
 ## Statements
 _Also known as triples_
 
@@ -124,10 +123,20 @@ Iterator<Statement> rit = model.listResourcesWithProperty(name);
 	* A given object,
 	* A given predicate and subject,
 	* Or any other combination
+	
 ```Java
 Iterator<Statement> sit = model.listStatements(subj, pred, obj);
 ```
 * Where `subj`, `pred`, `obj` can be `null`to match any value ("wildcard")
+
+## Read and write from/to file
+
+* Models can read directly from files with `read()` and write with `write()`
+```Java
+Model m = ModelFactory.createDefaultModel();
+m.read(new FileInputStream("Filename.ttl"), "", TTL);
+m.write(new FileWriter("output.ttl"), "TTL);
+```
 
 ## SPARQL
 
