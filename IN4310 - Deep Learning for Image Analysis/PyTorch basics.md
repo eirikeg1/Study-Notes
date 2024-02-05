@@ -76,6 +76,8 @@ t.reshape(3, 4)
 t.reshape(3, -1)   # -1 is a wildcard, automatically fitted to data
 t.view(3, 4)       # Create copy of tensor to (3, 4)
 t.T                # Transpose tensor
+t.squeeze(1)       # Add 1 dimension to shape index `1`, new shape: (3, 1, 4)
+t.unsqueeze(1)     # Removes a dimension of size 1 at index `1`, new shape back to (3, 4)
 
 torch.transpose(t) # Transpose tensor
 torch.permute(t, (1, 2, 0)) # Changes the indexes of elements
