@@ -3,7 +3,7 @@
 _Logarithm of odds function, gives probability distribution_
 
 * Is the inverse of the [[Week 1 - Linear Classifiers NLP#Sigmoid|sigmoid function]]
-* ![[Pasted image 20240205104402.png|500]]
+* ![[Pasted image 20240205104402 1.png|500]]
 
 
 ## ReLU
@@ -20,9 +20,9 @@ _Logarithm of odds function, gives probability distribution_
 ---
 
 * Two types:
-![[Pasted image 20240205113632.png|600]]
+![[Pasted image 20240205113632 1.png|600]]
 
 # Notation
 
-![[Pasted image 20240205114253.png|600]]
+![[Pasted image 20240205114253 1.png|600]]
 
