@@ -135,7 +135,7 @@ Iterator<Statement> sit = model.listStatements(subj, pred, obj);
 ```Java
 Model m = ModelFactory.createDefaultModel();
 m.read(new FileInputStream("Filename.ttl"), "", TTL);
-m.write(new FileWriter("output.ttl"), "TTL);
+m.write(new FileWriter("output.ttl"), "TTL");
 ```
 
 
