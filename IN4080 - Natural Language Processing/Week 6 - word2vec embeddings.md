@@ -64,7 +64,7 @@
 
 ### Effect of window size
 
-* Small winodes (+-2 context words) gives syntactically similar words of same taxonomy (part of speech)
+* Small windows (+-2 context words) gives syntactically similar words of same taxonomy (part of speech)
 * Large windoes (+- 5 cws) gives related words in same semantic fields
 
 #### Analogical relations
