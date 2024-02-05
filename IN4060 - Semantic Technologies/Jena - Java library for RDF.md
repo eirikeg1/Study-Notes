@@ -121,7 +121,7 @@ Iterator<Statement> rit = model.listResourcesWithProperty(name);
 * To get all statements that have:
 	* A given subject and object,
 	* A given object,
-	* A given predicate and subject,
+	* A given predicate and **subject**,
 	* Or any other combination
 	
 ```Java
