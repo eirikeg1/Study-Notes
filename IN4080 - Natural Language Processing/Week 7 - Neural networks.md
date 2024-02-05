@@ -43,6 +43,14 @@ _Used to introduce non-linearity in prediction_
 * Binary
 * ![[Pasted image 20231003143320.png | 400]]
 * ![[Pasted image 20240129153054.png|400]]
+### Logit function
+_Logarithm of odds function, gives probability distribution_
+
+* Is the inverse of the [[Week 1 - Linear Classifiers NLP#Sigmoid|sigmoid function]]
+* ![[Pasted image 20240205104402.png|500]]
+
+
+
 ### Tanh (Hyperbolic tangent)
 * Similar to sigmoid but often better
 * ![[Pasted image 20231003143411.png | 300]]
