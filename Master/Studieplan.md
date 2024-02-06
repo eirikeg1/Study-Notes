@@ -9,14 +9,9 @@
 
 ## Vår 2024
 * IN4310 - Deep Learning for Image Analysis
-
-* IN4060 – Semantiske teknologier?
-* IN5570 - Distribuerte Objekter?
-* IN4240 - Testing av Programvare?
+* IN5550 - Neural Methods for Natural Language Processing
+* IN4060 – Semantiske teknologier
 
 
 ## Høst 2024
 * IN5310 – Advanced Deep Learning for Image Analysis?
-* IN5290 - Ethical Hacking?
-
-* IN5020 - Distribuerte Systemer?
