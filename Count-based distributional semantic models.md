@@ -34,6 +34,29 @@ _Embed terms in a vector space, gives features representations relative to each 
 * Feature vectors are dense, not sparse (computationally efficient)
 * Generalization power: similar entities get similar embeddings (hopefully)
 	* *Town* should be closer to *city* then *banana*
-* Same feature in different positions can share statistical strength (Words)
+* Same feature in different positions can share statistical strength (words right beside each other are often very similar)
 	* A token 2 words to the right and a token 2 words to the left can be one and the same word
 	* Would be good for the model to use this knowledge
+
+
+## Dependency parsing
+_Building a syntactic tree based on word relationships_
+
+
+* *flight* and *me* are children of *Book*
+* Parses in several steps
+* Conceptually it is the classic **Arc-Standard transition-based parser** 
+* Uses dense embeddings for words, PoS tags and dependency labels
+![[Pasted image 20240206114432.png|400]]
+
+
+# Use of embeddings
+---
+
+* [[Week 6 - Word vectors and embeddings|Word vectors and embeddings]]
+* Concatenated embeddings of **words** $x^w$, [[Week 4 - Sequence Labeling#Part-of-speech tagging (POS)|POS tags]] $x^t$ and **dependency labels** $X^{l}$ from the stack are given as input layer
+* Embeddings are trained with gradient descent
+	* to minimize he cross-entropy loss $L(\theta)$
+	* to maximize the probability of correct transitions $t_i$ in a collection of $n$ configurations
+	* Model employs the unusual **cube activation function** $g(x)=x^3$
+	* 

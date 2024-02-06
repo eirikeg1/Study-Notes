@@ -106,7 +106,7 @@ _Calculate the accuracy and recall for each class/label, then calculate the aver
 _Convert normal prediction formula to Bayes' theorem_
 
 * Compute the probability of a document given a label, not the other way around
-* All _x_i_ are conditionally independent given the class
+* All $x_i$ are conditionally independent given the class
 
 **Full prediction function:**
 _Multiply the prediction for every word_
