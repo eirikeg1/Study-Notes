@@ -13,12 +13,13 @@ _Functionality which allows one to perform mathematical operations even when ten
 	a = torch.ones((1,7))
 	b = torch.ones((5,2,3,7))
 
-	c = a + b # Still (5,2,3,7), as a shape is changed to (1,1,1,7)
+	c = a + b # Still (5,2,3,7), as 'b' is broadcast to (5,2,3,7)
 	```
 
 ## Defining dataset
 
-* PyTorch datasets require ```__getitem__``` and ```__len__```
+* `Dataset` object to shape data
+	* PyTorch datasets require ```__getitem__``` and ```__len__```
 * In order to create a dataset make a class which inherits from PyTorch's ```torch.utils.data.Dataloader``` class
 * Dataloader class allows shuffling, parallelizing and loading across multiple workers
 
