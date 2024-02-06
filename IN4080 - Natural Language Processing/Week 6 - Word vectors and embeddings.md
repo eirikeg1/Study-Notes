@@ -23,7 +23,7 @@ _Used to capture and represent the meaning of words_
 	* **Relatedness**: 
 		* (money-bank, fish-water)
 		* first order association: has a direct assocition
-* ![[Pasted image 20231002171036.png | 700]]
+* ![[Pasted image 20231002171036.png | 400]]
 
 # Vector semantics
 ---
@@ -36,14 +36,14 @@ _The meaning of a word can be captured by the contexts in which it occurs_
 ## Calculating similarity (cosine similarity)
 * Represents the angle between two vectors
 * Length of vector does not matter
-	![[Pasted image 20231002174943.png | 700]]
+	![[Pasted image 20231002174943.png | 400]]
 
 ## Core  idea
 
 * Each word is represented as a point in a multidimensional semantic space (word vectors/embeddings)
 * The points are inferred from the distributions of word neighbors/contexts in text, according to the distributional hypothesis
 * Similar/related words are close to each other in this space
-* 2d example:![[Pasted image 20231002171837.png|700]]
+* 2d example:![[Pasted image 20231002171837.png|400]]
 
 # How to create vectors
 
@@ -112,7 +112,7 @@ _Multiple definitions_
 	* Most values are 0, especially in  small context sizes
 * Reduce the number of columns to a fixed size $m$ (typically in the range 50-500)
 	* Uses **Singular Value Decomposition** (**SVD**)
-	* ![[Pasted image 20231002184433.png | 500]]
+	* ![[Pasted image 20231002184433.png | 400]]
 * The new columns represent abstract properties, not words
 * The combination of **SVD** dimensionality reduction with word-context vectors is known as **LSA** (**Lagent Semantic Analysis**)
 * Other combinations are possible e.g. using **PCA** (**Principle Component Analysis**)
