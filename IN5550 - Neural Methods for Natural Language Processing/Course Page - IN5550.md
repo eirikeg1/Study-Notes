@@ -21,7 +21,7 @@
 * [[Week 2 - Practicalities and hyper-parameters]]
 
 ## Week 3
-* [[Count-based distributional semantic models]]
+* [[Week 3 - Count-based distributional semantic models]]
 * 
 
 # Book Notes

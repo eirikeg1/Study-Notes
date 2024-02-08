@@ -19,6 +19,14 @@ _Using discrete features means each feature is completely independent from each 
 	* Is not efficient as other methods only require the actual features present in the document
 
 
+## Reducing dimensionality
+
+* **The curse of dimensionality**: When we have a lot of dimensions (one per term in vocabulary) the vectors can be very sparse
+* It is possible to reduce vector sizes to some reasonable values, and still preserve meaningful relations between them
+	* For example by **factorizing the co-occurrence matrix**, using **PCA** or other dimensionality reduction techniques
+* By reducing the dimensionality the vector components are no longer directly interpretable, meaning you don't exactly know what each dimension represents, but it can still give useful clustering
+	![[Pasted image 20240208190514.png|300]]]
+
 # Continuous features
 ---
 _Embed terms in a vector space, gives features representations relative to each other_
@@ -59,4 +67,3 @@ _Building a syntactic tree based on word relationships_
 	* to minimize he cross-entropy loss $L(\theta)$
 	* to maximize the probability of correct transitions $t_i$ in a collection of $n$ configurations
 	* Model employs the unusual **cube activation function** $g(x)=x^3$
-	* 
