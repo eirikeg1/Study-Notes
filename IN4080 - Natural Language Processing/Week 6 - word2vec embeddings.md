@@ -91,7 +91,6 @@ Can also be used to see how word meanings have changed through the years
 * Identify pairs of words that does not have any particular bias
 * Can be done by e.g removing the _differential word_ to each respective value
 * Can reduce bias but might be a very surface level fix
-*
 * ![[Pasted image 20231003155222.png | 500]]
 
 
