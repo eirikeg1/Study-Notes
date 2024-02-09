@@ -63,7 +63,7 @@ _Very deep neural networks can have problems with learning_
 ## Choosing the non-linearity of hidden layers
 _Different activation functions have different properties_
 
-* Usually this is the best order for [[Week 7 - Neural networks#Activation functions|hidden layer activation functions]]
+* Usually this is the best order for hidden layer [[Week 7 - Neural networks#Activation functions|activation functions]]
 	1. ReLU
 	2. Tanh
 	3. Sigmoid
@@ -86,7 +86,7 @@ _Different activation functions have different properties_
 
 ### Xavier initialization
 
-* The **magnitude** (scale/size of random numbers, ) of the random values have a large impact on the learning process
+* The **magnitude** (scale/size of random numbers) of the random values have a large impact on the learning process
 * **Xavier initialization** is widely used to help with this
 * $d_{in}$ and $d_{out}$ are the dimensionalities of the weight vectors
  ![[Pasted image 20240129155627.png|500]]

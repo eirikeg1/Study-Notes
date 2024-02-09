@@ -28,6 +28,8 @@
 ---
 
 * [[Chapter 1 - Introduction]]
+* [[Jurafsky & Martin - Chapter 6|Chapter 6 - Vector Semantics and Embeddings]]
+* 
 
 
 # Tags
