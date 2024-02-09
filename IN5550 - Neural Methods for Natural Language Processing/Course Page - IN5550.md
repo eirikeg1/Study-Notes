@@ -1,10 +1,10 @@
 
 # Overview
 ---
-* This is a course where we use the PyTorch library, an [[PyTorch basics|overview]] of PyTorch
-* We use the Fox data cluster, here is the [[Fox data cluster cheat sheet]]
+* This is a course where we use the PyTorch library, [[PyTorch basics|here]] is an overview of PyTorch
+* [[Fox data cluster cheat sheet]]
 * [Zoom link](https://uio.zoom.us/j/62776647554?pwd=dnZ4WUMwMnExZVh2bFNIdkN3N2ZNdz09)
-* [GitHub](https://github.uio.no/in5550/2024)
+* [Course GitHub](https://github.uio.no/in5550/2024)
 * [TensorFlow playground](playground.tensorflow.org)
 
 
@@ -22,14 +22,19 @@
 
 ## Week 3
 * [[Week 3 - Count-based distributional semantic models]]
-* 
+* [[Week 3 - Machine learning based distributional models]]
 
 # Book Notes
 ---
 
 * [[Chapter 1 - Introduction]]
 * [[Jurafsky & Martin - Chapter 6|Chapter 6 - Vector Semantics and Embeddings]]
-* 
+
+
+# Paper notes
+---
+
+* [[Rong - word2vec Parameter Learning Explained]]
 
 
 # Tags
