@@ -13,6 +13,7 @@
 
 
 # Multi-class linear models
+---
 
 * each output corresponds to a class
 * Uses probability distribution **activation function** like for example softmax
@@ -29,20 +30,35 @@
 * ![[Pasted image 20231003143012.png | 300]]
 
 ## Activation functions
-_Used to introduce non-linearity in prediction_
+_Used to introduce non-linearity in transformations_
+
+### ReLU (Rectified Linear Unit)
+* Very simple and often used
+* Even though it is very simple, it's computational cheap efficiency makes it a good choice in most neural systems
+* ![[Pasted image 20231003143450.png | 300]]
+
+### Sigmoid
+* Classic activation function, often used in hidden layers
+* Squashes values in a range from 0 to 1
+* ![[Pasted image 20231003143320.png | 400]]
+* ![[Pasted image 20240129153054.png|400]]
+
+### Tanh (Hyperbolic tangent)
+* Similar to sigmoid but often better
+	* Tanh goes from -1 to 1, while Sigmoid goes from 0 to 1. Zero-centered outputs allows for faster convergence, as gradients can flow more effectively in both positive and negative directions
+	* Steeper derivatives of tanh provides slightly stronger gradients during training
+* ![[Pasted image 20231003143411.png | 300]]
+
 
 ### Softmax
 * Gives probability distribution
+* Commonly used in output layer
 * Costly
 *  Often it is more convenient to transform scores into a probability distribution, when dealing with multi-class classification
 * $\hat{y}=softmax(xW+b)$
 	* $\hat{y}_{[i]} = \frac{e^{z_{[i]}}}{\sum_{j=1}^{K} e^{z_{[j]}}}$
 
 
-### Sigmoid
-* Binary
-* ![[Pasted image 20231003143320.png | 400]]
-* ![[Pasted image 20240129153054.png|400]]
 ### Logit function
 _Logarithm of odds function, gives probability distribution_
 
@@ -51,15 +67,8 @@ _Logarithm of odds function, gives probability distribution_
 
 
 
-### Tanh (Hyperbolic tangent)
-* Similar to sigmoid but often better
-* ![[Pasted image 20231003143411.png | 300]]
-
-### ReLU (Rectified Linear Unit)
-* Very simple and often used
-* ![[Pasted image 20231003143450.png | 300]]
-
 # Training
+---
 #lecture 
 * • For every training tuple (x,y): 
 	* Run forward computation to find our estimate y-hat

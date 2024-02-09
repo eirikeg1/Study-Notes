@@ -23,7 +23,7 @@
 
 * Concatenate and hope words are predicted properly
 * works well but not often used
-![[Pasted image 20231003152809.png | 500]]
+![[Pasted image 20231003152809.png | 300]]
 
 
 ## Skip-gram
@@ -31,7 +31,7 @@
 * Learns two sets of embeddings (for target words w and context word c)
 * Common to  just add them together so word i is represented by the vector $w_i + c_i$
 
-![[Pasted image 20231003152954.png | 500]]
+![[Pasted image 20231003152954.png | 300]]
 
 ### Skip-gram with negative sampling
 #lecture #toExpand 

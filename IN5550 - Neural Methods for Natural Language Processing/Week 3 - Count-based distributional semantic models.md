@@ -61,9 +61,10 @@ _Building a syntactic tree based on word relationships_
 # Use of embeddings
 ---
 
-* [[Week 6 - Word vectors and embeddings|Word vectors and embeddings]]
+* [[Week 6 - word2vec embeddings|Word vectors and embeddings]]
 * Concatenated embeddings of **words** $x^w$, [[Week 4 - Sequence Labeling#Part-of-speech tagging (POS)|POS tags]] $x^t$ and **dependency labels** $X^{l}$ from the stack are given as input layer
 * Embeddings are trained with gradient descent
 	* to minimize he cross-entropy loss $L(\theta)$
 	* to maximize the probability of correct transitions $t_i$ in a collection of $n$ configurations
 	* Model employs the unusual **cube activation function** $g(x)=x^3$
+
