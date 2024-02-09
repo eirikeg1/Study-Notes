@@ -1,12 +1,14 @@
 *Supervised by Pål Halvorsen*
 # Master topic
-https://www.mn.uio.no/ifi/studier/masteroppgaver/nd/2021-AI-based-video-processing.html
+* [Project Topic at UiO.no](https://www.mn.uio.no/ifi/studier/masteroppgaver/nd/2021-AI-based-video-processing.html)
+* [Project Description](obsidian://open?vault=StudyNotes&file=Master%2FProject%20Description.pdf)
 * Because this is a field with a lot of changes the project will be selected when I start writing. It will be scoped down during the essay but will still be a little general
 * 
 
 # Articles to read
 ---
-https://forzasys.com/R-and-D.html
+* https://forzasys.com/R-and-D.html
+* [[MHV24-sports-pipeline-4.pdf]]
 
 
 # Examples from supervisor
