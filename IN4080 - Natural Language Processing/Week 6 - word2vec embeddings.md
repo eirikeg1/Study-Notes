@@ -22,6 +22,7 @@
 ## Continuous bag of words
 
 * Concatenate and hope words are predicted properly
+* Is trained by using the probability of all context words summed up as loss function
 * works well but not often used
 ![[Pasted image 20231003152809.png | 300]]
 

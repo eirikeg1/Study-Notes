@@ -1,4 +1,4 @@
-
+_University of Oslo high performance GPU cluster_
 # Connecting to fox
 ---
 ### Outside Fox Shell
@@ -31,9 +31,18 @@
 * Check available versions of modules: ```module spider <search-keyword>```
 
 
+### Specific modules
+
+* **Gensim format** (format for storing model data in NumPy arrays): 
+```Bash
+		module load nlpl-gensim/4.3.2-foss-2022b-Python-3.10.8
+```
+
+
 # Compute-jobs
 
 1. Create a `.slurm` script, follow the [template](https://github.uio.no/in5550/2024/blob/main/sample.slurm) from github
 2. Run job with `sbatch <filename-with-ending`
 3. 
+
 
