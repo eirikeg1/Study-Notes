@@ -42,6 +42,7 @@ _Refers to how many layers are in the model_
 ![[Pasted image 20240129152804.png|650]]
 
 
+# Exploding- / Vanishing gradient problem
 ## Vanishing gradients
 _Very deep neural networks can have problems with learning_
 
