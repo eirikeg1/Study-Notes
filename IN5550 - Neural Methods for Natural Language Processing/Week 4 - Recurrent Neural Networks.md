@@ -117,5 +117,11 @@ _More modern simpler variant of LSTMs_
 * Dropout along memory updates can inhibit learning of effective gating
 * Randomly sets weights to zero in order to make sure the model does not rely to heavily on certain neurons
 * Similar concept to [[Week 2 - Practicalities and hyper-parameters#Dropout|dropout in feed forward neural networks]]
-* only apply dropout _vertically_ or fix random mask (**veriational RNN**)
+* only apply dropout _vertically_ or fix random mask (**variational RNN**)
 * ![[Pasted image 20240212172816.png|400]]
+
+## RNN as Feature Extractors
+
+* 
+
+![[Pasted image 20240212175858.png|500]]
