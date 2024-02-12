@@ -24,6 +24,9 @@
 * [[Week 3 - Count-based distributional semantic models]]
 * [[Week 3 - Machine learning based distributional models]]
 
+## Week 4
+* [[Week 4 - Language Modeling]]
+
 # Book Notes
 ---
 
