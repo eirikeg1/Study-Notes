@@ -4,6 +4,7 @@
 * sliding window
 * Are often used in image analysis/generation
 * Early layers learn simple patterns, learn more complex the deeper we go
+* **Examples and illustrations at the end of the document**
 
 # Convolutional Operator (Filters)
 ---
@@ -47,7 +48,6 @@ _Property of  ML models where predictions are invariant or do not change, when t
 * Detect deformations of the same pattern/object
 * Detect different types in the same class
 
-## Week 4 Why conv.? #Todo
 ## Filters
 
 * Instead of having neurons fully connected, use **filters** (or **kernels**) to find local patterns in the data
@@ -128,10 +128,22 @@ _Property of  ML models where predictions are invariant or do not change, when t
 	* Four $3\times 3$ filters has 36 parameters, one $9\times 9$ filter has 81 parameters
 * Focus on very local image attributes int he first convolutional layers
 * Look for gradually more complex patterns in deeper layers
+* Filters detect more complex patterns in deeper layers:
+![[Pasted image 20240212213632.png|450]]
 
 
-## Examples
 
+## Fully Convolutional Neural Nets (ConvNets and CNNs)
+
+* After a series of convolutional layers, obtain a 3d activation maps tensor
+* For a classification task, we want $c$ outputs (e.g. number of classes)
+* Apply $c$ filters in the last convolutional layer
+* Calculate the average over the spatial dimensions, and finally softmax
+* Values interpreted as class probabilities
+
+
+# Examples
+---
 ### 2d convolution example with one input channel
 
 ![[Pasted image 20240212190240.png|400]]
