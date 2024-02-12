@@ -84,30 +84,6 @@ _Property of  ML models where predictions are invariant or do not change, when t
 * Let $r=1,\cdots ,C_o$
 ![[Pasted image 20240212203012.png|500]]
 
-## Padding
-
-
-![[Pasted image 20240212195246.png|250]]
-
-* To keep output size unchanged compared to input, one can pad the image
-* Most common in deep learning: pad with 0s (**zero padding**)
-* Expand input image with another fixed value, e.g. mean pixel value
-* Use value of nearest pixel (replicate padding)
-* Use mirror-reflected indexing (reflect padding)
-
-### Output size
-
-* For $M\times N$ input and $k\times k$ filter
-
-**For sizes:**
-* **Valid or reduced**: Only positions where the filter fits inside input
-	* Output will have smaller size than input $(M-k+1)\times (N-k+1)$
-* **Same**: Positions where the filter center is inside input
-	* Output will be the same size as input
-* **Full**: All positions where the filter and input overlap
-	* Output will have larger size than input $(M+k-1)\times (N+k-1)$
-
-
 ## Convolution Intuition
 
 * Control $\#$ parameters limited relative to training set size to generalize well
@@ -138,11 +114,113 @@ _Property of  ML models where predictions are invariant or do not change, when t
 * After a series of convolutional layers, obtain a 3d activation maps tensor
 * For a classification task, we want $c$ outputs (e.g. number of classes)
 * Apply $c$ filters in the last convolutional layer
-* Calculate the average over the spatial dimensions, and finally softmax
-* Values interpreted as class probabilities
+	* Calculate the average over the spatial dimensions, and finally softmax
+	* Values interpreted as class probabilities
+* Alternatively:
+	* Flatten 3d tensor from final convolutional layer
+	* Stack one or more fully connected layers on top
+	* The last layer has $c$ neurons
+	* Apply the softmax function
+
+## Classical CNN Architecture
+
+* Stack multiple convolutional layers each with multiple filters
+* Add bias for each layer and apply a non-linear activation function
+* Reduce spatial dimensions with more filters as we get deeper, but increase channels deeper in (channel number is 55,256,384,384,256 in image below)
+* Apply dense layers at the end
+* ![[Pasted image 20240212230512.png|350]]
+
+# Stride, Padding and Pooling
+---
+## Stride
+_number of input elements/pixels which filter moves in every step_
+
+* **Stride** is a spacial step length in the discrete convolution
+* It causes downsampling with a factor equal to the stride
+* Increasing stride often combined with an increase in number of channels
+
+![[Pasted image 20240212230829.png|400]]
 
 
-# Examples
+## Padding
+
+
+![[Pasted image 20240212195246.png|250]]
+
+* To keep output size unchanged compared to input, one can pad the image
+* Most common in deep learning: pad with 0s (**zero padding**)
+* Expand input image with another fixed value, e.g. mean pixel value
+* Use value of nearest pixel (replicate padding)
+* Use mirror-reflected indexing (reflect padding)
+* 
+### Standard Padding
+
+![[Pasted image 20240212231358.png|400]]
+
+
+### Output size
+
+* For $M\times N$ input and $k\times k$ filter
+
+**For sizes:**
+* **Valid or reduced**: Only positions where the filter fits inside input
+	* Output will have smaller size than input $(M-k+1)\times (N-k+1)$
+* **Same**: Positions where the filter center is inside input
+	* Output will be the same size as input
+* **Full**: All positions where the filter and input overlap
+	* Output will have larger size than input $(M+k-1)\times (N+k-1)$
+
+### Output spatial size with padding and stride
+
+![[Pasted image 20240212231041.png|400]]
+
+
+## Pooling
+
+* For multiple channels: each channel separately treated
+* Spatial reduction and forcing invariance
+* Operates over each channel independently
+* No parameters to be learned
+* Two common methods:
+	* **Max pooling**
+	* **Average pooling**
+
+![[Pasted image 20240212232728.png|250]]
+
+### Max Pooling
+
+* A strided maximum filtering
+* Maximum filter is a non-linear filter
+* Choosing the maximum value inside the filter neighborhood
+* The highest pattern detector response over a field of view is selected
+* Explicitly remove some spatial information
+
+![[Pasted image 20240212232942.png|350]]
+
+
+# Receptive Field (Field of View)
+---
+
+![[Pasted image 20240212231855.png|200]]
+* **CNN** is built by stacking convolutional layers
+* How much of input image is available to a particular neuron?
+* Receptive field of neurons increases with each layer
+* Larger receptive field per parameter is generally good
+* Deeper with more layers and smaller filters is more parameter efficient
+* 3 inputs influence each neuron in the first hidden layer
+
+![[Pasted image 20240212232109.png|400]]
+
+## Recursion for receptive field
+
+* Recursion for receptive field $R^{[l]}$ with $R^{[0]}=1$:
+![[Pasted image 20240212232343.png|350]]
+* Unraveling recursion:
+![[Pasted image 20240212232413.png|350]]
+
+
+
+# Example Illustrations
 ---
 ### 2d convolution example with one input channel
 
