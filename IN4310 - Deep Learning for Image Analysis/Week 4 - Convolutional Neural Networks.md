@@ -11,6 +11,7 @@
 * **Convolution** is a series of dot products
 * Dot product between filter and a window-view of input tensor
 * Window is sliding for 1d and 2d convolutions along 1 or 2 dimensions
+* The number of **filters** (**kernels**) or channels is represented as $\#$
 ## Why?
 
 ### Fully connected layers with one input channel
@@ -28,10 +29,25 @@ _Connects neurons sparsely when stacking layers_
 * Neighboring pixels tend to be related
 * Connect only neighboring neurons in the input
 * Therefore it might not be necessary and just a lot of unnecessary overhead to to everything else as context for every single input/output
+* Each convolution layer detects localized patterns over all input tensor
 
 ![[Pasted image 20240212184657.png|400]]
 
+### Less parameters and parameter sharing
 
+* **Locally connected**: Suppose each output neuron takes input from a patch of 5 neighbors
+* convolutions have a small $\#$ parameter, independent of input and output size in the sliding dimension ($\#$ output channels (filters) matters)
+
+### Translation Invariance
+_Property of  ML models where predictions are invariant or do not change, when the input is translated or moved around_
+
+* Detection is global for fully connected (no translation invariance), localized for convolutions 
+* Detect similar patterns in different sizes/scales
+* Detect similar patterns from different view angles
+* Detect deformations of the same pattern/object
+* Detect different types in the same class
+
+## Week 4 Why conv.? #Todo
 ## Filters
 
 * Instead of having neurons fully connected, use **filters** (or **kernels**) to find local patterns in the data
@@ -43,11 +59,11 @@ _Connects neurons sparsely when stacking layers_
 ### Algebraic Properties of (Discrete) Convolution
 
 * Convolution defines a product on a vector (linear) space
-* Such space is a commutative associative algebra without identity
-* Commutativity $f\cdot{g}=g\cdot{f}$
-* Associativity $(f\cdot{g})\cdot{h}=f\cdot{(g\cdot{h})}$
-* Distributivity $f\cdot{(g+h)}=(f\cdot{g})+(f\cdot{g})$
-* Associativity with scalar multiplication $\alpha (f\cdot{g})=(\alpha{f})\cdot{g}=f\cdot(\alpha{g})$
+* Such space is a commutative associative algebra **without identity**
+* **Commutativity**: $f\cdot{g}=g\cdot{f}$
+* **Associativity**: $(f\cdot{g})\cdot{h}=f\cdot{(g\cdot{h})}$
+* **Distributivity**: $f\cdot{(g+h)}=(f\cdot{g})+(f\cdot{g})$
+* **Associativity with scalar multiplication**: $\alpha (f\cdot{g})=(\alpha{f})\cdot{g}=f\cdot(\alpha{g})$
 
 ### 2d discrete convolution and cross-correlation
 
@@ -90,7 +106,28 @@ _Connects neurons sparsely when stacking layers_
 	* Output will be the same size as input
 * **Full**: All positions where the filter and input overlap
 	* Output will have larger size than input $(M+k-1)\times (N+k-1)$
-* 
+
+
+## Convolution Intuition
+
+* Control $\#$ parameters limited relative to training set size to generalize well
+* Better off stacking simple functions in depth and many layers than learning complex functions in one layer
+* Convolution output at one fixed input region is an inner product between kernel weights and the region
+* Slide the kernel over the input tensor and apply the inner product over many windows
+* Apply the same kernel across all locations for computing inner products
+* Share the parameters to be learned
+
+## Stacking layers
+
+* At each convolutional layer, apply a set of local filters
+* Stack multiple small filters instead of using few large filters
+* Remember that convolution is associative
+* Requires much less parameters with more smaller filters:
+	* Two $3\times 3$ filter has 18 parameters, one $5\times 5$ has 25 parameters
+	* Three $3\times 3$ filters have 27 parameters, one $7\times 7$ filter has 49 parameters
+	* Four $3\times 3$ filters has 36 parameters, one $9\times 9$ filter has 81 parameters
+* Focus on very local image attributes int he first convolutional layers
+* Look for gradually more complex patterns in deeper layers
 
 
 ## Examples
