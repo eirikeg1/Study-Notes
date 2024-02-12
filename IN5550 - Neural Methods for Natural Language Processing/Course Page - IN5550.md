@@ -26,6 +26,7 @@
 
 ## Week 4
 * [[Week 4 - Language Modeling]]
+* [[Week 4 - Recurrent Neural Networks]]
 
 # Book Notes
 ---
