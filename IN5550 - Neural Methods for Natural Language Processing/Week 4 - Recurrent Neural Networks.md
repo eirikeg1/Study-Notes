@@ -95,3 +95,27 @@ _More modern simpler variant of LSTMs_
 ![[Pasted image 20240212153105.png|350]]
 
 
+
+# Tips and tricks
+---
+
+* Although **RNN**s in principle are well-defined for inputs of variable length, in practice **padding** to a fixed length is required for efficiency (batching). Actually not too much *waste*, but can be beneficial to bin by length to minimize padding
+* **Accuracy** is a common metric for tagging; fixed number of predictions. For most inputs, very large proportion of padding tokens (and labels)
+* Trivial predictions will inflate the accuracy scores, which can be detrimental to learning
+* Can define custom accuracy functions, mask padding tokens predictions
+
+## What to use for classification?
+* The last hidden state?
+* The sum or the average of each element states?
+* **Max Pooling?**
+	* Take the highest value for each vector index from all the words
+	* Allows you to use the _most excited neurons_
+	* ![[Pasted image 20240212172637.png|300]]
+
+## Dropout in RNNs
+
+* Dropout along memory updates can inhibit learning of effective gating
+* Randomly sets weights to zero in order to make sure the model does not rely to heavily on certain neurons
+* Similar concept to [[Week 2 - Practicalities and hyper-parameters#Dropout|dropout in feed forward neural networks]]
+* only apply dropout _vertically_ or fix random mask (**veriational RNN**)
+* ![[Pasted image 20240212172816.png|400]]
