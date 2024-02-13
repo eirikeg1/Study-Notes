@@ -154,4 +154,58 @@ m.write(new FileWriter(("inputFile.xml"), "", "RDF/XML")) // Write to XML
 ## SPARQL
 
 * The most powerful way of retrieving data from a Model is through [[SPARQL Protocol And RDF Query Language|SPARQL]]
-*        
+*  Main  classes imported from `org.apache.jena.query`
+
+### Main classes
+
+```Java
+QueryFactory // Creating queries in various ways
+QueryExecution // Execution state of a query
+QueryExecutionFactory // Create query executions (to get QueryExecution instances)
+DatasetFactory // Create dataset instances
+
+// For SELECT queries:
+QuerySolution // A single solution to the query
+ResultSet // All the QuerySolutions (an iterator)
+ResultSetFormatter // Turn a ResultSet into various forms: text, RDF graph (Model, in Jena terminology or plain XML)
+
+```
+
+
+### Constructing and executing a query
+
+```Java
+String qStr =
+	  "Prefix foaf: <" + fofNS + ">"
+	+ "SELECT ?a ?b WHERE {"
+	+ "  ?a foaf:knows ?b ."
+	+ "} ORDER BY ?a ?b";
+
+Query q = QueryFactory.create(qStr);
+
+// To produce a QueryExecution for a given Query and Model:
+QueryExecution qe = QueryExecutionFactory.create(q, model);
+```
+
+### Query execution
+
+*  A query can be used several times, on multiple models
+* `ResultSet` is a sub-interface of `Iterator<QuerySolution>`
+* `QuerySolution` has methods to get a list of variables, value of single variables, etc.
+* `QueryExecution` contains methods to execute different kinds of queries (**SELECT**, **CONSTRUCT**, ...)
+* **N.B:** Important to call `close()` on query executions when no longer needed
+```Java
+// SELECT query:
+ResultSet res = qe.execSelect();
+
+// CONSTRUCT query:
+Model constructModel = qe.execConstruct();
+
+// Query a model:
+
+```
+
+
+## Example
+
+![[Pasted image 20240213183122.png|400]]

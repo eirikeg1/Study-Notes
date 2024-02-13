@@ -1,6 +1,7 @@
 _Query language for RDF defined by **W3C**_
 
 
+* [Jena SPARQL documentation](http://jena.apache.org/documentation/javadoc/arq/)
 * Semantic web equivalent of SQL, meant for [[RDF Overview|RDF]]
 * [[Jena - Java library for RDF#Models|Jena Models]] can process **SPARQL**
 * **SPARQL** keywords are case-insensitive
@@ -73,7 +74,7 @@ _Groups can contain constraints or filters_
 ![[Pasted image 20240213171847.png|400]]
 
 
-## Optional Patterns
+## Optional patterns
 _Allows a match to leave some variables unbound (NULL data)_
 
 * A partial function from variables to RDF terms
@@ -83,7 +84,33 @@ _Allows a match to leave some variables unbound (NULL data)_
 
 ![[Pasted image 20240213172923.png|300]]
 
-## Negation as Fa
+## Negation as failure
+_Even though there is no negation operator, there is a workaround_
+
+* Testing if a graph pattern is not expressed, but specifying an **OPTIONAL** graph pattern that introduces a variable, and then testing if it is not bound
+	![[Pasted image 20240213173327.png|300]]
+
+## Matching alternatives (UNION)
+_Matches if any of some alternatives matches_
+
+* In example below the book will only be retrieved if either the author or the book matches:
+![[Pasted image 20240213173519.png|300]]
+
+
+## Graph graph pattern (RDF datasets)
+_You can do queries over multiple datasets_
+
+* SPARQL queries are executed against a **RDF dataset**
+* A **RDF dataset** contains
+	* One **default graph** (unnamed graph)
+	* Zero or more **named graphs** identified by an URI
+* **FROM** and **FROM NAMED** keywords allows to select an RDF dataset by reference
+	* The **default graph** will consist of the RDF merge of the graphs referred to in the **FROM** clauses
+	* **FROM NAMED** clauses will define the different named graphs
+	* Note that, if there is no FROM clause, but there are **FROM NAMED** clauses, the default graph will be empty
+
+![[Pasted image 20240213174151.png|350]]
+![[Pasted image 20240213174309.png|350]]
 
 
 # Keywords
@@ -127,3 +154,5 @@ _Allows a match to leave some variables unbound (NULL data)_
 
 
 ![[Pasted image 20240213164320.png|400]]
+
+![[Pasted image 20240213181518.png|400]]
