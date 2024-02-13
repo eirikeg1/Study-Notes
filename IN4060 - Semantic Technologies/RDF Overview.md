@@ -6,7 +6,7 @@
 	* Decouples data from applications
 	* Lightens the programming burden
 	* Semantic Web applications should be/are generic and general purpose, exploiting rich and knowledge intensive data s
-* ![[Pasted image 20240124122206.png|500]]
+* ![[Pasted image 20240124122206.png|300]]
 
 # Components 
 ---
@@ -17,11 +17,11 @@
 * Triples can also be called a **statement**, or **fact**
 * Triples consists of a **subject**, a **predicate** and an **object**
 * The elements of and RDF triple are either URI references, literals, or blank nodes
-![[Pasted image 20240124122447.png|500]]
+![[Pasted image 20240124122447.png|300]]
 * Literals and blank nodes may not appear everywhere in triples
 * Because literals are just values, no relationships from literals allowed
 * Blank nodes in predicate position deemed meaningless
-![[Pasted image 20240124125209.png|500]]
+![[Pasted image 20240124125209.png|300]]
 * Triples are nice because they are flexible
 
 ## URIs
@@ -34,19 +34,19 @@ _Similar to URL, but more general_
 * **IRI**s (Internationalized Resource Identifier) are just URIs but encoded in Unicode.
 * Naturally have a _global_ scope, unique throughout the web
 	* Not checked for, but should be unique
-* Examples of URIs:![[Pasted image 20240124122901.png|500]]
-* Examples which are not URLs: ![[Pasted image 20240124123246.png|500]]
+* Examples of URIs:![[Pasted image 20240124122901.png|300]]
+* Examples which are not URLs: ![[Pasted image 20240124123246.png|300]]
 
 ## QNames
 _Shorter, more readable name to reference a URI_
 
 * URIs are often long and hard to read and write.
 * Most serializations use an abbreviation mechanism, like **prefixes** or **namespaces**
-![[Pasted image 20240124123513.png|500]]
+![[Pasted image 20240124123513.png|300]]
 * This: 
-	![[Pasted image 20240124123544.png|750]]
+	![[Pasted image 20240124123544.png|650]]
 	turns to this:
-	![[Pasted image 20240124123639.png|750]]
+	![[Pasted image 20240124123639.png|650]]
 ## Literals
 _Used to represent data values_
 
