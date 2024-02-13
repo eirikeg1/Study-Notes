@@ -7,6 +7,7 @@
 * [Mandatory exercises](https://www.uio.no/studier/emner/matnat/ifi/IN3060/v24/obliger/)
 * [Mr. Oblig](https://sws.ifi.uio.no/mroblig/)
 * [Jena docs](https://jena.apache.org/documentation/javadoc/jena/org.apache.jena.core/module-summary.html)
+* [dbpedia - SPARQL](http://dbpedia.org/sparql)
 
 # Literature and Overview
 ---
