@@ -26,4 +26,7 @@ _RDF standard_
 ## Week 2
 
 * [[Jena - Java library for RDF]]
+
+
+## Week 3
 * [[SPARQL Protocol And RDF Query Language]]
