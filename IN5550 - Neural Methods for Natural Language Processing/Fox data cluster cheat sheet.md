@@ -3,7 +3,7 @@ _University of Oslo high performance GPU cluster_
 ---
 ### Outside Fox Shell
 
-* Connect to Fox: ```ssh -X ec-eirikeg@4228ouD#28422502```
+* Connect to Fox: ```ssh -X ec-eirikeg@```
 	* .zshrc alias: ```fox```
 
 ### Inside Fox Shell
