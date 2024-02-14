@@ -36,7 +36,7 @@ _Train K models with different parts held out for validation_
 * Average validation scores
 * After this retrain one model with both validation and training and test with test set
 
-![[Pasted image 20230829145243.png | 500]]
+![[Pasted image 20230829145243.png | 350]]
  
 
 #### Leave-one-out cross-validation

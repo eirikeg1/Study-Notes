@@ -1,5 +1,6 @@
 
 # What is it?
+---
 
 * Neural networks are just differentiable parameterized functions, which we use gradient-based optimization techniques on
 * In order to do this we have to calculate the gradient
@@ -8,6 +9,7 @@
 
 
 # How
+---
 
 * Computation is broken down into separate operations
 * Each operation and variable is a node in a graph

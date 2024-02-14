@@ -1,7 +1,6 @@
 
 # Summary
 ---
-
 ## Some practical things to take into consideration:
 
 1. Depth (number of hidden layer)
@@ -22,6 +21,7 @@ _Different methods for finding the optimal hyperparameters_
 * **Random search**
 	* Try random combination
 * **Bayesian search**
+* **[[Week 2 - Classification 2#K-fold cross-validation|K-fold cross validation]]**
 * Trial and error
 
 

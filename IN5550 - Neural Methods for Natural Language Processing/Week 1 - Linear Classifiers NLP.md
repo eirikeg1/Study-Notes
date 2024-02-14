@@ -36,7 +36,7 @@
 ## Log-linear classification
 
 * [[Week 3 - Classification 2#Logistic regression|Logistic regression from IN4080]]
-* If we care about how confident the classifier is about each decision we can map the output in the range [0,1]
+* If we care about how confident the classifier is about each decision we can map the output in the range $[0,1]$
 
 ### Sigmoid
 * This can be done with a function, like for example the **sigmoid function**

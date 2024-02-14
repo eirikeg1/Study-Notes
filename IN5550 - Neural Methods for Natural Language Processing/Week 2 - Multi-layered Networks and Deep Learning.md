@@ -16,7 +16,7 @@ _A classical neural network_
 * In a multilayered network we transform the data for each layer
 	* Transformations themselves are linear, but followed by a non-linear operation at each layer
 * All weights are calculated at the same time, with matrix multiplication
-  ![[Pasted image 20240129145733.png|500]]
+  ![[Pasted image 20240129145733.png|350]]
 ## Bias
 
 * **Bias** is added trivially to each layer, often except the last one
