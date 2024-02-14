@@ -8,9 +8,10 @@ _Unordered collection of elements without duplicates_
 
 * Notation for set with 1, 2 and 3: $\{1, 2, 3\}$
 * Notation for $a$ is in set $B$: $a\in B$
+	* $1\notin \{\}$
 *  Often used to define properties
 	* 3 is a natural number: $3\in \mathbb{N}$
-* **Empty set** $\emptyset$ or $\{\}$
+* **Empty set** $\emptyset$ or $\Set{}$
 * $a$ is **subset** of $b$ if every element in $a$ is also in $b$, but $b$ has more elements
 	* $a\subset b$
 	* **Subset or equal**: $\subseteq$
@@ -84,6 +85,12 @@ _Formalizes different aspects of reasoning, defined mathematically_
 
 * $\neg, \land, \lor, \rightarrow$ are **connectives**
 * A formula $(A\land B)$ is a **conjunction**
+* A formula $(A\lor B)$ is a **disjunction**
+* A formula $(A\rightarrow B)$ is an **implication**
+* A formula $\neg A$ is a **negation**
+* Formulas can be equivalent: $(a\land a)\Leftrightarrow a$
+* **Atomic formulas** can not be simplified, **compound formulas** can
+	* Compound formula $I$ where $I={a,b}$, then $I\rightarrow (a\land b)$
 * A formula which always is true $(a\lor \neg a)$ is a **tautology**
 * A set of only true elements is an **interpretation** #Maybe
 * **Entailment**: if $A$ then $B$ $(A\models B)$
@@ -96,7 +103,9 @@ _Formalizes different aspects of reasoning, defined mathematically_
 	* $I\models A$
 * ![[Pasted image 20240214135253.png|300]]
 
-
-#### Tautologies
-* Formula $A$ is **Tautology** if $A$ is True in all interpretations
+#### Entailment / Tautologies
+* If an Interpretation $I$ means a formula $a$ has to be true, you can say $I$ **entails** $a$ $(I\models a)$
+* Formula $A$ is called a **Tautology** if $A$ is True in all possible interpretations
+* Can be shown by simply: $\models A$
+	* $\models (a\lor \neg a)$
 * 
