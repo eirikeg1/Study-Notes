@@ -19,7 +19,7 @@ _Allows formulas to be displayed in latex notation_
 ## Recommended theme
 _Notes are made and formatted to look nice with this theme_
 
-* Optional, but I recommend a theme where different title sizes have different colors, as hi
+* Optional, but I recommend a theme where different title sizes have different colors, as hierarchy is used to structure notes
 * Dracula for Obsidian - Dark theme
 * There are no links, but it can be found in obsidian: `settings -> appearance -> Themes -> manage`
 
