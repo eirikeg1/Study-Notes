@@ -2,6 +2,7 @@
 # Basic set theory
 ---
 
+![[Pasted image 20240214125053.png|350]]
 ## Set
 _Unordered collection of elements without duplicates_
 
@@ -12,6 +13,7 @@ _Unordered collection of elements without duplicates_
 * **Empty set** $\emptyset$ or $\{\}$
 * $a$ is **subset** of $b$ if every element in $a$ is also in $b$, but $b$ has more elements
 	* $a\subset b$
+	* **Subset or equal**: $\subseteq$
 	* **Superset** $\supset$ is the opposite
 * **Union** $\cup$ is an operation which returns the set which is all the elements in two other sets
 * **Intersection** $\cap$ is an operation which returns the elements two sets have in common
@@ -53,8 +55,48 @@ _Ordered collection of two objects_
 	* $F\cup M=P$
 
 
-
-# Examples
+# Propositional logic
 ---
 
-![[Pasted image 20240214125053.png|500]]
+## Different kinds of logic
+_Formalizes different aspects of reasoning, defined mathematically_
+
+* **Propositional logic**: AND, OR, NOT
+* **Description logic**: A mother is a person who is a female and has a child
+	* Most relevant to [[Course Page - IN4060|IN4060]]
+* **Modal logic**: Alice knows that Bob didn't know yesterday
+* **First-order logic**: For all ..., for some ...
+
+### Propositional logic
+
+* **Formulas** are defined **by induction** or **recursively**
+* Any letter $p,q,r,\dots$ is a formula
+* If $A$ and $B$ are formulas, then
+	* $A\land B$ is also a formula
+	* $A\rightarrow B$ is a formula
+	* $\neg A$ is a formula
+* Many formulas can be simplified to **atomic form**
+* If $a\land b$ then both $a$ and $b$ must also be true
+* Can be parsed uniquely, as every symbol has unique binding strength:
+![[Pasted image 20240214134037.png|400]]
+
+#### Terminology #toExpand 
+
+* $\neg, \land, \lor, \rightarrow$ are **connectives**
+* A formula $(A\land B)$ is a **conjunction**
+* A formula which always is true $(a\lor \neg a)$ is a **tautology**
+* A set of only true elements is an **interpretation** #Maybe
+* **Entailment**: if $A$ then $B$ $(A\models B)$
+* $if$, $iff$ (if and only if)
+
+#### Interpretations
+* Set of true statements
+* Can either be True or False (satisfied) in an _environment_, or world
+* Interpretation $I$ satisfies set $A$ if all elements in $I$ is true in $A$
+	* $I\models A$
+* ![[Pasted image 20240214135253.png|300]]
+
+
+#### Tautologies
+* Formula $A$ is **Tautology** if $A$ is True in all interpretations
+* 
