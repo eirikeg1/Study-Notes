@@ -1,7 +1,7 @@
 # Overview
 ---
 
-My notes for master subjects. I use [obsidian.md](https://obsidian.md/) to write the notes. I use a plugin to write latex-style formulas.
+My notes for master subjects. I use [obsidian.md](https://obsidian.md/) to write the notes. I use a plugin to write latex-style formulas.  Obsidian is recommended to view the notes, as some formatting might look weird in `GitHub` or other markdown editors.
 
 Most images and links are made using `Wikilink`notation, therefore they will not be visible in GitHub.
 
@@ -10,6 +10,7 @@ The vault is structured with each course in its own folder. Each course has a fi
 # Configuration
 ---
 _My recommended configuration for this vault. Other plugins can also be useful, but these are the ones I consider necessary_
+
 ## Quick latex
 _Allows formulas to be displayed in latex notation_
 
