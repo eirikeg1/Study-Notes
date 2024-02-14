@@ -96,7 +96,9 @@ _Even though there is no negation operator, there is a workaround_
 ## Matching alternatives (UNION)
 _Matches if any of some alternatives matches_
 
-* In example below the book will only be retrieved if either the author or the book matches:
+* In example below the book will only be retrieved if either the author or the book matches
+* Shorthand with `|`:
+![[Pasted image 20240214154847.png|350]]
 ![[Pasted image 20240213173519.png|300]]
 
 
