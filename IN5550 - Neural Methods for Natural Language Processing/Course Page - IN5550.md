@@ -3,6 +3,7 @@
 ---
 * This is a course where we use the PyTorch library, [[PyTorch basics|here]] is an overview of PyTorch
 * [[Fox data cluster cheat sheet]]
+* [Online fox notebook](https://ondemand.educloud.no/pun/sys/dashboard/batch_connect/sessions)
 * [Zoom link](https://uio.zoom.us/j/62776647554?pwd=dnZ4WUMwMnExZVh2bFNIdkN3N2ZNdz09)
 * [Course GitHub](https://github.uio.no/in5550/2024)
 * [TensorFlow playground](playground.tensorflow.org)

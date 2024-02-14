@@ -5,6 +5,7 @@ _University of Oslo high performance GPU cluster_
 
 * Connect to Fox: ```ssh -X ec-eirikeg@fox.educloud.no```
 	* .zshrc alias: ```fox```
+* [Online fox notebook](https://ondemand.educloud.no/pun/sys/dashboard/batch_connect/sessions)
 
 ### Inside Fox Shell
 

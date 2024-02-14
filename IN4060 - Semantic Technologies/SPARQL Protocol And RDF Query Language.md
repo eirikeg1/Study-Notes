@@ -101,7 +101,7 @@ _Matches if any of some alternatives matches_
 ![[Pasted image 20240214154847.png|350]]
 ![[Pasted image 20240213173519.png|300]]
 
-
+****
 ## Graph graph pattern (RDF datasets)
 _You can do queries over multiple datasets_
 
