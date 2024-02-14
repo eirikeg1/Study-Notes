@@ -5,6 +5,9 @@ _Query language for RDF defined by **W3C**_
 * Semantic web equivalent of SQL, meant for [[RDF Overview|RDF]]
 * [[Jena - Java library for RDF#Models|Jena Models]] can process **SPARQL**
 * **SPARQL** keywords are case-insensitive
+* Many sites (wikidata, dbpedia, dbtunes) publish **SPARQL** endpoints
+	* **SPARQL** queries can be submitted to a database server that sends back the results
+* Protocol is http, defined by **W3C Web Services** as defined [here](http://www.w3.org/TR/rdf-sparql-protocol/)
 
 
 # Type of Queries
