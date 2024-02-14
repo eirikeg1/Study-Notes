@@ -74,7 +74,7 @@ _Predicts a term based on its context (vector embedding)_
 
 * At each training instance, the input for the prediction is the current word input vector. We check whether each of the context words is the closest to it among all vocabulary words
 * Returns the term (usually **one-hot encoded**) based on the input vector
-* CLoseness is calculated with the help of dot product or cosine similarity and turned to probability using [[Week 7 - Neural networks#Softmax|softmax]]
+* Closeness is calculated with the help of dot product or cosine similarity and turned to probability using [[Week 7 - Neural networks#Softmax|softmax]]
 * [[Week 6 - word2vec embeddings#Skip-gram with negative sampling|Skip grams with negative sampling]] (**SGNS**) is still often used, despite the newer pretrained [[Week 8 - Transformer Models#Sequence encoders with self-attention|Transformer-based language models]] like **Bert**
 * **Loss-function**:
 	* ![[Pasted image 20240209172404.png|300]]

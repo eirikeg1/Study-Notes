@@ -1,5 +1,5 @@
 
-* Lets us use much fewer parameters than **fully connected networks**
+* Lets us use much fewer parameters than [[Week 2 - Multi-layered Networks and Deep Learning#Fully-connected|fully connected neural networks]]
 * Local pattern detection and translation invariance
 * sliding window
 * Are often used in image analysis/generation

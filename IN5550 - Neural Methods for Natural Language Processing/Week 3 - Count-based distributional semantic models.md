@@ -25,7 +25,7 @@ _Using discrete features means each feature is completely independent from each 
 * It is possible to reduce vector sizes to some reasonable values, and still preserve meaningful relations between them
 	* For example by **factorizing the co-occurrence matrix**, using **PCA** or other dimensionality reduction techniques
 * By reducing the dimensionality the vector components are no longer directly interpretable, meaning you don't exactly know what each dimension represents, but it can still give useful clustering
-	![[Pasted image 20240208190514.png|300]]]
+	![[Pasted image 20240208190514.png|300]]
 
 # Continuous features
 ---

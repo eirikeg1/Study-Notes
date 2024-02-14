@@ -13,11 +13,11 @@ _Technique which makes the features to a similar size, used to reduce overfittin
 # Linear Classifiers
 ---
 * Linear decision boundary 
-	![[Pasted image 20230905145321.png | 500]]
+	![[Pasted image 20230905145321.png | 350]]
 * When more than two dimensions the line becomes a hyper-plane:
-	![[Pasted image 20230905145430.png | 500]]
+	![[Pasted image 20230905145430.png | 350]]
 * Different models compared:
-	![[Pasted image 20230912143124.png  | 500]]
+	![[Pasted image 20230912143124.png  | 350]]
 
 # Generative vs Discriminative classifiers
 
@@ -39,7 +39,7 @@ _Technique which makes the features to a similar size, used to reduce overfittin
  * How likely is it that the observed document 𝑥 (i.e. its bag of words) with label 𝑦 has been generated from the distributions 𝑃?
 
 
-![[Pasted image 20230912142656.png | 750]]
+![[Pasted image 20230912142656.png | 350]]
 
 # Perceptron
 ---
@@ -56,11 +56,11 @@ _Technique which makes the features to a similar size, used to reduce overfittin
 _(sum weight * feature)_
 * Uses steppe function (sums the weights multiplied with the values and chooses above or below threshhold)
 * weight and features represented as vectors:
-	 ![[Pasted image 20230905143113.png | 500]]
+	 ![[Pasted image 20230905143113.png | 350]]
 * Scoring function represented as dot product:
-	 ![[Pasted image 20230905143143.png | 500]]
+	 ![[Pasted image 20230905143143.png | 350]]
 * Normal representation:
-	 ![[Pasted image 20230905142253.png | 500]]
+	 ![[Pasted image 20230905142253.png | 350]]
 
 # Training:
 * Take one instance 𝑥 of the training set 
@@ -75,9 +75,9 @@ _(sum weight * feature)_
 * If prediction is correct nothing happens
 * If prediction is wrong:
 	* Add the value of the feature value to the weight in the correct class
-		![[Pasted image 20230905144249.png | 500]]
+		![[Pasted image 20230905144249.png | 350]]
 	* Remove the value of the feature value to the weight in the correct class
-		 ![[Pasted image 20230905144838.png | 500]]
+		 ![[Pasted image 20230905144838.png | 350]]
 
 ### Stop conditions
 * Number of epochs (not great)
@@ -98,14 +98,14 @@ _Works same way as The Perceptron, but uses a logistics function instead of a st
 * Is pretty much always better than Naïve Bayes on **training** data. Can have a problem with overfitting
 * Only has one weight vector
 * Scoring function (Logistic/sigmoid function):
-	  ![[Pasted image 20230905154115.png | 500]]
+	  ![[Pasted image 20230905154115.png | 350]]
 * Use softmax function to get probabilities:
-	![[Pasted image 20230905151957.png | 500]]
+	![[Pasted image 20230905151957.png | 350]]
 
 # Training
 ### Updating weights
 * Lambda means learning rate:
-	  ![[Pasted image 20230905152701.png | 500]]
+	  ![[Pasted image 20230905152701.png | 350]]
 * In contrast to the perceptron it updates the weights of not only the gold and predicted classes. It changes all weights based on the predicted probability
 
 ### When to stop training
@@ -117,23 +117,23 @@ _Works same way as The Perceptron, but uses a logistics function instead of a st
 
 # Variants
 ### Regression point of view (1 input feature)
-	![[Pasted image 20230905154248.png | 500]]
+	![[Pasted image 20230905154248.png | 350]]
 
 ### Classification point of view (2 input features)
-	![[Pasted image 20230905154315.png | 500]]
+	![[Pasted image 20230905154315.png | 350]]
 
 
 # Learning
 
 * The measure for how well we're doing on dataset *D* the probability of the dataset given the weight vector:
-	![[Pasted image 20230905154645.png | 500]]
+	![[Pasted image 20230905154645.png | 350]]
 * By convention we take the logarithm of this probability, which is called the **Objective**:
-	![[Pasted image 20230905154731.png | 500]]
+	![[Pasted image 20230905154731.png | 350]]
 * The model is good if objective is large
 
 #### Cross entrophy loss
 
-![[Pasted image 20230905154902.png | 500]]
+![[Pasted image 20230905154902.png | 350]]
 * Rather than maximizing an objective, learning process is usually formalizes as minimizing the loss:
 * Gives a convex loss, allows for gradient descent
 * Finding the minimum of L(w):
@@ -143,13 +143,13 @@ _Works same way as The Perceptron, but uses a logistics function instead of a st
 	4. If L'(w) < 0 increase weight
 	5. If L'(w) > 0 decrease weight
 * **Gradient descent:**
-	![[Pasted image 20230905155554.png | 500]]
+	![[Pasted image 20230905155554.png | 350]]
 
 # Different learning strategies
 
 ## Batch training
 1. Calculate loss for whole training set
-	![[Pasted image 20230905155743.png | 500]]
+	![[Pasted image 20230905155743.png | 350]]
 2. Make one move with gradient descent
 3. Repeat
 
