@@ -202,8 +202,26 @@ ResultSet res = qe.execSelect();
 Model constructModel = qe.execConstruct();
 
 // Query a model:
+Model model = ModelFactory.createDefaultModel();
+model.read("http://heim.ifi.uio.no/martingi/foaf");
+QueryExecutionFactory.create(q, model);
 
+// Querying a Dataset:
+String dftGraphURI = "http://heim.ifi.uio.martingi/foaf";
+List namedGraphURIs = new ArrayList();
+namedGraphURIs.add("http://richard.cyganiak.de/foaf.rdf");
+namedGraphURIs.add("http://danbri.org/foaf.rdf");
+Dataset dataset = DatasetFactory.create(dftGraphURI, namedGraphURIs);
+QueryExecutionFactory.create(q, dataset);		   
 ```
+
+
+### Conventions and security
+
+* Antipattern: have user input in a query
+* Tricky content of name can be a security issue
+* Have to be careful to escape content of name properly
+* Best to use [parameterized SPARQL strings](https://jena.apache.org/documentation/query/parameterized-sparql-strings.html)
 
 
 ## Example
