@@ -91,7 +91,7 @@ _Calculate the accuracy and recall for each class/label, then calculate the aver
 * Multi-class
 * Often uses batch training
 * Each probability for a class is independent. This means that if you later add a new class you can just calculate the class probability and use the current probabilities for the other classes
-# Variants:
+## Variants:
 
 **Multinomial Naïve Bayes**
 * Uses count-based bags of words (or weighted count-based BOWs)
@@ -102,7 +102,7 @@ _Calculate the accuracy and recall for each class/label, then calculate the aver
 * **Bernoulli** tracks if the word is both present but also not present. It checks if it is in the _vocabulary_ (all word types) #toExpand
 ![[Pasted image 20230829160052.png | 500]]
 
-# Bayesian inference
+## Bayesian inference
 _Convert normal prediction formula to Bayes' theorem_
 
 * Compute the probability of a document given a label, not the other way around
@@ -131,7 +131,7 @@ _Reduces a document to the frequency distribution of it's words_
 * Each _x_i_ corresponds to a word:
 ![[Pasted image 20230829153808.png | 250]]
 
-# Training
+## Training
 
 **Maximum likelihood estimation:**
 ![[Pasted image 20230829154512.png | 500]]

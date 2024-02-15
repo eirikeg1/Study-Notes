@@ -31,3 +31,9 @@ _RDF standard_
 
 ## Week 3
 * [[SPARQL Protocol And RDF Query Language]]
+
+
+# Weekly Exercises
+---
+
+* [[Week 5]]
