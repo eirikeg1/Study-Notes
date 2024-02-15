@@ -9,13 +9,7 @@ The vault is structured with each course in its own folder. Each course has a fi
 
 # Configuration
 ---
-_My recommended configuration for this vault. Other plugins can also be useful, but these are the ones I consider necessary_
-
-## Quick latex
-_Allows formulas to be displayed in latex notation_
-
-* Make sure to use the [Quick Latex for Obsidian](obsidian://show-plugin?id=quick-latex) plugin
-* This is required to be able to display formulas, which are heavily used in this vault
+_My recommended configuration for this vault. Other plugins can also be useful, but these are the ones I consider necessary_s
 
 ## Recommended theme
 _Notes are made and formatted to look nice with this theme_
