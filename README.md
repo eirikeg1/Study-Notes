@@ -15,7 +15,7 @@ _My recommended configuration for this vault. Other plugins can also be useful, 
 _Notes are made and formatted to look nice with this theme_
 
 * Optional, but I recommend a theme where different title sizes have different colors, as hierarchy is used to structure notes
-* Dracula for Obsidian - Dark theme
+* Tokyo theme
 * There are no links, but it can be found in obsidian: `settings -> appearance -> Themes -> manage`
 
 ## Hover external link

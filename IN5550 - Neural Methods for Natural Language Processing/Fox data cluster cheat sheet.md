@@ -27,6 +27,7 @@ _University of Oslo high performance GPU cluster_
 * Load module: ```module load <module-name>```
 * Unload modules: ```module purge```
 * Use _ec30_ modules directory: 
+
 ```Bash
 module use -a /fp/projects01/ec30/software/easybuild/modules/all/
 ```
