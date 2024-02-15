@@ -64,7 +64,7 @@ _Model which outputs a vector embedding of a word based on its context_
 * Returns an vector embedding representing the semantic meaning of the word, based on its context words
 * **Loss function**: 
 	* $c$ are the context words
-	* ![[Pasted image 20240209172131.png|300]]
+	* $L=-log\begin{pmatrix}P\begin{pmatrix}w_{t}|\sum\limits_{i=t}^j c_{i}\end{pmatrix}\end{pmatrix}$
 * 
 
 
@@ -81,8 +81,6 @@ _Predicts a term based on its context (vector embedding)_
 
 
 ## fastText
-
-
 
 
 # Hybrid approaches
