@@ -5,6 +5,7 @@ _University of Oslo high performance GPU cluster_
 
 * Connect to Fox: ```ssh -X ec-eirikeg@fox.educloud.no```
 	* .zshrc alias: ```fox```
+* [Fox connection guide](https://www.uio.no/studier/emner/matnat/ifi/IN5550/v24/setup.html)
 * [Online fox notebook](https://ondemand.educloud.no/pun/sys/dashboard/batch_connect/sessions)
 
 ### Inside Fox Shell
@@ -25,7 +26,10 @@ _University of Oslo high performance GPU cluster_
 * In order to load all modules use alias: ```load_modules```
 * Load module: ```module load <module-name>```
 * Unload modules: ```module purge```
-* Use _ec30_ modules directory: ```module use -a /fp/projects01/ec30/software/easybuild/modules/all/```
+* Use _ec30_ modules directory: 
+```Bash
+module use -a /fp/projects01/ec30/software/easybuild/modules/all/
+```
 * 
 * Check available modules: ```module avail```
 * Check loaded modules: ```module list```
