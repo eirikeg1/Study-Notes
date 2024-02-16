@@ -120,6 +120,7 @@ _Used to prevent overfitting by adding a penalty term to loss function_
 * Also known as **weight decay**, calculates the magnitude of a vectors values
 * Can be used for normalization by adding the **L2 Norm** to the loss
 * [[Week 5 - Scoring, Term weighting and Vector Space Model#Length normalisation (L2 norm)|From IN4120]]
+* $||\vec{x}||_{2}=\sqrt{\sum\limits_{i}x_{i}^2}$
 
 ![[Pasted image 20230913105705.png | 350]]
 

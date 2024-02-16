@@ -14,6 +14,7 @@
 	* e.g. $s_4=R(R(R(R(x_{q},s_{o}),x_2),x_3),x_4)$
 * Unlike [[Week 2 - Multi-layered Networks and Deep Learning#Feed-forward neural networks|feed forward neural networks]], **RNN**s contain cycles
 * **RNN**s are highly sensitive to linear order, does not need any [[Week 5 - Sequence labeling 2#Trick 2 The Markov Assumption|markov assumption]]
+* Even though on illustrations they are often portrayed as multiple _nodes_ beside each other, connecting to each other, it is really just one node which has a **feedback loop** back to itself. Each *node* in the illustrations actually just portrays the same node being called multiple times sequentially, but uses the value from the previous run
 
 ![[Pasted image 20240212111006.png|350]]
 
@@ -42,8 +43,6 @@ _Most basic type of actual RNN_
 
 
 
-
-
 ## Bi-Directional Recurrent Networks
 
 * Capture full left and right context: **history** and **future** for each $x_i$
@@ -61,7 +60,7 @@ _Most basic type of actual RNN_
 ---
 _Architecture used to prevent exploding/vanishing gradient problem_
 
-* Used to prevent [[Week 2 - Practicalities and hyper-parameters#Exploding- / Vanishing gradient problem|exploding/vanishing gradient problems]]
+* Used to prevent [[Week 2 - Practicalities and hyper-parameters#Exploding- / Vanishing gradient problem|exploding/vanishing gradient problems]], which can be problematic when the RNN becomes too wide
 
 ![[Pasted image 20240212153307.png|450]]
 
@@ -69,14 +68,14 @@ _Architecture used to prevent exploding/vanishing gradient problem_
 
 * **Hadamard product** $\odot$  simply performs element-wise multiplication
 * vector $g$ acts as a **gate**: masks out parts of the memory and input
-* **Gates** are differentiable so they can be trained, but when using them are squashed to either 1 or 0 using for example a [[Week 7 - Neural networks#Sigmoid|sigmoid function]].
+* **Gates** are differentiable so they can be trained, but when using them are squashed to a continuous value between 1 or 0, for example using a [[Week 7 - Neural networks#Sigmoid|sigmoid function]].
 * **Gates** are used to determine if you should use the value $s_i$ or $g_i$ for each $i$ in $s'$
 * In diagram below, we take the values from $x$ where $g$ is 1, replace the rest with values from the state $s$
 * ![[Pasted image 20240212150920.png|350]]
 
 ## Long Short-Term Memory RNNs (LSTMs)
 
-* State vectors $s_i$ partitioned into **context memory** and **hidden state**
+* State vectors $s_i$ partitioned into **context memory** (**cell state**) and **hidden state**
 * Forget gate $f$: how much of the previous memory to keep
 * input gate $i$: how much of the proposed update to apply
 * output gate $o$: what parts of the updated memory to output
@@ -86,6 +85,15 @@ _Architecture used to prevent exploding/vanishing gradient problem_
 
 ![[Pasted image 20240212152956.png|350]]
 
+### Cell state and hidden state
+_The two different types of states which are sent to the next LSTM unit_
+
+|Feature|Cell State (Context Memory)|Hidden State|
+|---|---|---|
+|Memory Type|Long-term|Short-term|
+|Persistence|Carries information over longer sequences|Updated each time step|
+|Role|Stores core knowledge|Influences immediate output|
+
 
 ## Gated Recurrent Units (GRUs)
 _More modern simpler variant of LSTMs_
@@ -93,7 +101,6 @@ _More modern simpler variant of LSTMs_
 * No separate context memory
 * Less gates
 ![[Pasted image 20240212153105.png|350]]
-
 
 
 # Tips and tricks

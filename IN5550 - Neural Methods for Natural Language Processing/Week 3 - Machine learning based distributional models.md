@@ -47,7 +47,7 @@ _Choose a few random words during training, which are not context words, update 
 	3. **Gensim format**
 		* Uses **NumPy** arrays
 		* Recommended
-		* Stores additional info (training weights, hyperparameters, word frequency, etc.)
+		* Stores additional info (training weights, hyper-parameters, word frequency, etc.)
 		* On [[Fox data cluster cheat sheet|Fox]]: 
 		```Shell
 		module load nlpl-gensim/4.3.2-foss-2022b-Python-3.10.8
@@ -64,8 +64,8 @@ _Model which outputs a vector embedding of a word based on its context_
 * Returns an vector embedding representing the semantic meaning of the word, based on its context words
 * **Loss function**: 
 	* $c$ are the context words
-	* $L=-log\begin{pmatrix}P\begin{pmatrix}w_{t}|\sum\limits_{i=t}^j c_{i}\end{pmatrix}\end{pmatrix}$
-* 
+	* $L=-\log{(P(w_{t}|\sum\limits_{i=t}^j c_{i}))}$
+
 
 
 
