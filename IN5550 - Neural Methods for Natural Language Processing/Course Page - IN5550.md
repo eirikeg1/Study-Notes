@@ -30,6 +30,9 @@
 * [[Week 4 - Recurrent Neural Networks]]
 * [[Week 4 - Contextualized embeddings]]
 
+## Week 5
+* [[Encoder-Decoder for Sequence2Sequence]]
+
 # Book Notes
 ---
 
