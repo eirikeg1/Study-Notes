@@ -16,8 +16,8 @@ _A classical neural network_
 * In a multilayered network we transform the data for each layer
 	* Transformations themselves are linear, but followed by a non-linear operation at each layer
 * All weights are calculated at the same time, with matrix multiplication
-
-	  ![[Pasted image 20240129145733.png|350]]
+	  $\phi(x)=g(\cdot W')$
+	  $\hat{y}=\phi(x)\cdot W$
 ## Bias
 
 * **Bias** is added trivially to each layer, often except the last one
@@ -29,7 +29,6 @@ _A classical neural network_
 ## Parameters
 
 * 
-
 
 ## Popular activation functions
 _Activation functions are used to introduce non-linearity in the model_
