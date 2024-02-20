@@ -41,7 +41,7 @@ module use -a /fp/projects01/ec30/software/easybuild/modules/all/
 
 * **Gensim format** (format for storing model data in NumPy arrays): 
 ```Bash
-		module load nlpl-gensim/4.3.2-foss-2022b-Python-3.10.8
+	module load nlpl-gensim/4.3.2-foss-2022b-Python-3.10.8
 ```
 
 
@@ -50,5 +50,4 @@ module use -a /fp/projects01/ec30/software/easybuild/modules/all/
 1. Create a `.slurm` script, follow the [template](https://github.uio.no/in5550/2024/blob/main/sample.slurm) from github
 2. Run job with `sbatch <filename-with-ending`
 3. 
-
 
