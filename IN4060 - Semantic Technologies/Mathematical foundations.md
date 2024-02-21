@@ -108,4 +108,20 @@ _Formalizes different aspects of reasoning, defined mathematically_
 * Formula $A$ is called a **Tautology** if $A$ is True in all possible interpretations
 * Can be shown by simply: $\models A$
 	* $\models (a\lor \neg a)$
+* Can be checked with **SAT** solver
+	* $a\models b$ if and only if $\models (A\rightarrow B)$
+* **Truth tables** can be used for simple cases
+	* ![[Pasted image 20240221122237.png|350]]
+	* Based on formula above $(p\land \neg{q}\models\neg{(\neg{p\lor q})})$
+
+
+#### Equivalence
+* **Equivalence** shown with $\leftrightarrow$
+* ![[Pasted image 20240221122730.png|300]]
+
+
+
 * 
+
+
+
