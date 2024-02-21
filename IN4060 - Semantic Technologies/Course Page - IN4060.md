@@ -36,7 +36,7 @@ _RDF standard_
 * [[Mathematical foundations]]
 
 ## Week 5
-* [[]]
+* [[Reasoning with RDF]]
 
 
 # Weekly Exercises
