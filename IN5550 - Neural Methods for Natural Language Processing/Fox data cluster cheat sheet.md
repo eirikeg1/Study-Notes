@@ -14,7 +14,6 @@ _University of Oslo high performance GPU cluster_
 * Project directory path: ```/fp/projects01/ec30```
 	* Alias: ```ec30```
 	* Alias for ```ec30/IN5550```: `IN5550`
-	
 
 # Modules
 ---

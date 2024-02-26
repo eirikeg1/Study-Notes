@@ -32,6 +32,7 @@
 
 ## Week 5
 * [[Encoder-Decoder for Sequence2Sequence]]
+* [[Week 5 - Transformers and Attention]]
 
 # Book Notes
 ---
