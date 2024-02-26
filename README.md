@@ -9,7 +9,7 @@ The vault is structured with each course in its own folder. Each course has a fi
 
 # Configuration
 ---
-_My recommended configuration for this vault. Other plugins can also be useful, but these are the ones I consider necessary_s
+_My recommended configuration for using this vault_
 
 ## Recommended theme
 _Notes are made and formatted to look nice with this theme_
