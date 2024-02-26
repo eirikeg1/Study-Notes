@@ -13,8 +13,8 @@
 8. Batch size
 9. etc...
 
-## How to explore different hyperparameters
-_Different methods for finding the optimal hyperparameters_
+## How to explore different hyper-parameters
+_Different methods for finding the optimal hyper-parameters_
 
 * **Grid search**
 	* Try all combinations

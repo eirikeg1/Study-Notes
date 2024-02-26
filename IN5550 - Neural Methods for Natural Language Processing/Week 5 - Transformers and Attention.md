@@ -1,6 +1,7 @@
 
 # Transformer Architecture
 ---
+_Neural model architecture, using only attention mechanisms for sequential properties_
 
 * [[Week 8 - Transformer Models|Notes from IN4080]]
 * BER**T**, RoBER**T**a, BAR**T**

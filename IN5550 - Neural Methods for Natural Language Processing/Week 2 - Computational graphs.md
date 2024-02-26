@@ -2,7 +2,7 @@
 # What is it?
 ---
 
-* Neural networks are just differentiable parameterised functions, which we use gradient-based optimisation techniques on
+* Neural networks are just differentiable parameterized functions, which we use gradient-based optimization techniques on
 * In order to do this we have to calculate the gradient
 * We can use **reverse-mode automatic differentiation** (i.e. **back-propagation**) to automatically calculate the gradients
 * A computational graph is an abstraction, which represents the process of computing mathematical expressions in order to construct arbitrary deep and complex network architectures
