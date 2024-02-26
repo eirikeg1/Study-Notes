@@ -45,7 +45,8 @@
 ---
 
 * [[Rong - word2vec Parameter Learning Explained]]
-
+* [[Vaswani ,.. - The Annotated Transformer]]
+	* _"Attention Is All You Need", step by step walkthrough implementation in PyTorch_
 
 # Tags
 ---
