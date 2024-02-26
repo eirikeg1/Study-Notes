@@ -9,6 +9,7 @@
 ---
 * https://forzasys.com/R-and-D.html
 * [[MHV24-sports-pipeline-4.pdf]]
+* [Simula project page](https://www.simula.no/education/masters-students/masters-projects/next-generation-sport-systems-ai-based-video-analysis)
 
 
 # Examples from supervisor
