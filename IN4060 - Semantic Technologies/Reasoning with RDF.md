@@ -98,7 +98,7 @@ _Typing data based on their use_
 	* `rdfs:range`
 	* `rdfs:domain`
 	* `rdf:type`
-* fomain and range tell us how a property is used
+* Domain and range tell us how a property is used
 * domain types the possible subjects of triples
 * range types possible objects
 * When we assert that property $p$ has domain #C, we are saying
@@ -192,6 +192,6 @@ _The process of setting new conclusions/rules based on  what you already know_
 ---
 #toExpand
 * Multiple ways in [[Jena - Java library for RDF|Jena]]
-* Standard reasonser from `ReasonerRegistry.getRDFSReasoner();`
+* Standard reasoner from `ReasonerRegistry.getRDFSReasoner();`
 * ![[Pasted image 20240228124015.png|400]]
 * 
