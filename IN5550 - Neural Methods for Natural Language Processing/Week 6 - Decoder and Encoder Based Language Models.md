@@ -75,3 +75,8 @@ _Uses both an encoder and an decoder, based on the original "Attention is all yo
 * This model is more versatile, therefore more training options exist:
 	* **BART** is trained with an alternative take on autoregressive MLMs
 	* **UL2** further merges CLM with autoregressive MLM, leading to better zero-shot performance
+
+
+$\frac{e^{z_i}}{\sum_{j=1}^{K} e^{z_j}}$
+$softmax(\frac{QK^T}{\sqrt{d_{k}}})V$
+$\theta$

@@ -7,7 +7,7 @@
 
 # Articles to read
 ---
-* https://forzasys.com/R-and-D.html
+* [forzasys R/D](https://forzasys.com/R-and-D.html)
 * [[MHV24-sports-pipeline-4.pdf]]
 * [Simula project page](https://www.simula.no/education/masters-students/masters-projects/next-generation-sport-systems-ai-based-video-analysis)
 
@@ -22,6 +22,10 @@
 
 # Possible own scoping
 ---
+
+## Optical flow fields or other directional features
+* [[Real-Time Detection of Events in Soccer Videos using 3D Convolutional Neural Networks]]
+
 ## Not tagged event detection
 *Entertaining passes, dribbles etc.*
 * Train with videos + commentator data
