@@ -138,3 +138,60 @@ _Typing data based on their use_
 ## Example
 
 * ![[Pasted image 20240221135939.png|350]]
+
+
+
+
+
+# Chaining
+---
+_The process of setting new conclusions/rules based on  what you already know_
+
+* Is done when evaluating a query, should you use the statements in the query, or are most facts already conputed? #Maybe
+
+![[Pasted image 20240228122954.png|350]]
+## Forward chaining
+
+* Reasoning from premises to conclusions
+* Add facts from conclusions of rules
+* Entailed facts are stored and reused
+* Precomputing and storing answers is suitable for data which is:
+	* Frequently accessed, expensive to compute, relatively static
+	* small enough to store efficiently
+
+### Pros
+* Optimizes retrieval
+* No additional inference is necessary at query time
+
+### Cons
+* Increases storage
+* increases overhead of insertion
+* removal is problematic
+* truth maintenance usually not implemented in RDF stores
+* Problematic for distributed systems
+
+## Backward chaining 
+
+* Reasoning from conclusion to premises
+* _What is needed for a conclusion to hold?_
+
+### Pros
+* Only relevant inferences are drawn
+* Truth maintenance is automatic
+* no persistent storage space needed
+
+### Cons
+* Not efficient when there is little need for reuse of computed answer
+* Trades insertion overhead for access overhead (putting into database vs querying)
+* Without caching, answer must be recomputed every time
+### Example
+![[Pasted image 20240228123446.png|350]]
+
+
+# Reasoning in Jena
+---
+#toExpand
+* Multiple ways in [[Jena - Java library for RDF|Jena]]
+* Standard reasonser from `ReasonerRegistry.getRDFSReasoner();`
+* ![[Pasted image 20240228124015.png|400]]
+* 

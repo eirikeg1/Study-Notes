@@ -38,6 +38,9 @@ _RDF standard_
 ## Week 5
 * [[Reasoning with RDF]]
 
+## Week 6
+* [[RDF- and RDFS-semantics]]
+
 
 # Weekly Exercises
 ---
