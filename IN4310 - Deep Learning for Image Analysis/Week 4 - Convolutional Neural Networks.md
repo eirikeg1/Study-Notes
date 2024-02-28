@@ -155,6 +155,9 @@ _number of input elements/pixels which filter moves in every step_
 * 
 ### Standard Padding
 
+* Standard padding puts the center of the kernel to the top left of the feature-matrix
+* The following formula gives the output spacial size:
+
 ![[Pasted image 20240212231358.png|400]]
 
 
