@@ -28,7 +28,6 @@ _RDF standard_
 
 * [[Jena - Java library for RDF]]
 
-
 ## Week 3
 * [[SPARQL Protocol And RDF Query Language]]
 
@@ -40,6 +39,9 @@ _RDF standard_
 
 ## Week 6
 * [[RDF- and RDFS-semantics]]
+
+## Week 7
+* [[Model Semantics & Reasoning]]
 
 
 # Weekly Exercises
