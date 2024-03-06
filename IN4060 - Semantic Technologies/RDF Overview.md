@@ -52,28 +52,28 @@ _Used to represent data values_
 
 * Have a datatype
 * Datatypes are also resources, referenced via URIs, and written as:
-	![[Pasted image 20240124123812.png|750]]
+	![[Pasted image 20240124123812.png|450]]
 * Default value is string
 * Can specify the language of string with a language tag
-	![[Pasted image 20240124124037.png|500]]
+	![[Pasted image 20240124124037.png|450]]
 ## Blank nodes
 * Resources without an URI
 * Can still map to other literals
 * Blank nodes can not be references:
-	  ![[Pasted image 20240124125344.png|500]]
-* ![[Pasted image 20240124124931.png|500]]
+	  ![[Pasted image 20240124125344.png|400]]
+* ![[Pasted image 20240124124931.png|400]]
 # RDF Graphs
 ---
 
 * An RDF graph is a set of triples
-![[Pasted image 20240124124218.png|500]]
-![[Pasted image 20240124124258.png|500]]
+![[Pasted image 20240124124218.png|400]]
+![[Pasted image 20240124124258.png|400]]
 	
 * Not all knowledge can be nicely represented with only triples with URIs and literals
 * E.g. if we don't know the capital name, but the capital population:
-![[Pasted image 20240124124706.png|500]]
+![[Pasted image 20240124124706.png|400]]
 * Some values are not good to structue in one string
-![[Pasted image 20240124124808.png|500]]
+![[Pasted image 20240124124808.png|400]]
 * Can split up into multiple literals, but removes the convenience of an addresses
 
 ### Combining graphs
