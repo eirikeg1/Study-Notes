@@ -64,7 +64,7 @@ _Formalizes different aspects of reasoning, defined mathematically_
 
 * **Propositional logic**: AND, OR, NOT
 * **Description logic**: A mother is a person who is a female and has a child
-	* Most relevant to [[Course Page - IN4060|IN4060]]
+	* Most relevant to [[Course Page - Semantic Technologies|IN4060]]
 * **Modal logic**: Alice knows that Bob didn't know yesterday
 * **First-order logic**: For all ..., for some ...
 
