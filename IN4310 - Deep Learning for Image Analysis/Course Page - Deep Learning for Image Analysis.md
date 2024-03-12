@@ -17,8 +17,9 @@
 * [[Week 5 - Deep Architecture Evolution]]
 * [[Week 6 - BackPropagation and Optimization]]
 * [[Week 7 - Performance estimation and generalization]]
+* [[Week 8 - Data Augmentation]]
 
 
 # Tags
 ---
-* #CoursePage
+* #CoursePage #IN4310
