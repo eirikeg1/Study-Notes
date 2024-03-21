@@ -21,6 +21,10 @@
 * [[Week 9 - Object detection]]
 
 
+# Mandatories
+---
+* [[Mandatory 1 report]]
+
 # Tags
 ---
 * #CoursePage #IN4310
