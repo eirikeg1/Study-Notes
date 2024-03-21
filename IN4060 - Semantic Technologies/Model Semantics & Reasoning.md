@@ -15,12 +15,12 @@ _If a rule applies for the domain, it applies for all new elements later added_
 * Then add info to $A$, e.g. $A' \supseteq B$
 * Then $B$ is still entailed: $A' \supseteq B$
 * **RDF/RDFS** is monotonic #Maybe
- 
+
 ## Entailment and Derivability
 
 * Two different notions
 * In contrary to knowledge base lookups, if something entails something, it holds for all future values, not the case with database lookups
-* Shoud correspond $A \vDash B iff B$ can be derived from $A$
+* Should correspond $A \vDash B \text{ iff } B$ can be derived from $A$
 
 ### Entailment
 _Closely related to the meaning of things_
@@ -53,7 +53,7 @@ _Any entailment can be found using the rules_
 * ![[Pasted image 20240306135622.png|350]]
 
 
-### Closed Word Assumption
+### Closed World Assumption
 _If a thing is not listed in the knowledge base, it does not exist_
 * If its not stated or derivable, its false
 

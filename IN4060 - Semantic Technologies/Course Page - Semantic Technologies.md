@@ -44,6 +44,18 @@ _RDF standard_
 * [[Model Semantics & Reasoning]]
 
 
+# Other notes
+---
+
+* [[Foundations of Semantic Web - RDFS and model theoretic semantics chapter]]
+* [[Group session notes]]
+
+
+# Obligatories
+---
+
+* [[Obligatory 5]]
+
 # Weekly Exercises
 ---
 
