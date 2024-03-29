@@ -31,8 +31,17 @@
 * [[Week 4 - Contextualized embeddings]]
 
 ## Week 5
-* [[Encoder-Decoder for Sequence2Sequence]]
+* [[Week 5 - Encoder-Decoder for Sequence2Sequence]]
 * [[Week 5 - Transformers and Attention]]
+
+## Week 6
+* [[Week 6 - Transfer learning]]
+* [[Week 6 - Decoder and Encoder Based Language Models]]
+* [[Week 6 - Sub-word tokenization]]
+
+## Week 7
+* [[Week 7 - Fine tuning and prompting]]
+* [[Week 7 - LLM Generation Strategies]]
 
 # Book Notes
 ---
