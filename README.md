@@ -18,6 +18,12 @@ _Notes are made and formatted to look nice with this theme_
 * Tokyo theme
 * There are no links, but it can be found in obsidian: `settings -> appearance -> Themes -> manage`
 
+## Image toolkit
+_Clicking an image shows the image in fullscreen, with additional options_
+
+* Can be very useful in these notes, as some images might be a bit small
+* [Image Toolkit](obsidian://show-plugin?id=obsidian-image-toolkit) in Obsidian store
+
 ## Hover external link
 _Shows a small window of link destination when hover over while holding `ctrl`_
 
