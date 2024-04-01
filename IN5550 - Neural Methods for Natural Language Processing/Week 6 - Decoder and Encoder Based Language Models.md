@@ -37,7 +37,7 @@ _Transformer-based language models used for next-word prediction. Does not use a
 * ![[Pasted image 20240226143902.png|350]]
 
 ## BERT
-_Popular Encoder language model which was very efficient and was the state-of-the art when it came out_
+_Popular Encoder-only language model which was very efficient and was the state-of-the art when it came out_
 
 * ![[Pasted image 20240226144153.png|350]]
 * Is pre-trained on two objectives at the same time: Masked language modeling (MLM) and next sentence prediction (NSP)

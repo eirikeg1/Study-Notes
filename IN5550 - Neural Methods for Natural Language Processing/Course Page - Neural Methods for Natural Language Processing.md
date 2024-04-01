@@ -43,6 +43,9 @@
 * [[Week 7 - Fine tuning and prompting]]
 * [[Week 7 - LLM Generation Strategies]]
 
+## Week 8
+* [[Week 8 - Evaluation and Benchmarking]]
+* 
 # Book Notes
 ---
 
