@@ -23,6 +23,8 @@ IR*Supervised by Pål Halvorsen*
 # Possible own scoping
 ---
 
+## Graph Neural Networks
+
 ## Optical flow fields or other directional features
 * [[Real-Time Detection of Events in Soccer Videos using 3D Convolutional Neural Networks]]
 
