@@ -32,7 +32,7 @@
 3. Refine, refine, refine
 
 * Commercial applications
-	* 1976: Weather forcast translation French-English
+	* 1976: Weather forecast translation French-English
 	* 1968: Systran
 
 # Statistical MT
@@ -55,8 +55,7 @@
 * Since 2016: NMT is the new state of the art
 
 
-# Data-driven MT
-
+# Data-driven Machine Translation
 
 ## Task
 * We have a source sentence which should be translated to a target language
@@ -71,7 +70,7 @@
 	* Translated literature or websites
 	* OPUS corpus collection (often best to avoid copyright problems)
 
-# NMT model architecture
+# Neural Machine Translation model architecture
 
 * Most popular architecture is the **Transformer**
 
@@ -82,7 +81,7 @@
 # Open vocabulary translation
 ---
 
-# Representing words
+## Representing words
 
 * Words are translated to a vector of numbers
 * Input is usually one-hot encoding of source words
@@ -97,7 +96,7 @@
 * Decrease training and decoding speed
 * Still not large enough
 
-### Unkown word tokens
+### Unknown word tokens
 * Limit the vocabulary vectors to the $n$ most frequent words
 * Add one reserved cell for all rare and unknown words: $<UNK>$
 
@@ -114,8 +113,8 @@
 ### Character-level translation #toExpand 
 * Only use $<UNK>$ For used unknown characters
 	* Limitations:
-		* Still many UNKS for languages with large character sets (chinese)
-		* Increasing sequence length slows training/characterising time
+		* Still many UNKS for languages with large character sets (Chinese)
+		* Increasing sequence length slows training/characterizing time
 
 ### Hierarchical models
 * Hybrid between the two above
@@ -159,8 +158,7 @@
 
 # Evaluation of machine translation
 ---
-
-# Human evaluation
+## Human evaluation
 * Ultimately what we are interested in
 * Very time consuming, costly
 * Not reusable

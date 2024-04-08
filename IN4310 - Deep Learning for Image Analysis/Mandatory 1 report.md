@@ -1,4 +1,33 @@
 
+## Attempt 2 changes
+---
+
+Here are the changes I made for the second attempt. 
+* I added the method `ResNetModel.image_class_probabilities()`, which returns a dictionary where the keys is the name of the images, while the values is the logit list
+* I created the file `save_10_best_and_worst.py`, which loads in the model, uses the class explained above to calculate the logits and then saves the best/worst images for each class in the folder `best_worst_images`
+* Updated the `Assignment3` and `ResNetModel.PCA()` to correctly calculate the `PCA` graphs. The method calculates the values and saves a graph in the `pca` folder.
+
+
+### PCA
+The graphs can be found in the `pca` folder. For some reason both the fine tuned version and the non-fine tuned seems to cluster kind of similarly. However I notice that the not-fine-tuned version does not actually predict all the classes, while the fine tuned does.
+
+Even though all the classes seems to be centered approximately around origo, I notice that each class seems to have a different average distance between the points in the  fine-tuned model, while the average distance is more similar between each datapoint for each class in the not fine-tuned model. This makes me think that there is actually a difference in the vectorspace, however that the `PCA` might have picked up on slightly wrong dimensions (as the expected output is different centroids).
+
+### Best/worst images results
+
+It is not completely fair to compare the softmax of different images across multiple predictions, as softmax values are computed relative to each other for each image. Therefore a high score does not show exactly how _good_ an image is, rather which classes out of the relevant ones fit the most, compared to each other. In practice images which does not fit any of the classes, but one more then the others might get a very high score for that class, even though the model is not quite sure. This is important to note for the analysis.
+
+The results are stored in the `best_worst_images` folder. Because it was a simple for loop, I chose to just save it for all the classes. 
+
+The model struggled a lot with the `street` class and gave high probabilities to a lot off `sea` class images. I think this makes sense as if you look at the high probability images of `sea` there are a lot of seas where the actual ocean takes a similar shape as the street in the `street` images. The `street_best_1.png` is a `building` image from up front. This is probably because a lot of street images has buildings depicted from in front. The image points upwards with buildings on each side, so it is probably taken from a street, perhaps the un-fine-tuned model would predict this image differently
+
+Both the high probability `sea` images and `street` images also had a tendency to have houses with lights around them. This might be a detail the model can have picked up on. If I had trained the model for more epochs the model might perhaps have picked up on some more details which might make the model better at picking out these details.
+
+The `forest` class seemed to categorize `glacier` pictures highly. My guess is, again, that it could be improved by training for more epochs. This is because the `forest` and `glacier` tags are both `nature` themed (not in the dataset but just generally) trained on completely different labels. Therefore it might give these types of images similar scores as it still looks at them as similar. However fine-tuning more might make it cluster them more into our classes.
+
+The `building` and `mountain` classes seems to be the best classes by looking at the pictures. The `building` classifies a forest image as the 10th highest. Perhaps it is because a lot of buildings can have plants beside them or within their courtyards? The fact that all the top 10 `mountain` pictures are classified correctly makes sense as mountains have very characteristic shapes.
+
+
 ## Running the code
 ---
 
