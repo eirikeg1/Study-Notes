@@ -22,10 +22,10 @@
 * **Zero shot translation**
 	* Can learn to translate from one language to another, even though that specific pair was never in training data
 
-# Different Models
----
 
-# Rule-based MT
+# Different Machine Translation Models
+---
+## Rule-based MT
 
 1. Build dictionaries
 2. Write transformation rules
@@ -35,7 +35,7 @@
 	* 1976: Weather forecast translation French-English
 	* 1968: Systran
 
-# Statistical MT
+## Statistical MT
 
 * 1990: Also known as **IBM models**
 * Learn everything from a parallel corpus
@@ -48,20 +48,20 @@
 	* Commercial viability (Google Translate)
 
 
-# Neural MT
+## Neural MT
 
 * Late 2000s: Successful use of neural models for computer vision
 * 2012, 2013: first neural models for MT proposed
 * Since 2016: NMT is the new state of the art
 
 
-# Data-driven Machine Translation
+## Data-driven Machine Translation
 
-## Task
+### Task
 * We have a source sentence which should be translated to a target language
 * Meaning has to be the same in both languages
 
-## Training data
+### Training data
 * To train we need a parallel corpus or bitext (set of sentence pairs from input language to target language)
 * Rule of thumb: at least 1 million sentence pairs
 * Can be found from 
@@ -70,11 +70,11 @@
 	* Translated literature or websites
 	* OPUS corpus collection (often best to avoid copyright problems)
 
-# Neural Machine Translation model architecture
+## Neural Machine Translation model architectures
 
 * Most popular architecture is the **Transformer**
 
-## Encoder-decoder with attention
+### Encoder-decoder with attention
 * Encode source sentence
 * Then decode the target sentence by attending the most relevant source tokens
 
@@ -124,10 +124,10 @@
 
 ### Subword Units
 * Split words into pieces of variable length
-	* Usually longer than single characters, but shorter than enitre words
+	* Usually longer than single characters, but shorter than entire words
 	* Frequent words should often be more split up than rare words
 * Ideally in morphologically sensible way
-	* Suh that anu unseen words can de decomposed into subwords
+	* Such that any unseen words can de decomposed into subwords
 * Without using any external tools #lecture 
 
 #### Subword segmentation schemes
@@ -148,7 +148,7 @@
 	* Postprocessing: remove @@$<space>$ seqs
 * Sentence Piece marks whitespace with an underscore for every following word
 	* *Hello _wor ld*
-	* Postprocessing: Deleta all spaces, then replace _ by space
+	* Postprocessing: Delete all spaces, then replace _ by space
 
 
 #### Sentence piece
@@ -218,7 +218,7 @@
 
 ### Trained Metrics (e.g COMET)
 * 15 years of MT evaluation campaigns have produced large datasets of human evaluations:
-	* $<source, system_output,reference, score>$
+	* $<source, system_\text{output},reference, score>$
 * Use this dataset to train a classifier to predict scores
 * If source, system_output, reference are encoded as sentence embeddings by a multilingual language model, the classifier can also be applied to languages not seen in training data
 
