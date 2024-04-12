@@ -40,6 +40,11 @@ _Returns an RDF graph with data about matching resources_
 ![[Pasted image 20240213170026.png|300]]
 
 
+# Components
+---
+#toExpand 
+From [[SPARQL 1.1]] lecture
+
 # Solution sequence and modifiers
 ---
 

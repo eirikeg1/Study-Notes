@@ -9,7 +9,6 @@
 * [TensorFlow playground](playground.tensorflow.org)
 
 
-
 # Lecture Notes
 ---
 

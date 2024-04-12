@@ -154,7 +154,7 @@ m.write(new FileWriter(("inputFile.xml"), "", "RDF/XML")) // Write to XML
 
 ## SPARQL
 
-* The most powerful way of retrieving data from a Model is through [[SPARQL Protocol And RDF Query Language|SPARQL]]
+* The most powerful way of retrieving data from a Model is through [[SPARQL 1.0 Protocol And RDF Query Language|SPARQL]]
 *  Main  classes imported from `org.apache.jena.query`
 
 ### Main classes

@@ -29,7 +29,7 @@ _RDF standard_
 * [[Jena - Java library for RDF]]
 
 ## Week 3
-* [[SPARQL Protocol And RDF Query Language]]
+* [[SPARQL 1.0 Protocol And RDF Query Language]]
 
 ## Week 4
 * [[Mathematical foundations]]
