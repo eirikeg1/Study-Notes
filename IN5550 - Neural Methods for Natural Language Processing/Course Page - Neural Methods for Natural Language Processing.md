@@ -44,7 +44,15 @@
 
 ## Week 8
 * [[Week 8 - Evaluation and Benchmarking]]
+
+
+## Week 10
+* [[Week 10 - Machine translation]]
+
+## Week 11
+* [[Week 11 - Question Answering and Retrieval Models]]
 * 
+
 # Book Notes
 ---
 
