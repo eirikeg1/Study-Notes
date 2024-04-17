@@ -35,7 +35,7 @@ _Allows on URI to be used fro both a class and an individual_
 	* Intervals
 	* or any kind of sequence
 	* They can not be used for arithmetic
-* $Scotch\sqsubclasseq Whisky\sqcap\greatereq_3 age.int$
+* $Scotch\sqsubseteq Whisky\sqcap\geq_3 age.int$
 	* Says the scotch is aged for 3 **different** kind of years
 	* Better to model every year it was casked:
 

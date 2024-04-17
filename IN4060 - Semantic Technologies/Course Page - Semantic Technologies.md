@@ -23,9 +23,7 @@ _RDF standard_
 * [[RDF Serializations]]
 * [[RDF Vocabularies]]
 
-
 ## Week 2
-
 * [[Jena - Java library for RDF]]
 
 ## Week 3
@@ -43,6 +41,17 @@ _RDF standard_
 ## Week 7
 * [[Model Semantics & Reasoning]]
 
+## Week 8
+
+## Week 9
+* [[OWL - loose ends]]
+
+## Week 10
+* [[SPARQL 1.1]]
+
+## Week 11
+* [[Ontology Engineering]]
+* [[Reasonable Ontology Templates (OTTR)]]
 
 # Other notes
 ---
@@ -55,6 +64,7 @@ _RDF standard_
 ---
 
 * [[Obligatory 5]]
+* [[Obligatory 6]]
 
 # Weekly Exercises
 ---
