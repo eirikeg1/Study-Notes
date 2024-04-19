@@ -20,7 +20,7 @@ _Unique identifiers_
 
 
 ## Punning
-_Allows on URI to be used fro both a class and an individual_
+_Allows on URI to be used for both a class and an individual_
 
 * Semantically, punned URI are treated as different terms
 * Axioms bout class are not transferred
