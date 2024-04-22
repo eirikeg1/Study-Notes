@@ -133,9 +133,9 @@ _Property of  ML models where predictions are invariant or do not change, when t
 # Stride, Padding and Pooling
 ---
 ## Stride
-_number of input elements/pixels which filter moves in every step_
+_Number of input elements/pixels which filter moves in every step_
 
-* **Stride** is a spacial step length in the discrete convolution
+* **Stride** is a special step length in the discrete convolution
 * It causes downsampling with a factor equal to the stride
 * Increasing stride often combined with an increase in number of channels
 
@@ -144,7 +144,6 @@ _number of input elements/pixels which filter moves in every step_
 
 ## Padding
 
-
 ![[Pasted image 20240212195246.png|250]]
 
 * To keep output size unchanged compared to input, one can pad the image
@@ -152,9 +151,8 @@ _number of input elements/pixels which filter moves in every step_
 * Expand input image with another fixed value, e.g. mean pixel value
 * Use value of nearest pixel (replicate padding)
 * Use mirror-reflected indexing (reflect padding)
-* 
-### Standard Padding
 
+### Standard Padding
 * Standard padding puts the center of the kernel to the top left of the feature-matrix
 * The following formula gives the output spacial size:
 
@@ -162,10 +160,9 @@ _number of input elements/pixels which filter moves in every step_
 
 
 ### Output size
-
 * For $M\times N$ input and $k\times k$ filter
 
-**For sizes:**
+#### For sizes:
 * **Valid or reduced**: Only positions where the filter fits inside input
 	* Output will have smaller size than input $(M-k+1)\times (N-k+1)$
 * **Same**: Positions where the filter center is inside input
@@ -177,13 +174,12 @@ _number of input elements/pixels which filter moves in every step_
 
 ![[Pasted image 20240212231041.png|400]]
 
-
 ## Pooling
-
+_Operation used to downsample and/or normalize and reduce the spatial dimensions while retaining important information_
 * For multiple channels: each channel separately treated
 * Spatial reduction and forcing invariance
 * Operates over each channel independently
-* No parameters to be learned
+* No parameters to be learned (no weights)
 * Two common methods:
 	* **Max pooling**
 	* **Average pooling**
@@ -198,6 +194,15 @@ _number of input elements/pixels which filter moves in every step_
 * Explicitly remove some spatial information
 
 ![[Pasted image 20240212232942.png|350]]
+
+### Average Pooling
+* Take the average value for each input in the input feature map
+
+### Spacial normalization
+_Does not reduce the dimensionality, but normalizes data_
+* Have $\text{stride}=1$ to retain same dimensionality, but normalizes the data based on the other points in the patch
+* Can use **max value** in patch if goal is to highlight important features and reduce noise and outliers
+* Can use **average value** if goal is to smooth out features and reduce the feature variability
 
 
 # Receptive Field (Field of View)
