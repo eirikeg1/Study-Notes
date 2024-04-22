@@ -153,14 +153,11 @@
 * Sort samples by their scores in descending order
 * Calculate $AP$
 
-
 ## Mean average precision (mAP)
 * If multiple classes, average precision can be calculated per class
 * Arithmetic mean 
 
-
 ## ROC curves
-
 * Graph mapping $sensitivity$ over $1-specificity$
 
 ## Area under the curve (AUC)

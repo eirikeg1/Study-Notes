@@ -191,7 +191,6 @@ _number of input elements/pixels which filter moves in every step_
 ![[Pasted image 20240212232728.png|250]]
 
 ### Max Pooling
-
 * A strided maximum filtering
 * Maximum filter is a non-linear filter
 * Choosing the maximum value inside the filter neighborhood

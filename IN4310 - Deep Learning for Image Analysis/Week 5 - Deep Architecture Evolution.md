@@ -110,19 +110,17 @@
 	* Uses **Batch normalization** after every convolution
 
 ### Residual connections
-
 * Residual connection with 2 convolutional blocks
 * When gradient flows through shortcuts, it reduces [[Week 2 - Practicalities and hyper-parameters#Vanishing gradients|vanishing gradients]]
 * In forward pass: if convolution block is not useful, it will be bypassed
 	* Learned functions is at least as good as the one without convolutional blocks
-* 
 * ![[Pasted image 20240219105930.png|250]]
 * ![[Pasted image 20240219105748.png|350]]
 
 
 ## DenseNets
 
-* Within a block of same feature map size (_dense block_), each layer contains the feature amps of each the previous layers in the same block, via concatenation of layer maps
+* Within a block of same feature map size (_dense block_), each layer contains the feature maps of each the previous layers in the same block, via concatenation of layer maps
 * **Growth rate**: $\#$ of newly added output channels in convolutional layer
 * In order to stop a too big growth rate, we again use $1 \times1$ convolutions with BN and ReLU before each layer to control the number of channels
 

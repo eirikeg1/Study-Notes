@@ -6,7 +6,7 @@
 * Different resolutions, scales, perspectives, poses
 * Lighting, colors
 * Different label distributions
-![[Pasted image 20240311102624.png|150]]
+![[Pasted image 20240311102624.png|350]]
 
 
 ## Terminology 
@@ -34,7 +34,6 @@
 * Often done on the fly when fetching the data (from dataloader), so dataset is not changed
 
 ## Validation set
-
 * Not common, except for very small things in some cases
 
 # Transformation techniques
@@ -43,9 +42,9 @@
 * Changes to geometric properties
 * Sizes, shape, position, orientation, etc
 * Affine is a generalisation of rotating and flips, with shifting, scaling and shearing
-* Flips can be bad for flags, liie Ireland and Ivory coast
+* Flips can be bad for flags, e.g. Ireland and Ivory coast
 	* ![[Pasted image 20240311105042.png|250]]
-* Can be done easily in **PyTorch** #toLink 
+* Can be done easily in [[PyTorch basics|PyTorch]]
 	* ![[Pasted image 20240311103547.png|250]]
 	* ![[Pasted image 20240311103608.png|250]]
 	* ![[Pasted image 20240311103903.png|300]]
