@@ -1,5 +1,6 @@
 
-**Main NLP tasks**
+# Main NLP tasks
+---
 *  Hate speech detection 
 *  Sentiment analysis 
 *  Language identification 
@@ -63,13 +64,15 @@ _Proportion of matching labels (gold label = predicted label)_
 
 ## Precision and recall
 
-**Precision** 
-* How many of the accurate predictions did we find?
+### Precision 
+_Measure of how many of the accurate predictions was found_
 * true positives / (true positives + false positives)
-* 
-**Recall**
-* How accurate predictions
+* $\frac{TP}{TP + FP}$
+
+### Recall
+_Measure of how accurate the predictions are_
 * true positives / (true positives + false negatives)
+* $\frac{TP}{TP + FN}$
 
 ![[Pasted image 20230829151827.png | 500]]
 
@@ -108,17 +111,17 @@ _Convert normal prediction formula to Bayes' theorem_
 * Compute the probability of a document given a label, not the other way around
 * All $x_i$ are conditionally independent given the class
 
-**Full prediction function:**
+### Full prediction function:
 _Multiply the prediction for every word_
 ![[Pasted image 20230829154021.png | 500]]
 
-**Traditional prediction function:**
+### Traditional prediction function:
 ![[Pasted image 20230829153259.png | 250]]
 
-**Bayes theorem:**
-![[Pasted image 20230829153230.png | 250]]
+### Bayes theorem:
+**![[Pasted image 20230829153230.png | 250]]
 
-**Final argmax**
+### Final argmax
 ![[Pasted image 20230829153434.png | 250]]
 
 
