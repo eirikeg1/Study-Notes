@@ -19,6 +19,7 @@
 * [[Week 7 - Performance estimation and generalization]]
 * [[Week 8 - Data Augmentation]]
 * [[Week 9 - Object detection]]
+* [[Week 10 - Image Segmentation]]
 
 
 # Mandatories
