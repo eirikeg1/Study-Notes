@@ -17,6 +17,12 @@
 
 ## Basic needed knowledge about technology
 
+#### Relevant machine learning theory
+
+#### Pipeline
+
+#### Segmentation?
+
 ## Related work
 _In context of the thesis/problem statement_
 
