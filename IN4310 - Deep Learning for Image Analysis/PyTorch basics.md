@@ -31,21 +31,17 @@ _Functionality which allows one to perform mathematical operations even when ten
 ---
 
 ### Running on CPU
-
 ```Python
 t = torch.ones(5)
 b = a.detach().cpu().numpy()
-
 ```
 
 ### Matrix multiplication
-
 * ```torch.mm(a,b)``` is without broadcasting
 * ```torch.matmul(a,b)``` is with broadcasting
 
 ### Autograd
 _Automatically calculate gradients of computational graph_
-
 * PyTorch keeps track of gradients of the computational graph when executing differentiable operations
 * ```loss.backwards()``` calculated all gradients backwards
 * When not training you do not want to calculate gradients, then you should use the ```no_grad``` context manager
