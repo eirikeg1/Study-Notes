@@ -101,7 +101,7 @@ _Typing data based on their use_
 * Domain and range tell us how a property is used
 * domain types the possible subjects of triples
 * range types possible objects
-* When we assert that property $p$ has domain #C, we are saying
+* When we assert that property $p$ has domain $\text{\#C}$, we are saying
 	* whatever is linked to anything by $p$
 	* must be an object of type $C$
 * 
