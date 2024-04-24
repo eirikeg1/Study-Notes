@@ -49,7 +49,7 @@ _RDF standard_
 ## Week 10
 * [[SPARQL 1.1]]
 
-## Week 11
+## Week 11 and 12 
 * [[Ontology Engineering]]
 * [[OTTR (Reasonable Ontology Templates)]]
 

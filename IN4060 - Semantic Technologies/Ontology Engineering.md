@@ -27,6 +27,23 @@ _To create effective ontologies_
 	* navigation
 	* Correct modularization
 
+# Requirement for building large-scale ontologies
+---
+
+* Support large number of classes, which might have similar shapes
+* Support a large number of industry standards
+* Support consistent modeling
+	* Semantically similar
+	* Model the same thing in the same way, across different standards
+* Support collaborative development
+	* Contributors with varying background and competence
+	* Model consistently between all contributors
+* Support (automated) mechanisms for QA and verification
+
+## Challenges of modeling consistently
+* Humans are bad at repetitive tasks, especially in collaboration
+* Often **Excel** is used, but it is not a good database tool as it allows duplicates and multiple different formats/structures
+* [[OTTR (Reasonable Ontology Templates)#Template libraries|Template libraries]] can help keeping modeling consistent
 # Best practices
 ---
 _Best practices of modeling ontologies in frameworks like OWL_
@@ -80,22 +97,3 @@ _Ontologies are placed on different levels of abstraction_
 * Don't be unnecessarily specific
 * **KISS**: Keep it simple, stupid
 
-
-
-# Requirement for building large scale ontologies
----
-
-* Support large number of classes, which might have similar shapes
-* Support a large number of industry standards
-* Support consistent modeling
-	* Semantically similar
-	* Model the same thing in the same way, across different standards
-* Support collaborative development
-	* Contributors with varying background and competence
-	* Model consistently between all contributors
-* Support (automated) mechanisms for QA and verification
-
-## Challenges of modeling consistently
-* Humans are bad at repetitive tasks, especially in collaboration
-* Often **Excel** is used, but it is not a good database tool as it allows duplicates and multiple different formats/structures
-* Template libraries #toLink
