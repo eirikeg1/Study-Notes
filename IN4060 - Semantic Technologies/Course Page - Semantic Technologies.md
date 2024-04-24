@@ -51,7 +51,7 @@ _RDF standard_
 
 ## Week 11
 * [[Ontology Engineering]]
-* [[Reasonable Ontology Templates (OTTR)]]
+* [[OTTR (Reasonable Ontology Templates)]]
 
 # Other notes
 ---
