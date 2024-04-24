@@ -32,5 +32,3 @@
 * Extends **RNN**s from sequences to trees. 
 * Useful as many of the problems in NLP are structured, requiring the production of complex output structures
 * 
-
-# Chapter 1.4 #next

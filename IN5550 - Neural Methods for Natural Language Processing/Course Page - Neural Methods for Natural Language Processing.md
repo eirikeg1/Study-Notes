@@ -19,6 +19,7 @@
 ## Week 2
 * [[Week 2 - Multi-layered Networks and Deep Learning]]
 * [[Week 2 - Practicalities and hyper-parameters]]
+* [[Week 2 - Computational graphs]]
 
 ## Week 3
 * [[Week 3 - Count-based distributional semantic models]]
