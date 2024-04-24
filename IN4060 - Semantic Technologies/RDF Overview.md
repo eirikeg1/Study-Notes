@@ -53,7 +53,7 @@ _Used to represent data values_
 * Have a datatype
 * Datatypes are also resources, referenced via URIs, and written as:
 	![[Pasted image 20240124123812.png|450]]
-* Default value is string (in [[Reasonable Ontology Templates (OTTR)|OTTR]] and other places it is separate as strings does not have an **IRI**, think of it like a wrapper)
+* Default value is string (in [[OTTR (Reasonable Ontology Templates)|OTTR]] and other places it is separate as strings does not have an **IRI**, think of it like a wrapper)
 * Can specify the language of string with a language tag
 	![[Pasted image 20240124124037.png|450]]
 ## Blank nodes
