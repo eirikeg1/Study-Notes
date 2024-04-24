@@ -25,6 +25,7 @@
 # Mandatories
 ---
 * [[Mandatory 1 report]]
+* [[Mandatory 2 report]]
 
 # Tags
 ---
