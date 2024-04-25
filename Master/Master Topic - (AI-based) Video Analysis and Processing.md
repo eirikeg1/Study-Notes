@@ -23,6 +23,9 @@ IR*Supervised by Pål Halvorsen*
 # Possible own scoping
 ---
 
+## Camera cropping
+* From the example I have seen, the camera tends to always be centered around the ball
+* How to utilize multiple Points Of Interest to change the cropping
 ## Graph Neural Networks
 
 ## Optical flow fields or other directional features
