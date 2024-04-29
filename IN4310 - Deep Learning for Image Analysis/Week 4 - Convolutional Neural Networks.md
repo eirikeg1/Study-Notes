@@ -1,7 +1,7 @@
 
 * Lets us use much fewer parameters than [[Week 2 - Multi-layered Networks and Deep Learning#Fully-connected|fully connected neural networks]]
 * Local pattern detection and translation invariance
-* sliding window
+* Sliding window
 * Are often used in image analysis/generation
 * Early layers learn simple patterns, learn more complex the deeper we go
 * **Examples and illustrations at the end of the document**
