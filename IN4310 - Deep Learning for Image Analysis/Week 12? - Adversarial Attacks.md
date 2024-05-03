@@ -55,7 +55,6 @@ _Tells us how sensitive a function is to a perturbation at a point x_
 
 
 
-
 # Adversarial training
 #toExpand
 * Model is harder to fool, but generally much worse
