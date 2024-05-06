@@ -10,4 +10,6 @@
 * **Pruning during training**
 	* Is this allowed for assignment? Can the model exceed the max parameter count in the initial layers?
 * Parameter sharing
-* 
+	* Share parameters in some of the Feed Forward Layers, especially in earlier Transformer Blocks
+	* [Lessons on Parameter Sharing across Layers in Transformers](https://arxiv.org/pdf/2104.06022)
+	* 
