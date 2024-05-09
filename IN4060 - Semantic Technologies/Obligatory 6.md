@@ -50,10 +50,10 @@ The five different types of annotations: (`owl:versionInfo`, `rdfs:label`, `rdfs
 
 ## 3.3
 3. This is both a valid EL and QL axiom
-4. This is also valid for both
+4. This is not valid in either
 5. This is also valid for both
 13. This uses universal quantification to the right of "SubclassOf", which is allowed in EL, but not QL
-14. This uses cardinality, and is therefore not valid EL or QL
+14. This is valid in both
 15. This uses universal quantification at the start, and is therefore not valid EL or QL
-19. This is valid EL but not as QL as in 13.
+19. This is valid in both
 21. This is valid EL, but since it uses SameIndividual it is not valid. It is not legal in QL though.
