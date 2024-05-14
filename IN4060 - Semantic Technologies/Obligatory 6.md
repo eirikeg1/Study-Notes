@@ -5,10 +5,10 @@
 ### Statements
 3. $\text{Horse}\sqsubseteq \text{Animal}$
 4. $\text{Animal}\sqsubseteq(\text{Male}\sqcup \text{Female})$
-5. $(\text{Male}\sqcup \text{Female})\sqsubseteq\bot$
+5. $(\text{Male}\sqcap \text{Female})\sqsubseteq\bot$
 13. $\text{MonteHorse}\sqsubseteq (\text{RaceHorse}\sqcup\forall \text{hasCompeted.HorseRace})$
-14. $\text{SuperHorse}\sqsubseteq{(\text{RaceHorse}\sqcup\text{hasWon}\geq_{100})}$
-15. $\forall\text{hasWon.HorseRace}\sqsubseteq{\forall \text{hasCompeted.HorseRace}}$
+14. $\text{SuperHorse}\sqsubseteq{(\text{RaceHorse}\sqcap\text{hasWon}\geq_{100})}$
+15. $\forall\text{hasWon.HorseRace}\sqsubseteq{\exists \text{hasCompeted.HorseRace}}$
 19. $\text{RaceHorse}\sqsubseteq\forall\text{hasTrainer.Person}$
 21. $\text{trains}\equiv \text{hasTrainer}^{-}$
 
@@ -25,15 +25,17 @@
 2. Yes, Kjell Håkonsen had interest in Elitloppet 1986 
 3. Unknown. We don't have enough information to know this.
 4. No. It is a filly, which means it is maximum 3 years old. It is also a Monte horse, and all warmblooded Monte horses must be at least 4 years old.
-5. Yes. Same reason as in **4.**
-6. Unknown. It is a Monté horse, but it is not specified which monte race it competed in.
+5. We know she is not warmblooded, but this does not necessarily make it coldblooded as of the stated rules
+6. It did not. It is a Monté horse, while Elitloppet 1986 is not a monté-race
 
 ## 2.1
-1. The only Stallion is "In the Wings"
+1. "In the Wings" and "Northern Dancer"
 2. Doctor Rodney
    In the Wings
    Nearco
-3. This is because Ancestor is not set as a transitive property
+   Northern Dancer
+   
+1. This is because Ancestor is not set as a transitive property
 
 
 # Task 3
