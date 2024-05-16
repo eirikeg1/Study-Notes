@@ -107,3 +107,67 @@
 | wide_deep_cycle_rev | 6.58 (24)    | 0.175 (1244)     | 9.33 (20)     | 1.144 (983)     |
 
 
+
+
+# Plan Paper
+---
+
+# Present Results
+## BLiMP
+### Encoder
+* Rayyan writes about his findings on the **encoder**
+* Slight improvement generally, but not much
+* Marginal differences overall, low values across the board
+
+### Decoder
+* On the decoder we did not get any improvements
+* Increasing number of steps makes the difference between the parameter-sharing and baseline lower, **perhaps** this scales better with more training?
+* Adding parameter sharing did not seem to affect the result a lot.
+
+## LAMBADA
+### Encoder
+* Overall bad results across the board
+* Both baseline and parameter sharing models improve with number of steps, however they seem to be similar
+
+### Decoder
+* Decoder **baseline** around 7.9-8.4. With the best being 8.95 at 10.000 steps
+* Shared_6_cycle_reverse at 9.06 at 10.000 steps
+* Generally quite similar results at 10.000 steps
+* Decoder seems to scale better with parameter sharing, as most runs at 25.000 steps are generally better than in 10.000. The best overall model was a wide parameter sharing model with 9.84. Best baseline was 8.93
+
+## Conclusion/summary
+* Overall our encoders did pretty bad on these metrics. However it seemed that they  got a slight improvement on BLiMP, but still pretty bad scores.
+* Decoder did seem to improve at LAMBADA, but not on BLiMP. 
+
+
+
+
+# Other stuff
+---
+\begin{equation}
+\small
+  \label{eq:example}
+  MultiHead(Q,K,V) &= Concat(head_{1}, \cdots, head_{h}) W^{O}
+\end{equation}
+
+\begin{align*}
+\small
+\text{ MultiHead}(Q,K,V) &= \text{Concat}(head_1, \ldots, head_h)W^O \\
+\end{align*}
+
+\text{\small where each $head_i$ is computed via,}
+
+\begin{align*}
+\small
+\text{Attention}(QW_i^Q,KW_i^K,VW_i^V) \\
+
+\end{align*}
+
+\text{\small and,}
+\begin{align*}
+\small
+\text{Attention}(Q,K,V)=
+softmax(\frac{QK^T}{\sqrt{d_k}})V \\
+
+\end{align*}
+
