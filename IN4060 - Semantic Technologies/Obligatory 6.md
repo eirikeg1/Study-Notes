@@ -30,13 +30,16 @@
 
 ## 2.1
 1. "In the Wings" and "Northern Dancer"
+   ![[Pasted image 20240516093307.png]]
 2. Doctor Rodney
+   Native Dancer
    In the Wings
    Nearco
-   Northern Dancer
+   Nearctic horse
+   Shirley Heights
+   ![[Pasted image 20240516093239.png]]
    
-1. This is because Ancestor is not set as a transitive property
-
+3. This is because Ancestor is not set as a transitive property
 
 # Task 3
 ---
