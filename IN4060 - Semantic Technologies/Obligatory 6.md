@@ -39,12 +39,12 @@
    Shirley Heights
    ![[Pasted image 20240516093239.png]]
    
-3. This is because Ancestor is not set as a transitive property
+3. This is because they are only related through a blank node. Blank nodes does not give the transitive property as it can be interpreted in multiple different ways.
 
 # Task 3
 ---
 ## 3.1
-This is because both **OrderOfMammals** and **OrderOfAnimals** are both classes. In Description Logic a class cannot be the instance of another class. The Punning mechanism doesn't actually allow one class to be member of another class. Punning is dependent where something can be interpreted as either a class or individual, but never both at the same time.
+This is because OrderOfMammals is equivalent to OrderOfAnimals and (member only Mammal). Here, the and is very important. Member is the inverse of rdf:type, this means that that everything has to be of type Mammal. Elephant is a class with the subclass Mammal. However it is never typed as a mammal. Therefore only one side of the and statement is fulfilled.
 
 
 ## 3.2
