@@ -20,6 +20,11 @@
 * [[Week 8 - Data Augmentation]]
 * [[Week 9 - Object detection]]
 * [[Week 10 - Image Segmentation]]
+* [[Week 11 - Adversarial Attacks]]
+* [[Week 14 - Distribution shifts with guarantees]]
+* RNNs 
+* Vision Transformers
+* Distribution shifts
 
 
 # Mandatories

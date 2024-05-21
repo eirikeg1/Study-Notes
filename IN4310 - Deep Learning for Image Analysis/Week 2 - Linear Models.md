@@ -24,7 +24,7 @@
 
 
 ## Empirical risk minimization (ERM)
-
+#todo
 
 ## Gradient descent
 
