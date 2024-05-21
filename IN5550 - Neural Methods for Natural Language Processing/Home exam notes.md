@@ -171,3 +171,37 @@ softmax(\frac{QK^T}{\sqrt{d_k}})V \\
 
 \end{align*}
 
+
+
+# Table for encoder BLiMP
+---
+% \begin{table*}[tbh]
+% \centering
+% \label{tab:comparison}
+%     \begin{tabular}{|l|c|c|}
+%         \hline
+%         \textbf{Metric} & \textbf{Best Model} & \textbf{Baseline Model} \\ \hline
+%         \textbf{Best Temperature} & 0.60 & 2.60 \\ \hline
+%         \textbf{Field Accuracy} &  &  \\ \hline
+%         Syntax & 50.32 & 59.44 \\ 
+%         Morphology & 50.70 & 50.14 \\ 
+%         Semantics & 63.44 & 25.92 \\ 
+%         Syntax/Semantics & 54.64 & 58.30 \\ \hline
+%         \textbf{Linguistic Term Accuracy} &  &  \\ \hline
+%         Filler Gap Dependency & 71.43 & 52.63 \\ 
+%         Subject-Verb Agreement & 51.80 & 47.77 \\ 
+%         NPI Licensing & 51.46 & 31.97 \\ 
+%         Control Raising & 51.70 & 57.18 \\ 
+%         Argument Structure & 51.50 & 53.18 \\ 
+%         Ellipsis & 40.75 & 52.85 \\ 
+%         Determiner-Noun Agreement & 50.10 & 50.10 \\ 
+%         Anaphor Agreement & 53.00 & 59.20 \\ 
+%         Binding & 59.09 & 65.33 \\ 
+%         Island Effects & 32.91 & 74.10 \\ 
+%         Quantifiers & 75.92 & 20.62 \\ 
+%         Irregular Forms & 47.50 & 48.40 \\ \hline
+%         \textbf{Average Accuracy} & 53.09 & 52.20 \\ \hline
+%     \end{tabular}
+% \caption{Comparison of Best Model and Baseline Encoder Model}
+% \end{table*}
+
