@@ -24,7 +24,10 @@
 
 
 ## Empirical risk minimization (ERM)
+_Process of minimizing the empirical risk (usually loss over all data)
 #todo
+* 
+![[Pasted image 20240521171023.png]]
 
 ## Gradient descent
 
