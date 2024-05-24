@@ -19,7 +19,7 @@ _the ability to think independently and creatively._
 * 213 - trained twice
 * 4.2 title -double capital letters
 * 242 - no period
-* 
+* 246 - Repeated words The The
 
 ## Good stuff
 * Good analysis
