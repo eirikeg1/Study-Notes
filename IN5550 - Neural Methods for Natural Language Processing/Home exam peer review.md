@@ -3,11 +3,11 @@
 
 ## Quality
 _the standard of something as measured against other things of a similar kind; the degree of excellence of something._
-Good
+Interesting topic, good conclusions, 
 
 ## Clarity
 _the quality of being coherent and intelligible._
-Overall good, but a few typos and long paragraph
+Overall good, but a few typos and long paragraphs. 
 
 ## Originality
 _the ability to think independently and creatively._
@@ -35,3 +35,4 @@ _the ability to think independently and creatively._
 * Split into shorter paragraphs, for example in chapter 2 Data and preprocessing one paragraph covers 19 lines and multiple different topics
 * Back statements more with sources:
 	* 423: might be useful to either give an example or link to study. _Most LM’s don’t do well on the LAMBADA 424 metric_
+* Differing citation formats (105, 121)
