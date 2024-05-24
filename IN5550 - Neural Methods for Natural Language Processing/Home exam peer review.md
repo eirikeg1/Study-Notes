@@ -3,9 +3,11 @@
 
 ## Quality
 _the standard of something as measured against other things of a similar kind; the degree of excellence of something._
+Good
 
 ## Clarity
 _the quality of being coherent and intelligible._
+Good 
 
 ## Originality
 _the ability to think independently and creatively._
@@ -14,6 +16,10 @@ _the ability to think independently and creatively._
 
 ## Typos/rewrite
 * 006 - paramters
+* 213 - trained twice
+* 4.2 title -double capital letters
+* 242 - no period
+* 
 
 ## Good stuff
 * Good analysis
