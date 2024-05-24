@@ -7,7 +7,7 @@ Interesting topic, good conclusions,
 
 ## Clarity
 _the quality of being coherent and intelligible._
-Overall good, but a few typos and long paragraphs. 
+Overall good, but a few typos and long paragraphs. Would be nice to add some of the information into the background section. A lot of mixing of discussion and background. 
 
 ## Originality
 _the ability to think independently and creatively._
@@ -36,3 +36,4 @@ _the ability to think independently and creatively._
 * Back statements more with sources:
 	* 423: might be useful to either give an example or link to study. _Most LM’s don’t do well on the LAMBADA 424 metric_
 * Differing citation formats (105, 121)
+	* Because of websites?
