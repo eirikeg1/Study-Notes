@@ -7,7 +7,7 @@ Good
 
 ## Clarity
 _the quality of being coherent and intelligible._
-Good 
+Overall good, but a few typos and long paragraph
 
 ## Originality
 _the ability to think independently and creatively._
