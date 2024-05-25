@@ -15,16 +15,8 @@ _the ability to think independently and creatively._
 ## Significance of the work
 
 ## Typos/rewrite
-* 006 - paramters
-* 213 - trained twice
-* 4.2 title -double capital letters
 * 242 - no period
-* 246 - Repeated words The The
-
 ## Good stuff
-* Good analysis
-	* Good justification for decoders better results
-	* Good thorough analysis for BLiMP results (289). As someone not very good at grammatical/syntactical rules it is easy to follow.
 * Good explanation on preprocessing steps
 
 ## Other improvements
