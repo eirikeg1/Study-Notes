@@ -1,4 +1,5 @@
 
+* [Recap slides](https://www-int.uio.no/studier/emner/matnat/ifi/IN3310/v24/teaching-materials/recap.pdf)
 
 # Weekly recap
 ---
@@ -12,4 +13,12 @@
 
 ## Week 3 - Intro Neural Nets
 * Logistic sigmoid function
-* Cross entropy loss]
+* Cross entropy loss
+	* For one-hot labels (in recap slides)
+
+* Hidden layer: $a^{[l]}=g(W^{[l]}a^{[l-1]}+b^{[l]})$
+
+
+## Week 4 - CNNs
+* Output size $(M-k+1)\times (N-k+1)$
+* 
