@@ -36,6 +36,11 @@
 	* residual connections
 	* batch normalization after every convolution
 	* In top layers: half spatial size of feature maps, and double number of filters
-* Batch Normalization
+* **Batch Normalization**
+	* Normalize activations of a layer to have zero mean and standard deviation one over elements of a mini batch. Then apply a simple affine transformation: ($\gamma,\beta$ both trainable) $y=\gamma\hat{x}+\beta$
 	* $BN=\dfrac{x-\mu_{run}}{\sqrt{\sigma_{run}^{2}+\epsilon}}$
 	* $y = \text{ReLU}(x + \text{BN}(\text{Conv}(\text{ReLU}(\text{BN}(\text{Conv}(x))))))$
+
+
+
+
