@@ -54,5 +54,21 @@
 
 
 ## Week 7 - Performance estimation
-
+* k-fold cross validation
+* **Representability**
+* External datasets
+* Controlling networks capacity
+	* Reduce number of trainable parameters
+		* Stack conv layers with smaller kernels
+		* Depthwise separable convolutions
+		* Reduce width (channels) and depth (num layers)
+		* Should be scaled according to input size (image resolution)
+	* Dropout
+	* Weight decay
+* Facilitating generalisation
+	* Color augmentation
+	* Stain normalization
+	* [[Week 7 - Performance estimation and generalization#Cycle-GAN|Cycle-GAN]]
+		* Get a training and target image. Make training image gradually more like target image during training
+* 
 
