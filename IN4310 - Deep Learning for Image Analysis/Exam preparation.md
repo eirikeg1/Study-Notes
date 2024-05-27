@@ -81,4 +81,24 @@
 * **ROC curves**
 	* Same as precision-recall curve, but with sensitivity and specificity
 	* **AUC/AUROC** is the area under the ROC curve
+* Balanced accuracy
+* "Key learning goals"
+	* ![[Pasted image 20240527193236.png|200]]
+
+## Week 8 - Data Augmentation
+* Distributional shifts, out of distribution samples and outliers (different distributions in datasets)
+	* Resolution, scale, perspective, pose, lighting, colors, label distribution
+* Methods for generalization and domain adaptation
+	* Down-sampling with pooling layers
+* Image augmentation
+	* geometric (size, shape, position, orientation,...)
+	* photometric (brightness, contrast, color, noise, solarization,...)
+	* other (blur, edge filters)
+* Methods for fixed NNs on varying inputs
+* Weight init strats
+	* Identity: $W_{\theta}x=Ix=x$
+	* Orthogonal: Sample orthogonal matrix
+	* Random: Sample the parameters
+	* Pre-trained: Use weights from another neural network
+* Contrastive learning
 
