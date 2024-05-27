@@ -27,10 +27,11 @@
 * Distribution shifts
 
 
-# Mandatories
+# Mandatories and Exam
 ---
 * [[Mandatory 1 report]]
 * [[Mandatory 2 report]]
+* [[Exam preparation]]
 
 # Tags
 ---

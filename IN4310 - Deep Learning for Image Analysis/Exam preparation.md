@@ -101,4 +101,27 @@
 	* Random: Sample the parameters
 	* Pre-trained: Use weights from another neural network
 * Contrastive learning
+* More stuff...
 
+## Week 9 - Object Detection
+* One-stage detectors
+	* Directly predict bounding boxes
+	* On final feature map slide a window and predict an object class and a bounding box for each anchor
+	*  **Single Shot multibox Detector (SSD)**
+* Two-stage detectors
+	* First find candidates, then process each candidate individually
+	* **Feature Pyramid Networks (FPN)**
+		* Also used as backbone in one-stage detectors like EfficientDet
+		* Since deeper layers usually gives semantically stronger features, send output of earlier layers into later layers
+		* ![[Pasted image 20240527200438.png|200]]
+* R-CNN
+	* First run selective image search on image for candidates, then run CNN for each candidate separately
+* Fast R-CNN
+	* First run selective image search on image for candidates, then run one CNN over the whole image. Then predict bounding boxes and labels on the ouput feature map of CNN usin ROI Pooling
+* Faster R-CNN
+	* Same as faster but uses two CNNs for candidates
+	* CNN runs on GPU not CPU
+	* First pretrained CNN to extract features, then a CNN (Region Proposal Network) to make actual proposals based on extracted features
+* Anchors
+* **Non-maximum supression**
+* Focal loss
