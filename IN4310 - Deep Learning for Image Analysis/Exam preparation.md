@@ -40,6 +40,12 @@
 	* Normalize activations of a layer to have zero mean and standard deviation one over elements of a mini batch. Then apply a simple affine transformation: ($\gamma,\beta$ both trainable) $y=\gamma\hat{x}+\beta$
 	* $BN=\dfrac{x-\mu_{run}}{\sqrt{\sigma_{run}^{2}+\epsilon}}$
 	* $y = \text{ReLU}(x + \text{BN}(\text{Conv}(\text{ReLU}(\text{BN}(\text{Conv}(x))))))$
+* Fine tuning
+	* Low level filters are usually similar, therefore fine tuning is often better (and much cheaper) than pre-training from scratch
+
+
+## Week 6 - Back propagation and optimization
+* Back propagation general formulas
 
 
 
