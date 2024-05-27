@@ -18,7 +18,13 @@
 
 * Hidden layer: $a^{[l]}=g(W^{[l]}a^{[l-1]}+b^{[l]})$
 
-
 ## Week 4 - CNNs
-* Output size $(M-k+1)\times (N-k+1)$
-* 
+* Output size
+	* When whole filter always fits inside input: $(M-k+1)\times (N-k+1)$
+	* When filter and input overlaps (with padding): $(M+k-1\times (N+k-1))$
+* Padding $p$ changes input shape: $N^{[l]}\times N^{[l]}\rightarrow(N^{[l]}+2p)\times(N^{[l]}+2p)$
+* Stride downsampling factor
+	* padding $p$, filter $k\times k$, Input size $N\times N$, stride $s$
+	* $N^{[l+1]}=\lfloor\frac{N^{[l]}+2p-k}{s}+1\rfloor$
+* Standard padding: $p=\frac{k-1}{2}$
+* Recursive 
