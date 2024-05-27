@@ -27,4 +27,15 @@
 	* padding $p$, filter $k\times k$, Input size $N\times N$, stride $s$
 	* $N^{[l+1]}=\lfloor\frac{N^{[l]}+2p-k}{s}+1\rfloor$
 * Standard padding: $p=\frac{k-1}{2}$
-* Recursive 
+* Recursive call for receptive field $R^{[l]}$ with $R^{[0]}=1$
+	* $R^{[l]}+(k^{[l]}-1)\displaystyle\prod\limits^{l-1}_{i=1}s^{[i]}$
+
+
+## Week 5 - Deep Architecture Evolution
+* ResNets 
+	* residual connections
+	* batch normalization after every convolution
+	* In top layers: half spatial size of feature maps, and double number of filters
+* Batch Normalization
+	* $BN=\dfrac{x-\mu_{run}}{\sqrt{\sigma_{run}^{2}+\epsilon}}$
+	* $y = \text{ReLU}(x + \text{BN}(\text{Conv}(\text{ReLU}(\text{BN}(\text{Conv}(x))))))$
