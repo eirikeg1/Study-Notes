@@ -70,5 +70,8 @@
 	* Stain normalization
 	* [[Week 7 - Performance estimation and generalization#Cycle-GAN|Cycle-GAN]]
 		* Get a training and target image. Make training image gradually more like target image during training
-* 
+* Normalization
+	* Dataset-based can facilitate faster training convergence (all images transformed using same function and parameters)
+	* Image-specific normalization can make images more similar
+* Confusion matrix, precision and recall
 
