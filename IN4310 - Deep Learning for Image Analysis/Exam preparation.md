@@ -46,7 +46,13 @@
 
 ## Week 6 - Back propagation and optimization
 * Back propagation general formulas
+* SGD with mini batch
+	* $w\leftarrow \frac{w-\alpha}{B}\sum_{i\in{s_{j}}}\nabla\mathcal{l}_{i}(w)$
+* **SGD with momentum**
+* **AdaGrad, RMSProp, ADAM**
+	* [Blog explaining optimizers](https://www.ruder.io/optimizing-gradient-descent/)
 
 
+## Week 7 - Performance estimation
 
 
