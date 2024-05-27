@@ -73,5 +73,12 @@
 * Normalization
 	* Dataset-based can facilitate faster training convergence (all images transformed using same function and parameters)
 	* Image-specific normalization can make images more similar
-* Confusion matrix, precision and recall
+* Confusion matrix, precision and recall (pr-curve)
+* **Average Precision**
+* **Sensitivity and Specificity**
+	* Sensitivity=recall
+	* Specificity=true negative rate (calculated on TN instead of precisions TP)
+* **ROC curves**
+	* Same as precision-recall curve, but with sensitivity and specificity
+	* **AUC/AUROC** is the area under the ROC curve
 
