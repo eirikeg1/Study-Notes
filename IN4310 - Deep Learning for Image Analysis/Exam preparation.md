@@ -123,12 +123,11 @@
 	* CNN runs on GPU not CPU
 	* First pretrained CNN to extract features, then a CNN (Region Proposal Network) to make actual proposals based on extracted features
 * Anchors
-* **Non-maximum supression**
+* **Non-maximum suppression**
 * Focal loss
 * IoU
 
 ## Week 10 - Image Segmentation
-
 * The three problems:
 	1. How to capture global context?
 		* Downsample feature maps
@@ -146,5 +145,6 @@
 	* Detect object classes and background classes
 * Instance Segmentation
 	* Detect specific objects within object classes
+	* Mask R-CNN
 * Panoptic Segmentation
 	* Combination of semantic and instance segmentation
