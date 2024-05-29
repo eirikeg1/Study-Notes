@@ -117,7 +117,7 @@
 * R-CNN
 	* First run selective image search on image for candidates, then run CNN for each candidate separately
 * Fast R-CNN
-	* First run selective image search on image for candidates, then run one CNN over the whole image. Then predict bounding boxes and labels on the ouput feature map of CNN usin ROI Pooling
+	* First run selective image search on image for candidates, then run one CNN over the whole image. Then predict bounding boxes and labels on the output feature map of CNN using ROI Pooling
 * Faster R-CNN
 	* Same as faster but uses two CNNs for candidates
 	* CNN runs on GPU not CPU
