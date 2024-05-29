@@ -145,7 +145,21 @@
 	* Detect object classes and background classes
 * Instance Segmentation
 	* Detect specific objects within object classes
-	* Mask R-CNN
+	* **Mask R-CNN**
+		* First R-CNN for class segmentation
+		* ...
 * Panoptic Segmentation
 	* Combination of semantic and instance segmentation
+* Mean IoU
+	* Average IoU over all classes
+	* Mainly for semantic segmentation
+* Mask mAP
+	* Similar to [[Week 7 - Performance estimation and generalization#Mean average precision (mAP)|mAP]], but IoU is calculated for mask
+	* Mainly for instance segmentation
+* Performance metrics
+	* Pixel accuracy
+	* Mean pixel accuracy
+	* Dice coefficient
+		* Similar to IoU, same as F1 score for binary segmentation (foreground vs background)
+		* $\dfrac{2|A\cap B|}{|A|+|B|}$
 	* 
