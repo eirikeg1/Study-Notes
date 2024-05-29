@@ -172,7 +172,8 @@
 	* Surrogate attacks
 		* Train a surrogate model and attack the surrogate with a white box method. Assume the attack on the surrogate model model generalizes to target model
 	* Boundary attacks
-		* Starts with a random image and iteratively refines the adversarial example by moving it closer to the deciion boundar
+		* Starts with a random image and iteratively refines the adversarial example by moving it closer to the decision boundary
+		* Without gradient, use a hill-climbing approach
 * Adversarial image
 	* Image which has been slightly modified with the goal of tricking classifier
 * Targeted attacks
@@ -183,4 +184,15 @@
 	* Use gradient ascent iteratively to update perturbation's to increase the loss of the input image
 * Defensive methods
 	* Adversarial training
+		* Find universal adversarial perturbation $\delta$ with Projected Gradient Descent, perform standard forward and backward pass of you network using $\delta$
+		* Is expensive and decreases predictive power
+	* Denoising in preprocessing
+	* Quantization
+		* Smaller changes removed
+	* Ensemble defense
 		* 
+* Well-posedness (opposite is ill-posed)
+	* Problems where a solution exists, is unique and changes continuously with the input
+* Ill-conditioning
+	* Small changes in input can lead to big changes in output
+* 
