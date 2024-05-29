@@ -221,5 +221,18 @@
 	* Traverses input in both directions, once forwards, then backwards
 
 ## Week 13 - Vision Transformers
-* 
+* Attention
+	* Alignment function takes query, key and value vectors to compute attention
+		* Additive attention
+		* General attention
+		* Dot-product attention
+		* Scaled dot-product attention
+			* Used in transformers
+	* Helps with vanishing gradient problem, and no sequential bottleneck
+	* Allows some interpretability
+		* By looking at attention weights, we can determine what the decoder focused on
+	* By design attention is **permutation equivariant**, in order to fix this we use **positional encodings**
+		* Multiple variants: absolute/fixed, relative, hybrid, learned,...
+		* Vectors with same dimension as the input vectors
+		* Usually added to the input vectors
 
