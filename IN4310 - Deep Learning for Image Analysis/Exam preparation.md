@@ -195,4 +195,21 @@
 	* Problems where a solution exists, is unique and changes continuously with the input
 * Ill-conditioning
 	* Small changes in input can lead to big changes in output
-* 
+
+## Week 12 - RNNs
+* **BackPropagation Through Time** (BPTT)
+	1. Unroll the TNN in the time dimension
+	2. Apply backpropagation on the unrolled RNN by treating it as a regular feed-forward network
+* **Truncated BPTT**
+	* Stop at some point during the sequence to update the weights
+	* Allows us to not keep the whole sequence with all the hidden states in memory before updating weights
+* Exploding/vanishing gradients
+	* Gradients grow either too big or too small for longer sequences
+* LSTM
+	* Input gate
+		* How much of new memory is addd to the cell state (long term memory)
+	* Forget gate
+		* 
+	* Output gate
+		* How much of updated memory to output
+
