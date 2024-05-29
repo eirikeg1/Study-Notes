@@ -169,9 +169,18 @@
 	* We have full access to model/weights
 * Black box attacks
 	* We to not have access to params, just outputs
+	* Surrogate attacks
+		* Train a surrogate model and attack the surrogate with a white box method. Assume the attack on the surrogate model model generalizes to target model
+	* Boundary attacks
+		* Starts with a random image and iteratively refines the adversarial example by moving it closer to the deciion boundar
 * Adversarial image
 	* Image which has been slightly modified with the goal of tricking classifier
 * Targeted attacks
 	* Trick network to classify a sample $x$ into a fixed class which is wrong
 * Untargeted attack
 	* Trick network to classify an adversarial image, without a target class
+* Projected gradient methods
+	* Use gradient ascent iteratively to update perturbation's to increase the loss of the input image
+* Defensive methods
+	* Adversarial training
+		* 
