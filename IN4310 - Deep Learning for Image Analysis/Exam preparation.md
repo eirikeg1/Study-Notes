@@ -132,12 +132,14 @@
 * The three problems:
 	1. How to capture global context?
 		* Downsample feature maps
+			* Increases receptive field
 		* Dilated/atrous convolution
-	2. How to upsample features?
+			* Increases receptive field to larger part of image
+	1. How to upsample features?
 		* Nearest neighbor upsampling
 		* Unpooling
 		* Transposed convolution
-	3. How to fetch precise boundary locations
+	2. How to fetch precise boundary locations
 		* Feature Pyramid Network, UNet
 		* Dilated/atrous convolution
 * Semantic Segmentation
