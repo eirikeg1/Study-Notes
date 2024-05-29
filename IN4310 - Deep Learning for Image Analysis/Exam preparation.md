@@ -207,9 +207,19 @@
 	* Gradients grow either too big or too small for longer sequences
 * LSTM
 	* Input gate
-		* How much of new memory is addd to the cell state (long term memory)
+		* How much of new memory is addd to the cell state (long term memory) (sigmoid and tanh hadamand product of input)
 	* Forget gate
-		* 
+		* How much of cell state to forget ()
 	* Output gate
-		* How much of updated memory to output
+		* How much of updated memory to output (sigmoid from input, tan cell state, hadamand product)
+* GRU
+	* Simpler LSTM
+	* Combines Input gate and forget gate into a single update gate
+	* Merges the cell state and the hidden state
+* Bidirectional RNNs
+	* Looks at 'future' tokens
+	* Traverses input in both directions, once forwards, then backwards
+
+## Week 13 - Vision Transformers
+* 
 
