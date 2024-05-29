@@ -148,3 +148,4 @@
 	* Mask R-CNN
 * Panoptic Segmentation
 	* Combination of semantic and instance segmentation
+	* 
