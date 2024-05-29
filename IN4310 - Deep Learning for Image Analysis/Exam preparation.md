@@ -171,7 +171,7 @@
 	* We to not have access to params, just outputs
 * Adversarial image
 	* Image which has been slightly modified with the goal of tricking classifier
-* Targetet attacks
+* Targeted attacks
 	* Trick network to classify a sample $x$ into a fixed class which is wrong
-* Untargetet attack
+* Untargeted attack
 	* Trick network to classify an adversarial image, without a target class
