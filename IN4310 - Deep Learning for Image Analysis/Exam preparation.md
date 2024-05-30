@@ -251,7 +251,21 @@
 		1. Divide image into patches
 		2. Create a linear embedding for each patch
 		3. Send each embedding through a transformer block
-		4. Merge $2\times2$ "neighborhoods" 
+		4. Merge $2\times2$ "neighborhoods"
+		5. Send merged through linear layer to get back to original dimensionality/resolution
+		6. Repeat from 4. as long as you want
+* DETR
+	* Object detection pipeline: directly output a set of boxes from a transformer
+	* Anchor free approach, i.e., no pre-defined anchors are used
+	* No [[Week 9 - Object detection#Non-max suppression|NMS]] is used, it is learned by transformer automatically
+	* Match predicted boxes to ground truth boxes with bipartite matching
+	* Steps:
+		1. CNN is used to extract features from the input ($1\times1$ conv layer is used to reduce the number of channels)
+		2. Fixed positional encodings are added to every encoder blocks input
+		3. Standard transformer encoder is used to process the flattened image features
+		4. Encoder output is sent to transformer decoder, with randomly initialized query vectors (object queries)
+		5. The decoder is used to generate the outputs
+		6. Outputs of decoder is sent through FFN to either detect class box or no object (one decoder object query predicts one bounding box)
 
 
 
