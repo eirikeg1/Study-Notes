@@ -235,6 +235,12 @@
 		* Multiple variants: absolute/fixed, relative, hybrid, learned,...
 		* Vectors with same dimension as the input vectors
 		* Usually added to the input vectors
+* Vision transformers
+	* Convert pixels to sequence of colors and send as input to standard transformer
+	* Since $N\times N$ image has $N^{2}$ pixels, if you send whole image it is too expensive, as it will take $O(N^{4})$. Instead we do it on patches
+	* Steps:
+		1. Convert image to linear D-dimenisonal vector
+		2. Add learned positional 
 
 
 
