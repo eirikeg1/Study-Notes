@@ -245,7 +245,6 @@
 		4. Send through transformer model
 * ViT vs CNNs
 	* In CNNs the resolution decreases and number of channels increases as we go deeper. In ViT these stay the same
-* w
 * DETR
 	* Object detection pipeline: directly output a set of boxes from a transformer
 	* Anchor free approach, i.e., no pre-defined anchors are used
@@ -259,6 +258,20 @@
 		5. The decoder is used to generate the outputs, one vector per object query
 		6. Vectors from decoder gets sent through each their own FFN, and returns either a class box or "no object"
 
+## Week 14 - Distribution shifts
+* Different types of data distributions:
+	* Resolutions
+	* Scale, perspective and pose
+	* Lighting and colors
+	* Label distributions
+* Different types of distribution shifts:
+	* Covariate shift
+		* Input feature distribution differs, but output distribution is same
+	* Label/target/class-prior shift
+		* Input feature distribution same, but output distribution differs
+	* Output noise shift/concept shift
+	* Class-conditional/concept shift
+	* Full distribution shift
 
 
 
