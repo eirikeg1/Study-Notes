@@ -272,6 +272,8 @@
 	* Output noise shift/concept shift
 	* Class-conditional/concept shift
 	* Full distribution shift
+* Importance weighted Empirical Risk Minimization
+	* 
 
 
 
