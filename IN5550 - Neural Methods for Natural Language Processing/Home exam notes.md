@@ -205,3 +205,17 @@ softmax(\frac{QK^T}{\sqrt{d_k}})V \\
 % \caption{Comparison of Best Model and Baseline Encoder Model}
 % \end{table*}
 
+
+
+# Presentation
+---
+* Parameter sharing/intro - 2 min (Eirik)
+	* Introduce paper/track
+	* What is param sharing
+* Our experiments - 1.5 min (Torkild)
+	* BLiMP, LAMBADA
+	* Depth, Width and combination
+* Our results/conclusion - 1.5 min
+	* Encoder bad
+	* Decoder perhaps better, looks it might scale
+
