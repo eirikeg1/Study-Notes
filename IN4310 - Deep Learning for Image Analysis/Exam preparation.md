@@ -239,8 +239,19 @@
 	* Convert pixels to sequence of colors and send as input to standard transformer
 	* Since $N\times N$ image has $N^{2}$ pixels, if you send whole image it is too expensive, as it will take $O(N^{4})$. Instead we do it on patches
 	* Steps:
-		1. Convert image to linear D-dimenisonal vector
-		2. Add learned positional 
+		1. (Optional) add classification token `[CLS]`
+		2. Convert image to linear D-dimensional vector
+		3. Add learned positional embedding
+		4. Send through transformer model
+* ViT vs CNNs
+	* In CNNs the resolution decreases and number of channels increases as we go deeper. In ViT these stay the same
+* Swin Transformer
+	* Hierarchical ViT
+	* Steps:
+		1. Divide image into patches
+		2. Create a linear embedding for each patch
+		3. Send each embedding through a transformer block
+		4. Merge $2\times2$ "neighborhoods" 
 
 
 
