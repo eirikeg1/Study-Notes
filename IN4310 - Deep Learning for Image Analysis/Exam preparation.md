@@ -245,15 +245,7 @@
 		4. Send through transformer model
 * ViT vs CNNs
 	* In CNNs the resolution decreases and number of channels increases as we go deeper. In ViT these stay the same
-* Swin Transformer
-	* Hierarchical ViT
-	* Steps:
-		1. Divide image into patches
-		2. Create a linear embedding for each patch
-		3. Send each embedding through a transformer block
-		4. Merge $2\times2$ "neighborhoods"
-		5. Send merged through linear layer to get back to original dimensionality/resolution
-		6. Repeat from 4. as long as you want
+* w
 * DETR
 	* Object detection pipeline: directly output a set of boxes from a transformer
 	* Anchor free approach, i.e., no pre-defined anchors are used
@@ -264,8 +256,11 @@
 		2. Fixed positional encodings are added to every encoder blocks input
 		3. Standard transformer encoder is used to process the flattened image features
 		4. Encoder output is sent to transformer decoder, with randomly initialized query vectors (object queries)
-		5. The decoder is used to generate the outputs
-		6. Outputs of decoder is sent through FFN to either detect class box or no object (one decoder object query predicts one bounding box)
+		5. The decoder is used to generate the outputs, one vector per object query
+		6. Vectors from decoder gets sent through each their own FFN, and returns either a class box or "no object"
+
+
+
 
 
 
