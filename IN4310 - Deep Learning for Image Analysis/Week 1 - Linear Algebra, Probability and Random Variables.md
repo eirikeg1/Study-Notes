@@ -55,7 +55,7 @@ _Applies an upper bound for the probability that a non-negative random variable 
 
 * Assume $( X_1, X_2, \ldots, X_n )$ are independent random variables, which are bounded such that $( a_i \leq X_i \leq b_i )$ for each $( i = 1, 2, \ldots, n )$
 * Let $\bar{X} = \frac{1}{n} \sum_{i=1}^n X_i$ be the sample average $\bar{X}$
-* then for every $t>0$, $P\left( |\bar{X} - E[\bar{X}]| \geq t \right) \leq 2 \exp \left( -\frac{2n^2 t^2}{\sum_{i=1}^n (b_i - a_i)^2} \right)$
-* 
+* then for every $t>0$, $P\left( |\bar{X} - E[\bar{X}]| \geq t \right) \leq 2 \exp \left( -\dfrac{2n^2 t^2}{\sum_{i=1}^n (b_i - a_i)^2} \right)$
+
 
 

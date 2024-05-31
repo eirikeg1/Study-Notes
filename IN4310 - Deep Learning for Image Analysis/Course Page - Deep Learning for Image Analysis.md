@@ -24,7 +24,7 @@
 * [[Week 14 - Distribution shifts with guarantees]]
 * RNNs 
 * Vision Transformers
-* Distribution shifts
+* [[Week 14 - Distribution shifts with guarantees]]
 
 
 # Mandatories and Exam

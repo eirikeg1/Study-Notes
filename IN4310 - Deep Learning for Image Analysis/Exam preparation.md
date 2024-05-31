@@ -15,7 +15,7 @@
 * Logistic sigmoid function
 * Cross entropy loss
 	* For one-hot labels (in recap slides)
-
+	
 * Hidden layer: $a^{[l]}=g(W^{[l]}a^{[l-1]}+b^{[l]})$
 
 ## Week 4 - CNNs
@@ -29,7 +29,6 @@
 * Standard padding: $p=\frac{k-1}{2}$
 * Recursive call for receptive field $R^{[l]}$ with $R^{[0]}=1$
 	* $R^{[l]}+(k^{[l]}-1)\displaystyle\prod\limits^{l-1}_{i=1}s^{[i]}$
-
 
 ## Week 5 - Deep Architecture Evolution
 * ResNets 
