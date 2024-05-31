@@ -43,7 +43,6 @@
 * Fine tuning
 	* Low level filters are usually similar, therefore fine tuning is often better (and much cheaper) than pre-training from scratch
 
-
 ## Week 6 - Back propagation and optimization
 * Back propagation general formulas
 * SGD with mini batch
