@@ -74,7 +74,6 @@ _Property of  ML models where predictions are invariant or do not change, when t
 * For simplicity, we call both operations **convolutions**
 * We learn the kernel values through **Empirical Risk Minimization** (**ERM**) #toLink
 
-
 ### Convolution with multiple channels
 
 * Convolution kernel has additional dimensions for input and output channels
