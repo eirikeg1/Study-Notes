@@ -25,7 +25,7 @@
 * Padding $p$ changes input shape: $N^{[l]}\times N^{[l]}\rightarrow(N^{[l]}+2p)\times(N^{[l]}+2p)$
 * Stride downsampling factor
 	* padding $p$, filter $k\times k$, Input size $N\times N$, stride $s$
-	* $N^{[l+1]}=\lfloor\frac{N^{[l]}+2p-k}{s}+1\rfloor$
+	* $N^{[l+1]}={\lfloor\frac{N^{[l]}+2p-k}{s}+1\rfloor}$
 * Standard padding: $p=\frac{k-1}{2}$
 * Recursive call for receptive field $R^{[l]}$ with $R^{[0]}=1$
 	* $R^{[l]}+(k^{[l]}-1)\displaystyle\prod\limits^{l-1}_{i=1}s^{[i]}$
