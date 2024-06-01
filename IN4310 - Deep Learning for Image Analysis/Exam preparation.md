@@ -1,6 +1,12 @@
 
 * [Recap slides](https://www-int.uio.no/studier/emner/matnat/ifi/IN3310/v24/teaching-materials/recap.pdf)
 
+
+# Specifics to recap
+---
+* [[Week 11 - Adversarial Attacks#Projected Gradient Methods|Projected Gradient Descent]]
+* [[Week 9 - Object detection#Non-max suppression|Non Max supression]]
+
 # Weekly recap
 ---
 
