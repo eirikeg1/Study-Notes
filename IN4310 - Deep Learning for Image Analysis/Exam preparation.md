@@ -6,6 +6,8 @@
 ---
 * [[Week 11 - Adversarial Attacks#Projected Gradient Methods|Projected Gradient Descent]]
 * [[Week 9 - Object detection#Non-max suppression|Non Max supression]]
+	* Remove boxes with least confidence when overlap, for object detection
+* Calculate output size in CNN without 
 
 # Weekly recap
 ---
