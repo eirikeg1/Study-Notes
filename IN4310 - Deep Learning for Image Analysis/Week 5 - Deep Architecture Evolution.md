@@ -16,7 +16,7 @@
 ![[Pasted image 20240219103518.png|350]]
 ### Formula
 * Bernoulli random variables $r_{j}^{[l-1]~Bernoulli(p)}$
-* $\circle$ is Hadamard product
+* $\odot$ is Hadamard product
 ![[Pasted image 20240219102543.png|350]]
 
 
