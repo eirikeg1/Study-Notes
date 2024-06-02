@@ -9,7 +9,7 @@
 _Only access to output of the model_
 
 ## Surrogate attacks
-_
+_Create an own model of same architecture and try to break it. Then hope the results transfers over to the target model_
 
 ## Boundary attacks
 
