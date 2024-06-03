@@ -89,7 +89,7 @@ _Pairs all images in batch, blends with random convex combination_
 * ![[Pasted image 20240311104741.png|300]]
 
 ### Cutmix
-_Pairs al images in batch, picks random bounding box in the image, and copies slice from one image to another_
+_Pairs all images in batch, picks random bounding box in the image, and copies slice from one image to another_
 * Blends labels and images
 * ![[Pasted image 20240311104754.png|300]]
 
