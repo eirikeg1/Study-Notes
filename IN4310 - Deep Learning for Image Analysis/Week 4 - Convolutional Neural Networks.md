@@ -40,7 +40,7 @@ _Connects neurons sparsely when stacking layers_
 * convolutions have a small $\#$ parameter, independent of input and output size in the sliding dimension ($\#$ output channels (filters) matters)
 
 ### Translation Invariance
-_Property of  ML models where predictions are invariant or do not change, when the input is translated or moved around_
+_Property of ML models where predictions are invariant or do not change, when the input is translated or moved around_
 
 * Detection is global for fully connected (no translation invariance), localized for convolutions 
 * Detect similar patterns in different sizes/scales
