@@ -249,6 +249,17 @@
 		2. Convert image to linear D-dimensional vector
 		3. Add learned positional embedding
 		4. Send through transformer model
+* SWIN Transformer
+	* Uses window attention
+		* Only do attention from pixels within a certain threshold
+		* Do alternating shifting windows to combat downsize of only using a certain window configuration for attention
+	* Steps:
+		1. Split image to patches
+		2. Transformer block
+		3. Merge $2\times2$ blocks together
+		4. FFN to downscale the new blocks back to the original size of the four blocks
+		5. Repeat
+	
 * ViT vs CNNs
 	* In CNNs the resolution decreases and number of channels increases as we go deeper. In ViT these stay the same
 * DETR
