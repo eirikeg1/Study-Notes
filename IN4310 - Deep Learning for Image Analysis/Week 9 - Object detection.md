@@ -53,7 +53,7 @@ _Instead of doing a CNN on each candidate we run the image through a ConvNet_
 ## Faster R-CNN
 
 1. Start with a Pre-trained CNN to get feature maps
-2. Run through Region Proposal Network to get proposals
+2. Run through Region Proposal Network to get proposals using anchor boxes
 3. Classify candidates as in **Fast R-CNN**
 ![[Pasted image 20240419123036.png|350]]
 
