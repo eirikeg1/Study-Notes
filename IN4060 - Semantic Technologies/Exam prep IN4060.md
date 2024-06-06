@@ -1,5 +1,5 @@
 
-# Syllubus
+# Syllabus
 
 ## RDF
 _Standard model for data interchange_

@@ -2,7 +2,7 @@
 * **The Resource Description Framework (RDF)** is a standard model for data  interchange
 * Initially intended for annotation of web-accessible resources (1999)
 * Later developed into a general purpose language for describing structured information, on the web or elsewhere
-* Point of tis is to have self-describing and self-documenting data
+* Point of it is to have self-describing and self-documenting data
 	* Decouples data from applications
 	* Lightens the programming burden
 	* Semantic Web applications should be/are generic and general purpose, exploiting rich and knowledge intensive data s
