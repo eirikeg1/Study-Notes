@@ -28,7 +28,7 @@
 _Similar to URL, but more general_
 
 * **Uniform Resource Identifiers**, are used to identify resources
-* Usually strings in a special format, not necessarily referenceable (not a webpage or something, just a string)
+* Usually strings in a special format, not necessarily referenceable (not a webpage or something, just a string)w
 * Should be unique, but is not strictly enforced
 	* Two **URI**s are equal if and only if they are equivalent under Simple String Comparison, this includes ports
 * **IRI**s (Internationalized Resource Identifier) are just URIs but encoded in Unicode.
