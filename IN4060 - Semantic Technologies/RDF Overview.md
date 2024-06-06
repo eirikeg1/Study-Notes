@@ -109,12 +109,12 @@ _Used to represent data values_
 * Adhere to the policies described in best practice documents:
 	* [Best Practice Recipes for Publishing RDF Vocabularies](http://www.w3.org/TR/2008/NOTE-swbp-vocab-pub-20080828/) 
 	* [Cool URIs for the Semantic Web](http://www.w3.org/TR/cooluris)
-* Use http://www.example.[com|net|org] for prototyping and documentation.
+* Use `http://www.example.[com|net|org]` for prototyping and documentation.
 
 # Linked Open Data
 ---
 
-## Tim berner-Lees recipe for 5 star web data
+## Tim Berner-Lees recipe for 5 star web data
 
 * Make data available on the Web (any format) under an open license. 
 * Make it available as structured data (e.g., Excel, not image scans). 
