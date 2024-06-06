@@ -1,4 +1,4 @@
-f_RDF library for java_
+_RDF library for java_
 
 * [Youtube tutorial](https://www.youtube.com/watch?v=nUdHneViLp4)
 
