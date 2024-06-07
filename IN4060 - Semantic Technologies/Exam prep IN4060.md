@@ -14,9 +14,26 @@ _Standard model for data interchange_
 ```SPARQL
 SELECT ?game ?year
 WHERE {
+	?game a bg:Game .
 	?game bg:category bg:abstractStrategy .
-	?game bg:releaseYear ?year .
+	OPTIONAL {?game bg:releaseYear ?year .}
 }
 ```
 
 #### Question 8
+```SPARQL
+SELECT ?game (COUNT(?category) AS ?categoryCount)
+WHERE {
+	?game a bg:Game .
+	?game bg:Category ?category .
+	?category a bg:Category .
+}
+GROUP BY ?game
+HAVING (COUNT(?categoryCount) >= 3)
+
+```
+
+#### Question 9
+```SPARQL
+
+```
