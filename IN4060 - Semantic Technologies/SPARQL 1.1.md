@@ -30,7 +30,7 @@ _Takes several results of query and collapses together_
 _Filters after aggregation_
 * In contrary to **FILTER**
 * In example below the **HAVING** happens last
-* ![[Pasted image 20240410123139.png|350]]👍🏻
+* ![[Pasted image 20240410123139.png|350]]
 
 ### Aggregate functions
 
