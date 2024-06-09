@@ -123,11 +123,46 @@ SELECT ?wine
 WHERE {
 	?wine a :Wine ;
 		:madeFromGrape ?grape;
-		:locatedIn :LoireRegion|:BourdeauxRegion .
+		:locatedIn ?region .
+	FILTER (?wine = :LoireRegion || ?wine = :BourdeauxRegion)
 }
 GROUP BY ?wine
-WHERE SUM()
+HAVING (COUNT(?grape) = 1)
 
 ```
 
 
+## Question 6 Makers
+
+```SPARQL
+CONSTRUCT {
+	?wineMaker rdfs:SubClassOf :WineMaker;
+		:makesWine ?wine;
+		:locatedIn ?region .
+}
+WHERE {
+	?wine a :Wine;
+		:hasMaker ?wineMaker;
+		:locatedIn ?region .
+}
+
+```
+
+
+## Question 7 Red wine from Sancerre
+
+```SPARQL
+ASK WHERE {
+	?wine a :Wine;
+		:hasColor :Red;
+		:locatedIn :SancerreRegion .
+}
+```
+
+
+## Question 8 Grapes used in Bordeaux but not in Loire
+
+```SPARQL
+SELECT ?wine
+
+```
