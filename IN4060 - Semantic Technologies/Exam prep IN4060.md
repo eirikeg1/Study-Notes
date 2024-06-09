@@ -81,3 +81,11 @@ ex:Property[
 
 ```
 
+
+## Question 3 New region and wine
+
+```SPARQL
+
+
+```
+
