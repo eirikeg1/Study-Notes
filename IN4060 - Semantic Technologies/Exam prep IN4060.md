@@ -52,26 +52,31 @@ ex:DomainRange[
 	ottr:IRI ?domain,
 	ottr:IRI ?range
 ] :: {
-	
+	ottr:Triple(?id, rdfs:range, ?range),
+	ottr:Triple(?id, rdfs:domain, ?domain)
 } .
 
 ex:Description[
-	?id,
-	?name,
-	?description
-]
+	ottr:IRI ?id,
+	xsd:string ?name,
+	xsd:string ?description
+] :: {
+	ottr:Triple(?id, foaf:name, ?name),
+	ottr:Triple(?id, dc:description, ?description)
+} .
 
 ex:Property[
-	?id,
-	?name,
-	?description,
-	?domain,
-	?range,
-	?super_properties
+	ottr:IRI ?id,
+	xsd:string ?name,
+	xsd:string ?description,
+	ottr:IRI ?domain,
+	ottr:IRI ?range,
+	List<ottr:IRI> ?super_properties
 ] :: {
+	ottr:Triple(?id, rdf:type, rdf:Property),
 	ex:DomainRange(?id, ?domain, ?range),
 	ex:Description(?id, ?name, ?description),
-	ottr:Triple(?id, rdf:type, ?super_properties)
+	cross | ottr:Triple(?id, rdfs:subPropertyOf, ++?super_properties)
 } .
 
 ```
