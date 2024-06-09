@@ -43,7 +43,8 @@ HAVING (COUNT(?category) >= 3)
 # Exam 2022
 ---
 
-## Question 2 Properties
+## SPARQL
+### Question 2 Properties
 
 ```OTTR
 ex:DomainRange[
@@ -80,7 +81,7 @@ ex:Property[
 ```
 
 
-## Question 3 New region and wine
+### Question 3 New region and wine
 
 ```SPARQL
 INSERT DATA {
@@ -99,7 +100,7 @@ INSERT DATA {
 ```
 
 
-## Question 4 Wines and region
+### Question 4 Wines and region
 
 ```SPARQL
 SELECT ?wine ?region ?label
@@ -113,7 +114,7 @@ WHERE {
 }
 ```
 
-## Question 5 French single grape wine
+### Question 5 French single grape wine
 
 ```SPARQL
 SELECT ?wine
@@ -128,7 +129,7 @@ HAVING (COUNT(?grape) = 1)
 ```
 
 
-## Question 6 Makers
+### Question 6 Makers
 
 ```SPARQL
 CONSTRUCT {
@@ -144,7 +145,7 @@ WHERE {
 ```
 
 
-## Question 7 Red wine from Sancerre
+### Question 7 Red wine from Sancerre
 
 ```SPARQL
 ASK WHERE {
@@ -155,7 +156,7 @@ ASK WHERE {
 ```
 
 
-## Question 8 Grapes used in Bordeaux but not in Loire
+### Question 8 Grapes used in Bordeaux but not in Loire
 
 ```SPARQL
 SELECT DISTINCT ?grape
@@ -177,7 +178,7 @@ WHERE {
 ```
 
 
-## Question 9 Old Bordeaux wines
+### Question 9 Old Bordeaux wines
 
 ```SPARQL
 SELECT ?wine
@@ -199,3 +200,20 @@ WHERE {
 }
 ```
 
+
+## Section 4: Description Logic and OWL
+
+### Question 20 John
+```Manchester Syntax
+(SubClassOf Men and not SubClassOf of ChildlessPerson)(Jogn)
+```
+
+### Question 21 BiologicalParents
+$\forall.\top \sqsubseteq(Men)$
+$Person \subseteq {= 1} hasBiologicalParent.Women \sqcap {= 1} hasBiologicalParent.Men$
+
+
+### Question 22 Person
+```D
+()
+```
