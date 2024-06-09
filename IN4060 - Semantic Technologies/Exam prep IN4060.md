@@ -163,7 +163,35 @@ ASK WHERE {
 ## Question 8 Grapes used in Bordeaux but not in Loire
 
 ```SPARQL
+SELECT DISTINCT ?grape
+WHERE {
+
+	{
+		?region a :Region.
+		OPTIONAL {?region :locatedIn ?location}
+		FILTER {?region = :BordeauxRegion || ?location = :BordeauxRegion}
+	}
+	?wine a :Wine;
+		:madeFromGrape ?grape;
+		:locatedIn ?region.
+	FILTER NOT EXISTS {
+		?wine :locatedIn :LoireRegion
+	}
+	FILTER {?region = :BordeauxRegion || ?region = :StEmilionRegion}
+}
+
+```
+
+
+## Question 9 Old Bordeaux wines
+
+```SPARQL
 SELECT ?wine
-WHERE
+WHERE {
+	{
+		?oldest a :Region;
+			
+	}
+}
 
 ```
