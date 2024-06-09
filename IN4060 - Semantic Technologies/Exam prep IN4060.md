@@ -87,10 +87,47 @@ ex:Property[
 ```SPARQL
 INSERT DATA {
 	GRAPH <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#> {
-		:BourgueilRegion :locatedIn :LoireRegion .
-		
+		:BourgueilRegion a :Region;
+			:locatedIn :LoireRegion .
+		:bretonBourguielTrinch2019 a :Wine;
+			:madeFromGrape :CabernetFrancGrape;
+			:hasMaker :Breton;
+			:hasColor :Red;
+			:locatedIn :BourgeilRegion;
+			:year 2019;
+			:hasFlavour :Middle .
 	}
 }
 
 ```
+
+
+## Question 4 Wines and region
+
+```SPARQL
+SELECT ?wine ?region ?label
+WHERE {
+	?wine a :Wine;
+		:hasColor :Red;
+		:locatedIn ?region .
+	OPTIONAL {
+		?wine rdfs:label ?label .
+	}
+}
+```
+
+## Question 5 French single grape wine
+
+```SPARQL
+SELECT ?wine
+WHERE {
+	?wine a :Wine ;
+		:madeFromGrape ?grape;
+		:locatedIn :LoireRegion|:BourdeauxRegion .
+}
+GROUP BY ?wine
+WHERE SUM()
+
+```
+
 
