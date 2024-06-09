@@ -32,7 +32,6 @@ WHERE {
 }
 GROUP BY ?game
 HAVING (COUNT(?category) >= 3)
-
 ```
 
 #### Question 9
@@ -78,7 +77,6 @@ ex:Property[
 	ex:Description(?id, ?name, ?description),
 	cross | ottr:Triple(?id, rdfs:subPropertyOf, ++?super_properties)
 } .
-
 ```
 
 
@@ -98,7 +96,6 @@ INSERT DATA {
 			:hasFlavour :Middle .
 	}
 }
-
 ```
 
 
@@ -128,7 +125,6 @@ WHERE {
 }
 GROUP BY ?wine
 HAVING (COUNT(?grape) = 1)
-
 ```
 
 
@@ -145,7 +141,6 @@ WHERE {
 		:hasMaker ?wineMaker;
 		:locatedIn ?region .
 }
-
 ```
 
 
@@ -179,7 +174,6 @@ WHERE {
 	}
 	FILTER {?region = :BordeauxRegion || ?region = :StEmilionRegion}
 }
-
 ```
 
 
@@ -189,9 +183,19 @@ WHERE {
 SELECT ?wine
 WHERE {
 	{
-		?oldest a :Region;
-			
+		SELECT ?loireYear
+		WHERE {
+			?oldest a :Wine;
+				:locatedIn+ :LoireRegion;
+				:year ?loireYear .
+		}
+		ORDER BY ASC ?loireYear
+		LIMIT 1
 	}
+	?wine a :Wine;
+		:locatedIn+ :BourdeauxRegion;
+		:year ?year.
+	FILTER (?year < ?loireYear)
 }
-
 ```
+
