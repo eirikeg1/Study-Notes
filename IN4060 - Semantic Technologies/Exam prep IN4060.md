@@ -227,7 +227,21 @@ $\text{Childless}\sqsubseteq{(\exists{hasChild}.\text{Person}\sqsubseteq\bot)}$
 ### Question 28 SHACL
 
 ```SHACL
-:ResidentInNorwayShape a sh:UserShape:
-	sh:targetClass
+:ResidentInNorwayShape a sh:NodeShape;
+	sh:targetClass ex:ResidentInNorway ;
+	sh:property [
+		sh:path ex:NorwegianID;
+		sh:minCount 1;
+		sh:maxCount 1;
+		sh:datatype xsd:string;
+		sh:minLength 11;
+		sh:maxLength 11;
+		sh:pattern "^[0-9]"
+	] ;
+	sh:property [
+		sh:path ex:liveIn;
+		sh:hasValue ex:Norway
+	] .
+	
 
 ```
