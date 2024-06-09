@@ -51,7 +51,9 @@ ex:DomainRange[
 	ottr:IRI ?id,
 	ottr:IRI ?domain,
 	ottr:IRI ?range
-]
+] :: {
+	
+} .
 
 ex:Description[
 	?id,
@@ -69,7 +71,7 @@ ex:Property[
 ] :: {
 	ex:DomainRange(?id, ?domain, ?range),
 	ex:Description(?id, ?name, ?description),
-	ottr:Triple()
+	ottr:Triple(?id, rdf:type, ?super_properties)
 } .
 
 ```
