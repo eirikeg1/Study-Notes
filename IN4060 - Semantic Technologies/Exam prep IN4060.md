@@ -209,7 +209,7 @@ WHERE {
 ```
 
 ### Question 21 BiologicalParents
-$$
+
 
 
 ### Question 22 Person
@@ -220,3 +220,14 @@ $\text{Boat}\sqcup \text{Car}\sqsubseteq{\neg\text{Person}}$
 
 ### Question 23 Childless
 $\text{Childless}\sqsubseteq{(\exists{hasChild}.\text{Person}\sqsubseteq\bot)}$
+
+
+## SHACL
+
+### Question 28 SHACL
+
+```SHACL
+:ResidentInNorwayShape a sh:UserShape:
+	sh:targetClass
+
+```
