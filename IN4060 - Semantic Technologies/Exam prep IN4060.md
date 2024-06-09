@@ -85,7 +85,12 @@ ex:Property[
 ## Question 3 New region and wine
 
 ```SPARQL
-
+INSERT DATA {
+	GRAPH <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#> {
+		:BourgueilRegion :locatedIn :LoireRegion .
+		
+	}
+}
 
 ```
 
