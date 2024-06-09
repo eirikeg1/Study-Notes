@@ -31,7 +31,7 @@ WHERE {
 	?category a bg:Category .
 }
 GROUP BY ?game
-HAVING (COUNT(?categoryCount) >= 3)
+HAVING (COUNT(?category) >= 3)
 
 ```
 
@@ -164,5 +164,6 @@ ASK WHERE {
 
 ```SPARQL
 SELECT ?wine
+WHERE
 
 ```
