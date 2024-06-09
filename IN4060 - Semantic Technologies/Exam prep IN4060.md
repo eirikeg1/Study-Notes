@@ -205,15 +205,18 @@ WHERE {
 
 ### Question 20 John
 ```Manchester Syntax
-(SubClassOf Men and not SubClassOf of ChildlessPerson)(Jogn)
+(SubClassOf Men and some hasChild)(john)
 ```
 
 ### Question 21 BiologicalParents
-$\forall.\top \sqsubseteq(Men)$
-$Person \subseteq {= 1} hasBiologicalParent.Women \sqcap {= 1} hasBiologicalParent.Men$
+$$
 
 
 ### Question 22 Person
 ```D
-()
+(Boat or Car) not SubSetOf Person
 ```
+$\text{Boat}\sqcup \text{Car}\sqsubseteq{\neg\text{Person}}$
+
+### Question 23 Childless
+$\text{Childless}\sqsubseteq{(\exists{hasChild}.\text{Person}\sqsubseteq\bot)}$
