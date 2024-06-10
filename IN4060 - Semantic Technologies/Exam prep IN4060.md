@@ -347,9 +347,27 @@ WHERE (COUNT(?transaction) = 0)
 
 
 
+## Description Logic
+
+### 4b Professional Musicians
+
+```d
+ProfessionalMusician SubClassOf (plays min 2 Instrument and own min 1 Instrument)
+```
 
 
+### 4c Orchestras I
 
+```d
+ProfessionalMusician EquivalentTo (memberOf some Orchestra)
+```
+
+
+### 4d Amateur Orchestras
+
+```d
+memberOf some AmateurOrchestra SubClassOf (Musician and not ProfessionalMusician)
+```
 
 
 
