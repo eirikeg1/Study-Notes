@@ -258,8 +258,19 @@ $\text{Childless}\sqsubseteq{(\exists{hasChild}.\text{Person}\sqsubseteq\bot)}$
 SELECT ?number ?holder {
 	?account a bank:Account;
 		bank:accountAtBank bank:DLB;
-		bank:accountHolder ?holder;
+		bank:accountHolder [foaf:name ?holder];
 		bank:accountNumber ?number .
 }
-
 ```
+
+
+### 2b Conflicting balances
+
+```SPARQL
+SELECT ?account ?dateTime {
+	?account a bank:Account;
+		bank:date ?dateTime;
+		bank:
+}
+```
+
