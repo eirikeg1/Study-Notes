@@ -255,7 +255,8 @@ $\text{Childless}\sqsubseteq{(\exists{hasChild}.\text{Person}\sqsubseteq\bot)}$
 ### 2a Accounts and Account holders
 
 ```SPARQL
-SELECT ?number ?holder {
+SELECT ?number ?holder 
+WHERE {
 	?account a bank:Account;
 		bank:accountAtBank bank:DLB;
 		bank:accountHolder [foaf:name ?holder];
@@ -267,7 +268,8 @@ SELECT ?number ?holder {
 ### 2b Conflicting balances
 
 ```SPARQL
-SELECT ?account DISTINCT ?dateTime {
+SELECT ?account DISTINCT ?dateTime 
+WHERE {
 	?account a bank:Account;
 		bank:date ?dateTime;
 		bank:hasBalance [
@@ -276,6 +278,24 @@ SELECT ?account DISTINCT ?dateTime {
 }
 ORDER BY ?dateTime
 ```
+
+
+### 2c Account statement
+
+```SPARQL
+SELECT ?when ?in ?out
+WHERE {
+	?transaction a bank:Account;
+		bank:date ?when .
+	
+	OPTIONAL {?transaction }
+}
+```
+
+
+
+
+
 
 
 
