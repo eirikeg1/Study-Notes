@@ -245,3 +245,21 @@ $\text{Childless}\sqsubseteq{(\exists{hasChild}.\text{Person}\sqsubseteq\bot)}$
 	
 
 ```
+
+
+
+# Exam 2019
+---
+## SPARQL
+
+### 2a Accounts and Account holders
+
+```SPARQL
+SELECT ?number ?holder {
+	?account a bank:Account;
+		bank:accountAtBank bank:DLB;
+		bank:accountHolder ?holder;
+		bank:accountNumber ?number .
+}
+
+```
