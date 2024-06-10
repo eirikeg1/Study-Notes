@@ -367,12 +367,23 @@ ProfessionalMusician EquivalentTo (memberOf some Orchestra)
 
 ```d
 memberOf some AmateurOrchestra SubClassOf (Musician and not ProfessionalMusician)
+
+ProfessionalMusician SubClassOf memberOf only not AmateurOrchestra
 ```
 
 
+### 4e Orchestra II
+
+```d
+MemberOf some Orchestra SubClassOf (ProfessionalMusician or (Person and plays min 3 Instrument)
+```
 
 
+### 4f Owning Instruments
 
+```d
+plays SubProperty owns
+```
 
 
 
