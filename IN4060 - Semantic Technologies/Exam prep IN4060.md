@@ -324,6 +324,19 @@ HAVING (SUM(?amount) > 100000)
 
 
 
+### 2e Unused accounts
+
+```SPARQL
+SELECT ?num ?holder
+WHERE {
+	?account a bank:Account;
+		
+}
+```
+
+
+
+
 
 
 
