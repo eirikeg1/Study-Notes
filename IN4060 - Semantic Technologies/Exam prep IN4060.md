@@ -288,9 +288,43 @@ WHERE {
 	?transaction a bank:Account;
 		bank:date ?when .
 	
-	OPTIONAL {?transaction }
+	OPTIONAL {
+		?transaction bank:toAccount dlb:10001;
+			bank:amount ?in .
+	}
+	OPTIONAL {
+		?transaction bank:fromAccount dlb:10001;
+			bank:amount ?out
+	}
 }
 ```
+
+
+
+### 2d Accounts with high inflow
+
+```SPARQL
+SELECT ?accountNumber SUM(?amount)
+WHERE {
+	{
+		?account a bank:Account;
+			bank:accountNumber ?accountNumber .
+	}
+	?transaction a bank:Transation;
+		bank:toAccount ?account;
+		bank:amount ?amount;
+		bank:date ?date;
+		
+	FILTER(year(?date) = 2010)
+	
+}
+GROUP BY ?account
+HAVING (SUM(?amount) > 100000)
+```
+
+
+
+
 
 
 
