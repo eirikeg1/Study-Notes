@@ -267,10 +267,15 @@ SELECT ?number ?holder {
 ### 2b Conflicting balances
 
 ```SPARQL
-SELECT ?account ?dateTime {
+SELECT ?account DISTINCT ?dateTime {
 	?account a bank:Account;
 		bank:date ?dateTime;
-		bank:
+		bank:hasBalance [
+			bank:amount ?amount
+		] .
 }
+ORDER BY ?dateTime
 ```
+
+
 
