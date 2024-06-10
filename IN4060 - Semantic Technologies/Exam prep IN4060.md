@@ -327,12 +327,25 @@ HAVING (SUM(?amount) > 100000)
 ### 2e Unused accounts
 
 ```SPARQL
-SELECT ?num ?holder
+SELECT ?number ?holder
 WHERE {
-	?account a bank:Account;
-		
+	{
+		?account a bank:Account;
+			bank:accountHolder ?holder;
+			bank:accountNumber ?number .
+	}
+	?transaction a bank:Transaction;
+		bank:date ?date;
+		bank:amount ?amount;
+		bank:toAccount|bank:fromAccount ?account
+	
+	FILTER(year(?date) = 2018)
 }
+GROUP BY ?number
+WHERE (COUNT(?transaction) = 0)
 ```
+
+
 
 
 
