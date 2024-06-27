@@ -14,6 +14,7 @@
 ## Autumn 2024
 * IN5310 – Advanced Deep Learning for Image Analysis?
 
+
 # Master Topic
 ---
 * [[Master Topic - (AI-based) Video Analysis and Processing]]
