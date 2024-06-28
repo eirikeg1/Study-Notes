@@ -112,15 +112,15 @@ _Parse into multiple blocks, more memory friendly_
 
 ## Simple approach
 * Maintain big main index
-* New docs to into small auxilary index
+* New docs to into small auxiliary index
 * Search across both, merge results
 * Deletions #todo
-* Periodically re-intex into one main index
+* Periodically re-index into one main index
 
 ### Problems
 * 
 
 ## Uptime
-* If a non-fault-tolerant system with 1000 nodes, each node has 99.9% uptime, what is the uptime of the system? 
+* If a non-fault-tolerant system with 1000 nodes, each node has 99.9% up-time, what is the up-time of the system? 
 * Answer: 63%
 
