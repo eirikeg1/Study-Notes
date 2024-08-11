@@ -104,7 +104,7 @@ _Parse into multiple blocks, more memory friendly_
 
 ![[Pasted image 20230906115417.png | 500]]
 
-
+x
 # Dynamic indexing
 ---
 * Up to now we have assumed collections are static, not realistic
