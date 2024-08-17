@@ -2,7 +2,7 @@
 * Used to make [[Ontology Engineering]] easier
 * Macro/Pattern language or knowledge bases
 * Abstractions over RDF and OWL
-* Goal is to improve the efficiency and quality of ontology engineering for large scale ontologies
+* Goal is to improve the efficiency and quality of [[Ontology Engineering]] for large scale ontologies
 * **DRY** principle: Do not Repeat Yourself
 * [Otter website](www.ottr.xyz)
 
