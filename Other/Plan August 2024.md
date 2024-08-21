@@ -10,7 +10,7 @@
 
 ## Thursday
 * Lecture IN4230 (14:15-16:00 at Logo)
-
+- [ ] 
 ## Friday
 * Group session IN5310 (10:15-14:00)
 
