@@ -50,3 +50,7 @@ module use -a /fp/projects01/ec30/software/easybuild/modules/all/
 2. Run job with `sbatch <filename-with-ending`
 3. 
 
+
+
+# Slurm
+---
