@@ -2,7 +2,6 @@
 
 # Master topic
 ---
-
 ## Event detection
 * [A Transformer-based System for Action Spotting in Soccer Videos](https://dl.acm.org/doi/pdf/10.1145/3552437.3555693) method for event detection, instead of TransNetv2?
 	* First transformer for feature extraction, then CNN-based NetVLAD++ for classification
@@ -18,10 +17,31 @@
 	* Stadium sounds, commentator
 * Other?
 
+## Data Preprocessing
+* Extract movement traces?
+* f
+## Multimodal models
+* VideoBERT
+* MERLOT
+* MM-VT
+* OmniVL
+* CLIP
+* UNITER
+* MM-VLN
+
+
 # Ideas
 ---
-* Sound
-* Ranking of event videos based on time limit
+* Sound and video
+	* Commentator, fed into LLM?
+	* Use background sound of fans to classify how interesting different events are?
+	* Create embedding of both sound and video, concatenate and then classify?
+* Ranking of classified event videos based on time limit (exactly 2 minutes)
+	* For creating a summary of a designated time/length
+	* 
+* Event detection of unofficial events, like tackles and dribles
+	* Detect dribles by unsuccessful tackles and no loss of possession from player?
+* Mitigate problem of event detection false positive duplicates from replays, by analysing absolute player positions?
 # Compute
 ---
 * Simula cluster?

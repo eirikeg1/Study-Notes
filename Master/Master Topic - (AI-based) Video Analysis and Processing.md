@@ -1,4 +1,4 @@
-IR*Supervised by Pål Halvorsen*
+*Supervised by Pål Halvorsen*
 # Master topic
 * [Project Topic at UiO.no](https://www.mn.uio.no/ifi/studier/masteroppgaver/nd/2021-AI-based-video-processing.html)
 * [Project Description](obsidian://open?vault=StudyNotes&file=Master%2FProject%20Description.pdf)
