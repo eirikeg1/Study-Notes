@@ -17,6 +17,10 @@
 	* Stadium sounds, commentator
 * Other?
 
+## Drible detection
+* Drible opposite of tackle -> **if:** tackle and no possession change (no pass) **:** successful drible **else:** unsuccessful drible
+* 
+
 ## Data Preprocessing
 * Extract movement traces?
 * f
