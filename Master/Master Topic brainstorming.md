@@ -10,16 +10,20 @@
 * SoccerNet challenge results as inspiration
 * Attention-based CNN?
 * Graph Neural Networks
-	* Mostly tactis/analytics, not event detection
+	* Mostly tactics/analytics, not event detection
 	* [Event Detection in Football using Graph Convolutional Networks](https://arxiv.org/pdf/2301.10052)
 * Sound
 	* Multimodal model, or combination?
 	* Stadium sounds, commentator
 * Other?
 
+## Detect replays
+* Compare player/ball positions for similar events
+* Check similarity of pixels above a certain threshold? (Different camera angles problem)
 ## Drible detection
 * Drible opposite of tackle -> **if:** tackle and no possession change (no pass) **:** successful drible **else:** unsuccessful drible
-* 
+* Check which player has possession before and after tackles -> if same player propose at drible
+* Give a score of drible based of sound (commentary and crowd intensity)
 
 ## Data Preprocessing
 * Extract movement traces?
