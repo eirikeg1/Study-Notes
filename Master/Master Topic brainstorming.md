@@ -24,6 +24,13 @@
 * Drible opposite of tackle -> **if:** tackle and no possession change (no pass) **:** successful drible **else:** unsuccessful drible
 * Check which player has possession before and after tackles -> if same player propose at drible
 * Give a score of drible based of sound (commentary and crowd intensity)
+* Dataset from youtube highlights
+* From commentary?
+* From external source?
+	* Text commentary API
+	* Webscraping
+* Intensity of sound for ranking
+* Calculations on 2d plane?
 
 ## Data Preprocessing
 * Extract movement traces?
