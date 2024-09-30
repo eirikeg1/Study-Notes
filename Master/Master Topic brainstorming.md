@@ -2,7 +2,26 @@
 
 # Master topic
 ---
-## Event detection
+### Drible detection
+* Drible opposite of tackle -> **if:** tackle and no possession change (no pass) **:** successful drible **else:** unsuccessful drible
+* Check which player has possession before and after tackles -> if same player propose at drible
+* Give a score of drible based of sound (commentary and crowd intensity)
+* Dataset from youtube highlights
+* From commentary?
+* From external source?
+	* Text commentary API
+	* Webscraping
+* Intensity of sound for ranking
+* Calculations on 2d plane?
+* **Contrastive learning**?
+
+### Mapping from camera to 2d coordinates
+* Soccer net challenge 2024
+* Perspective projection: Homography (mapping points from one flat surface to another)
+* [python - Homography from football (soccer) field lines - Stack Overflow](https://stackoverflow.com/questions/60352448/homography-from-football-soccer-field-lines)
+	* RANSAC to find lines, then do projection
+
+### Event detection
 * [A Transformer-based System for Action Spotting in Soccer Videos](https://dl.acm.org/doi/pdf/10.1145/3552437.3555693) method for event detection, instead of TransNetv2?
 	* First transformer for feature extraction, then CNN-based NetVLAD++ for classification
 	* NetVLAD++: "state-of-the-art performances for action spotting on SoccerNet-v2"
@@ -17,25 +36,17 @@
 	* Stadium sounds, commentator
 * Other?
 
-## Detect replays
+### Concatenate tv camera to tactical view (overview camera)
+* Tv camera for details, overview for game events/patterns
+
+### Detect replays
 * Compare player/ball positions for similar events
 * Check similarity of pixels above a certain threshold? (Different camera angles problem)
-## Drible detection
-* Drible opposite of tackle -> **if:** tackle and no possession change (no pass) **:** successful drible **else:** unsuccessful drible
-* Check which player has possession before and after tackles -> if same player propose at drible
-* Give a score of drible based of sound (commentary and crowd intensity)
-* Dataset from youtube highlights
-* From commentary?
-* From external source?
-	* Text commentary API
-	* Webscraping
-* Intensity of sound for ranking
-* Calculations on 2d plane?
 
-## Data Preprocessing
+### Data Preprocessing
 * Extract movement traces?
 * f
-## Multimodal models
+### Multimodal models
 * VideoBERT
 * MERLOT
 * MM-VT
