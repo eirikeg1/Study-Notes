@@ -13,6 +13,8 @@
 	* Webscraping
 * Intensity of sound for ranking
 * Calculations on 2d plane?
+* GNN on 2d plane?
+* First manual calculations on 2d coords, then proposed dataset manually filtered through
 * **Contrastive learning**?
 
 ### Mapping from camera to 2d coordinates
@@ -20,6 +22,9 @@
 * Perspective projection: Homography (mapping points from one flat surface to another)
 * [python - Homography from football (soccer) field lines - Stack Overflow](https://stackoverflow.com/questions/60352448/homography-from-football-soccer-field-lines)
 	* RANSAC to find lines, then do projection
+* Kalman filters for time series?
+	* Used to not have to calculate for every frame
+	* Estimates if the current frame has same homography as previous
 
 ### Event detection
 * [A Transformer-based System for Action Spotting in Soccer Videos](https://dl.acm.org/doi/pdf/10.1145/3552437.3555693) method for event detection, instead of TransNetv2?
