@@ -1,5 +1,6 @@
 
 
+
 # Master topic
 ---
 ### Drible detection
@@ -16,6 +17,14 @@
 * GNN on 2d plane?
 * First manual calculations on 2d coords, then proposed dataset manually filtered through
 * **Contrastive learning**?
+
+##### For selecting frames for input:
+* Sliding window?
+* Filter out frames where not enough homography points have a high enough confidence score (due to wrong type of scene, for example close up or video of bench/fans)
+	* Extend homography model dataset for this scenario by adding this kind of images as well, without any annotations
+* Use rule-based algorithm to automatically detect windows of varying sizes:
+	* For example by looking at when defender enters and leaves a proximity zone around ball player
+* 
 
 ### Mapping from camera to 2d coordinates
 * Soccer net challenge 2024
