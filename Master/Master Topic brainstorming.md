@@ -24,7 +24,19 @@
 	* Extend homography model dataset for this scenario by adding this kind of images as well, without any annotations
 * Use rule-based algorithm to automatically detect windows of varying sizes:
 	* For example by looking at when defender enters and leaves a proximity zone around ball player
-* 
+
+
+#### Manual algorithm for predicting dribles
+1. Find closest player to ball
+2. From player: Find closest opposing player
+3. If player is within radius, go to 4. else go back to 1.
+
+For each frame:
+* Check if same player has possession (closest within radius, but with tolerance)
+* If opposing player is within radius long enough and goes out of range:
+	* If same player still has possession: Drible
+	* If player lost possession: Tackle?
+
 
 ### Mapping from camera to 2d coordinates
 * Soccer net challenge 2024
