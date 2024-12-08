@@ -17,6 +17,8 @@
 * GNN on 2d plane?
 * First manual calculations on 2d coords, then proposed dataset manually filtered through
 * **Contrastive learning**?
+* **TEMPORAL GRAPH NETWORKS**
+* **Spatio-Temporal Graph Convolutional Networks (ST-GCN)**
 
 ##### For selecting frames for input:
 * Sliding window?
