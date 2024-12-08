@@ -14,11 +14,11 @@ _Currently just dribbling, not tackling_
 	* Should this be percentage based? How about zoomed in videos?
 	* **Could the homography transformation be used to estimate distance?**
 2. Pick a ball radius as the inner radius (inner_rad)
-3. Create a structure to keep track of current track
-	* Possession holder
-	* Start frame, End frame
-	* All frame numbers
-	* Active defenders (list of ids)
+3. Create a structure to keep track of dribbling events (**DribleEvent**)
+	* **Possession holder**
+	* **Start frame, End frame**
+	* **All frame numbers**
+	* **Active defenders** (list of ids)
 
 ## Algorithm
 ### Search state
@@ -30,10 +30,11 @@ _Currently just dribbling, not tackling_
 	* If no: **go to next frame**, back to [[#Search state]].
 
 ### Start track state
-1. Set current frame to start frame
-2. Go to [[#Track state 1]]
+1. Set start frame to current frame
+2. Add defenders within range to **active defenders**
+3. Go to [[#Track state 1]]
 
 ### Track state 1
-1. Is the current   
+1. Is th
 2. Add current frame to 
 3. Add closest defender to active defenders

@@ -25,6 +25,10 @@
 * Use rule-based algorithm to automatically detect windows of varying sizes:
 	* For example by looking at when defender enters and leaves a proximity zone around ball player
 
+#### Drible detection Graph representation
+* How should time series be modelled?
+	* Players positional traces
+	* Players distance from other players over time
 
 #### Manual algorithm for predicting dribles
 1. Find closest player to ball
