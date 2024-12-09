@@ -42,21 +42,21 @@ _Currently just dribbling, not tackling_
 2. Is the ball within inner_rad of this player?
 	* Set possession holder to player_id
 3.  Is there an opposition player within inner_rad or outer_rad?
-	* If yes:  go to [[#Track state 1]].
+	* If yes:  go to [[#Track state 1 (close proximity to defender)]].
 	* If no: **go to next frame**, back to [[#Search state]].
 
 ### Start track state
 1. Set start frame to current frame
 2. Add defenders within range to **active defenders**
-3. Go to [[#Track state 1]] and create a **DribleEvent**
+3. Go to [[#Track state 1 (close proximity to defender)]] and create a **DribleEvent**
 
-### Track state 1
+### Track state 1 (close proximity to defender)
 1. Add current frame to all frame numbers in **DribleEvent**
 2. Add closest defender to active defenders
 3. If possession state has changed (new player, or player too far from ball), delete **DribleEvent** and go to [[#Search state]]
-4. If any player from the opponent team enters inner_rad, go to [[#Track state 2]], else jump to 1. in current state
+4. If any player from the opponent team enters inner_rad, go to [[#Track state 2 (duel)]], else jump to 1. in current state
 
-### Track state 2
+### Track state 2 (duel)
 1. Stop updating ball possession holder while in this state
 2. Repeat this state until there is only one player within inner_rad, then go to [[#Detection state]]
 
