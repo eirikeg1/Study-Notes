@@ -15,7 +15,7 @@ _In this paper, we present an algorithm for automatically detecting events in so
 ---
 
 * Current gold standard is manual work
-* One especially useful scenario is live annotations, but today is often reliant on textual information which is not always available, and needs to precess at the same speed as the video feed
+* One especially useful scenario is live annotations, but today is often reliant on textual information which is not always available, and needs to process at the same speed as the video feed
 * One approach is by spotting measuring the distances between the actual events and the predicted events
 * Here we split Automatic event detection into two areas: **sports analytics** and **event detection**
 
