@@ -5,6 +5,8 @@
 ## Time Series
 * [A Survey on Graph Neural Networks for Time Series: Forecasting, Classification, Imputation, and Anomaly Detection](https://arxiv.org/pdf/2307.03759)
 * Chapter **GNNS FOR TIME SERIES CLASSIFICATION** most important
+* [Representation Learning for Dynamic Graphs: A Survey](https://jmlr.org/papers/v21/19-447.html)
+* 
 ## Graph Attention Networks
 * [Graph Attention Networks](https://arxiv.org/abs/1710.10903)
 * Particularly relevant for football data as player interactions are constantly changing
