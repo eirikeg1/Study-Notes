@@ -129,7 +129,7 @@ _Can be used to deal with unknown words_
 	* Can be improved with **The Viterbi algorithm**
 
 
-## Viterby algorithm
+## Viterbi algorithm
 * A lot of the computations will be duplicates ![[Pasted image 20230912155617.png | 750]]
 ### Trick 1: Decomposing the product
 * Proceed one position at a time and save intermediate results ![[Pasted image 20230912155828.png | 750]]
