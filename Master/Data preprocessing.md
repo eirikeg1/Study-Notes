@@ -21,6 +21,15 @@
 - **threshold scene detection** (`detect-threshold`): uses average frame intensity (brightness) to detect slow transitions (fade in/out)
 
 
+# Filter unwanted scenes - native approach
+---
+* We want to remove all clips which are not the standard zoomed out view from the side, or poorly detected clips
+* After clipping we can assume that each video clip is similar for the object detection, therefore we can do a simple check for one of the frames to decide whether it likely is a videoclip we want to keep
+* One approach is to run one of the frames through the player detection model, and then decide based on a few **critera**:
+	* Are at least 4 players detected, within a given confidence threshold? **If not** it is likely not either zoomed out or of the pitch, and should **not be kept**
+	* Are any of the player bounding boxes 1/3rd of the screen height? **If yes** this is likely a zoomed in shot, and should **not be kept**
+* This seems promising, since the yolo model seems very consistant for player detection, especially for the expected view (side view)
+
 
 
 # Linear interpolation
