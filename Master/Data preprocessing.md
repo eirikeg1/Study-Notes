@@ -31,7 +31,6 @@
 * This seems promising, since the yolo model seems very consistant for player detection, especially for the expected view (side view)
 
 
-
 # Linear interpolation
 ---
 ![[Pasted image 20250204152531.png]]
