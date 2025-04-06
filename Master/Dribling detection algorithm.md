@@ -68,3 +68,4 @@ _Currently just dribbling, not tackling_
 2. If a detection was made, save it. If not delete the event object
 3. Go to [[#Search state]]
 
+
