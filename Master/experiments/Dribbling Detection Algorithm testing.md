@@ -8,7 +8,7 @@
 ## Image coord runs
 ### Run 1
 ![[Pasted image 20250416174628.png]]
-* detected 40 dribble events
+* detected 7 events
 * Manually approved:
 	* 5 dribbles
 	* 2 none
@@ -17,7 +17,7 @@
 
 ### Run 2
 ![[Pasted image 20250416195412.png]]
-* Detected 8 dribbles
+* Detected 8 events
 * Manually approved:
 	* 6 dribbles
 	* 2 none
@@ -70,7 +70,7 @@ Another  example (7 between):
 * Based on comp-vid-full.mpeg
 * Note on compilation clips, that many of them end quite early/abruptly, so algorithm might not end properly
 
-## No 2d
+## No 2D
 
 ### Run 1
 ![[Pasted image 20250418141501.png]]
@@ -111,7 +111,7 @@ Image below shows example of radii sizes, as well as another example of why usin
 	* 26 none
 
 
-### Run 3
+### Run 5
 ![[Pasted image 20250418154338.png]]
 
 * Results 1
